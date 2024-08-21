@@ -36,7 +36,7 @@ const Navbar = () => {
                                             <h1 className=" text-left text-black text-xl mb-4">Categories</h1>
 
                                             <ul className=" mb-4">
-                                                <Link to={'/'} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Dermal Fillers</Link>
+                                                <Link to={'/dermalfillers'} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Dermal Fillers</Link>
                                                 <Link to={'/mesotherapy'} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Mesotherapy</Link>
                                                 <Link to={''} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Hair Treatments</Link>
                                                 <Link to={''} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Beauty</Link>

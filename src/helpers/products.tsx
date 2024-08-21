@@ -28,6 +28,18 @@ import Profhilo_H from '../assets/profhilo_h_l_0004_1_1.webp'
 import Saypha from '../assets/saypha_rich_0001.webp'
 import TKN from '../assets/tkn_ha_3_1.webp'
 import Aqualyx from '../assets/aqualyx_0004.webp'
+import BCN_Advanced from '../assets/BCN_Advanced.webp'
+import BCN_Classics from '../assets/BCN_Classics.webp'
+import Haircare from '../assets/Haircare.webp'
+import PhilArt from '../assets/PhilArt.webp'
+import Plinest from '../assets/Plinest.webp'
+import Dermaheal_HL_ from '../assets/Dermaheal_HL_.webp'
+import INNO_DERMA from '../assets/inno_derma_hair_lotion_02_1.webp'
+import INNO_TDS from '../assets/innotds.webp'
+import INNO_TDS_Hair from '../assets/inno-tds_hair_vital_01_1_1.webp'
+import Pelo from '../assets/Pelo.webp'
+import Pelo_Baum from '../assets/Pelo_Baum.webp'
+import Pelo_Baum_Hair from '../assets/Pelo_Baum_Hair.webp'
 
 const products = {
     "items": [
@@ -39,7 +51,7 @@ const products = {
             type: "bestSeller",
             category: "cosmetics",
         },
-        
+
         {
             image: Clinisoothe,
             name: "Clinisoothe+ Skin Purifier (1 x 100ml)",
@@ -292,7 +304,117 @@ const products = {
             category: "mesotherapy",
             type: "cosmetics"
         },
-        
+
+
+        // hair treatments
+        {
+            image: BCN_Advanced,
+            name: "BCN Advanced Capillum Peptides (5 x 5ml)",
+            price: "£71.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: BCN_Classics,
+            name: "BCN Classics Asian Centella (10 x 2ml)",
+            price: "£12.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: Haircare,
+            name: "Haircare (10 x 5ml)",
+            price: "£136.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: PhilArt,
+            name: "PhilArt Hair (1 x 2ml)",
+            price: "£75.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: Plinest,
+            name: "Plinest Hair (1 x 2ml)",
+            price: "£50.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: Dermaheal_HL_,
+            name: "Dermaheal HL (10 x 5ml)",
+            price: "£53.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: INNO_DERMA,
+            name: "INNO-DERMA Hair Lotion (1 x 70ml) - Special Offer",
+            price: "£18.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: INNO_TDS,
+            name: "INNO-TDS Hair Loss Control (4 x 2.5ml) - Special Offer",
+            price: "£16.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: INNO_TDS_Hair,
+            name: "INNO-TDS Hair Vital (4 x 2.5ml) - Special Offer",
+            price: "£16.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: Pelo,
+            name: "Pelo Baum Hair Revitalizing Conditioner (1 x 110ml)",
+            price: "£15.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: Pelo_Baum,
+            name: "Pelo Baum Hair Revitalizing Shampoo (1 x 150ml)",
+            price: "£15.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
+        {
+            image: Pelo_Baum_Hair,
+            name: "Pelo Baum Hair Revitalizing Solution (1 x 60ml)",
+            price: "£24.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics"
+        },
     ]
 }
 export default products

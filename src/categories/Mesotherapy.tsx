@@ -5,7 +5,7 @@ const Mesotherapy = () => {
     return item.category === 'mesotherapy';
   });
   return (
-    <div className="pt-[180px]">
+    <div className="pt-[120px] lg:pt-[180px]">
       <h1 className=" font-bold mb-6 pxpx mx2xl text-5xl uppercase">
         MESOTHERAPY
       </h1>

@@ -11,6 +11,7 @@ import DermalFillers from './categories/DermalFillers';
 import Shop from './pages/Shop';
 import Mesotherapy from './categories/Mesotherapy';
 import HairTreatments from './categories/HairTreatments';
+import { FadeReveal } from './components/animations/FadeReveal';
 
 function App() {
   return (
@@ -21,9 +22,30 @@ function App() {
           <Route path="/" element={<Landingpage />} />
           <Route path="/about" element={<Aboutpage />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/dermalfillers" element={<DermalFillers />} />
-          <Route path="/mesotherapy" element={<Mesotherapy />} />
-          <Route path="/hairTreatments" element={<HairTreatments />} />
+          <Route
+            path="/dermalfillers"
+            element={
+              <FadeReveal>
+                <DermalFillers />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/mesotherapy"
+            element={
+              <FadeReveal>
+                <Mesotherapy />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/hairTreatments"
+            element={
+              <FadeReveal>
+                <HairTreatments />
+              </FadeReveal>
+            }
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

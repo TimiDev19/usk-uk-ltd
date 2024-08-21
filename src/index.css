@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-bg{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./assets/home-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exclusive-bg{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./assets/exclusive-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

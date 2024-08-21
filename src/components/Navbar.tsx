@@ -17,9 +17,9 @@ const Navbar = () => {
             </div>
             <div className="md:flex fixed w-full hidden items-center justify-between px-4 py-3 bg-white">
                 <div>
-                    <Link className=" mx-4 uppercase hover:text-blue-500 duration-500">Shop</Link>
-                    <Link className=" mx-4 uppercase hover:text-blue-500 duration-500">Men</Link>
-                    <Link className=" mx-4 uppercase hover:text-blue-500 duration-500">Women</Link>
+                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Shop</Link>
+                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Men</Link>
+                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Women</Link>
                 </div>
 
                 <div>
@@ -27,8 +27,8 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <Link className=" mx-4 uppercase hover:text-blue-500 duration-500">About</Link>
-                    <Link className=" mx-4 uppercase hover:text-blue-500 duration-500">Contact</Link>
+                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">About</Link>
+                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Contact</Link>
                 </div>
             </div>
         </div>

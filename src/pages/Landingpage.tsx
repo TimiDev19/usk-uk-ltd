@@ -14,8 +14,9 @@ const Landingpage = () => {
     return (
         <div>
             <div className=' h-[60vh] md:h-[70vh] mb-6 home-bg flex items-center sm:justify-start justify-center text-center sm:px-5'>
-                <div className=" w-full sm:w-[40%] md:w-[50%] sm:text-left">
-                    <h1 className=' uppercase text-4xl md:text-7xl font-bold text-white mb-6 md:mb-10'>your skin really matters!</h1>
+                <div className=" w-full sm:w-[40%] md:w-[60%] sm:text-left">
+                    <h1 className=' uppercase text-4xl md:text-5xl font-bold text-white mb-6'>we provide <span className=" text-blue-500">medical</span> products that you can <span className=" text-blue-500">trust</span></h1>
+                    <p className=" mb-6 text-white">USV UK Limited, your go to for top medical products that not only fit your needs but fit your budget.</p>
                     <Link to={''} className=" capitalize py-4 px-10 bg-blue-500 text-white font-semibold hover:bg-blue-300 duration-500">shop now</Link>
                 </div>
             </div>
@@ -25,7 +26,7 @@ const Landingpage = () => {
                 <div className=" w-full px-3 flex flex-col md:flex-row">
                     {
                         bestSellingProducts.map((item, index) => (
-                            <div key={index} className="relative group w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto h-[400px] border border-slate-300 rounded-lg mb-6">
+                            <div key={index} className="relative group w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto min-h-[400px] border border-slate-300 rounded-lg mb-6">
                                 <div>
                                     <img src={item.image} alt={item.name} className=" w-full rounded-t-lg" />
                                     <h1 className=" mx-4">{item.name}</h1>
@@ -55,7 +56,7 @@ const Landingpage = () => {
                 <div className=" w-full px-3 flex flex-col md:flex-row">
                     {
                         featuredProducts.map((item, index) => (
-                            <div key={index} className="relative group w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto h-[400px] border border-slate-300 rounded-lg mb-6">
+                            <div key={index} className="relative group w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto min-h-[400px] border border-slate-300 rounded-lg mb-6">
                                 <div>
                                     <img src={item.image} alt={item.name} className=" w-full rounded-t-lg" />
                                     <h1 className=" mx-4">{item.name}</h1>

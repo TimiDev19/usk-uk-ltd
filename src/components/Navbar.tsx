@@ -115,7 +115,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className=" w-full fixed">
+      <div className=" w-full fixed border-b border-b-black/20">
         <div className="lg:flex w-full hidden items-center justify-between pxpx py-3 bg-white">
           {/* <div>
                         <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Shop</Link>

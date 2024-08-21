@@ -5,11 +5,11 @@ import products from "../helpers/products";
 
 const Landingpage = () => {
     const bestSellingProducts = products.items.filter(item => {
-        return item.type === "bestSeller"
+        return item.featured === "yes"
     })
 
     const featuredProducts = products.items.filter(item => {
-        return item.type === "featured"
+        return item.bestSeller === "yes"
     })
     return (
         <div>
@@ -30,6 +30,7 @@ const Landingpage = () => {
                                 <div>
                                     <img src={item.image} alt={item.name} className=" w-full rounded-t-lg" />
                                     <h1 className=" mx-4">{item.name}</h1>
+                                    <h1 className=" mx-4 font-semibold text-green-600">{item.price}</h1>
                                 </div>
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                                     <a href="#" className="text-black text-lg py-2 px-6 duration-500 hover:px-8 bg-white">Buy Now</a>
@@ -60,6 +61,7 @@ const Landingpage = () => {
                                 <div>
                                     <img src={item.image} alt={item.name} className=" w-full rounded-t-lg" />
                                     <h1 className=" mx-4">{item.name}</h1>
+                                    <h1 className=" mx-4 font-semibold text-green-600">{item.price}</h1>
                                 </div>
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                                     <a href="#" className="text-black text-lg py-2 px-6 duration-500 hover:px-8 bg-white">Buy Now</a>

@@ -6,6 +6,9 @@ import { Routes } from 'react-router-dom';
 import Landingpage from './pages/Landingpage';
 import Footer from './components/Footer';
 import Aboutpage from './pages/Aboutpage';
+import DermalFillers from './categories/DermalFillers';
+import Shop from './pages/Shop';
+import Mesotherapy from './categories/Mesotherapy';
 
 function App() {
 
@@ -16,6 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Landingpage />} />
           <Route path='/about' element={<Aboutpage/>}/>
+          <Route path='/shop' element={<Shop/>}/>
+          <Route path='/dermalfillers' element={<DermalFillers/>}/>
+          <Route path='/mesotherapy' element={<Mesotherapy/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

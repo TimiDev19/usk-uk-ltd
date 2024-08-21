@@ -12,7 +12,7 @@ const Aboutpage = () => {
             </div>
             <div className=" w-full flex items-center justify-center py-4 mb-6">
                 <p className=" text-xl m-auto w-[80%] sm:text-center md:text-4xl md:py-4">
-                    USV UK Limited is a leading skincare brand dedicated to bringing you innovative and effective solutions for radiant, healthy skin. With a commitment to quality and science-backed formulations, our products are designed to cater to diverse skin types and concerns. At USV UK Limited, we believe in the power of nature combined with cutting-edge technology to deliver results you can see and feel. Elevate your skincare routine with us, and experience the confidence that comes with glowing, beautiful skin.
+                USV UK Limited is a trusted provider of high-quality medical products, dedicated to enhancing healthcare across the globe. With a commitment to innovation, reliability, and patient safety, we offer a wide range of medical devices and solutions designed to meet the needs of healthcare professionals and institutions. Our products are rigorously tested and compliant with international standards, ensuring that you receive only the best in medical care. Partner with USV UK Limited for cutting-edge medical solutions that make a difference in patient outcomes. Your health is our priority.
                 </p>
             </div>
         </div>

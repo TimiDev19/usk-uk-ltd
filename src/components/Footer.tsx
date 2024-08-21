@@ -11,7 +11,8 @@ const Footer = () => {
                 <div className=" mb-6 md:w-[20%]">
                     <ul>
                         <li className=" font-semibold text-2xl uppercase mb-4">USV UK LIMITED</li>
-                        <li className=" text-lg font-light">Company No. 12345678</li>
+                        <li className=" text-lg font-light"><span className=' font-semibold'>Company No.</span> 06463435</li>
+                        <li className=" text-lg font-light"><span className=' font-semibold'>Company Address:</span> Regus Woburn Place 16 Upper Worburn Place Euston London WC1H 0AF</li>
                     </ul>
                 </div>
 
@@ -27,11 +28,9 @@ const Footer = () => {
 
                 <div className=" mb-6 md:w-[20%]">
                     <ul>
-                        <li className=" font-semibold text-2xl uppercase mb-4">Links</li>
-                        <li className=" text-lg font-light">Home</li>
-                        <li className=" text-lg font-light">Shop</li>
-                        <li className=" text-lg font-light">About</li>
-                        <li className=" text-lg font-light">Contact</li>
+                        <li className=" font-semibold text-2xl uppercase mb-4">Categories</li>
+                        <li className=" text-lg font-light">Cosmetics</li>
+                        <li className=" text-lg font-light">Accessories</li>
                     </ul>
                 </div>
 

@@ -3,14 +3,28 @@
 @tailwind utilities;
 
 .home-bg{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./assets/home-background.webp');
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./assets/home-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .exclusive-bg{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./assets/exclusive-background.webp');
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./assets/exclusive-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cosmetics-bg{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./assets/mesoestetic_blemiderm_pack_0001.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accessories-bg{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./assets/bcn_meso_body_roller_0002.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

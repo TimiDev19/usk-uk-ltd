@@ -15,7 +15,7 @@ const Landingpage = () => {
         <div>
             <div className=' h-[60vh] md:h-[70vh] mb-6 home-bg flex items-center sm:justify-start justify-center text-center sm:px-5'>
                 <div className=" w-full sm:w-[40%] md:w-[50%] sm:text-left">
-                    <h1 className=' uppercase text-4xl md:text-7xl font-bold text-white mb-6 md:mb-10'>wear clothes that matter</h1>
+                    <h1 className=' uppercase text-4xl md:text-7xl font-bold text-white mb-6 md:mb-10'>your skin really matters!</h1>
                     <Link to={''} className=" capitalize py-4 px-10 bg-blue-500 text-white font-semibold hover:bg-blue-300 duration-500">shop now</Link>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const Landingpage = () => {
                 <div className=" md:w-[50%] mb-6">
                     <h1 className=" font-semibold text-4xl md:text-5xl text-white mb-4">USV Exclusive Deal</h1>
                     <p className=" font-thin text-white w-[65%] mb-4 md:text-xl">
-                        USV Exclusives. Elevate your wardrobe with premium brands, where luxury meets fashion. Immerse yourself in a world of unparalleled elegance. Explore now!
+                        USV Exclusives. Elevate your skin with premium brands, where luxury meets comfort. Immerse yourself in a world of unparalleled elegance. Explore now!
                     </p>
                     <Link to={''} className=" text-white md:text-xl hover:border-b-2 hover:border-white duration-500 pb-2">Visit Shop <ArrowRightAltOutlinedIcon /></Link>
                 </div>
@@ -64,11 +64,11 @@ const Landingpage = () => {
                     <Link to={''} className=" capitalize py-4 px-10 bg-blue-500 text-white font-semibold hover:bg-blue-300 duration-500">visit shop</Link>
                 </div>
                 <div className=" flex flex-col items-center justify-between sm:flex-row mb-4 md:mb-6">
-                    <div className="home-bg mb-6 h-[50vh] md:h-[65vh] w-[95%] md:w-[45%] p-3 m-auto bg-red-700 flex items-end justify-start">
-                        <h1 className=" text-white font-semibold text-xl">Men</h1>
+                    <div className="cosmetics-bg mb-6 h-[50vh] md:h-[65vh] w-[95%] md:w-[45%] p-3 m-auto bg-red-700 flex items-end justify-start">
+                        <h1 className=" text-white font-semibold text-xl">Cosmetics</h1>
                     </div>
-                    <div className="exclusive-bg mb-6 h-[50vh] md:h-[65vh] w-[95%] md:w-[45%] p-3 m-auto bg-red-700 flex items-end justify-start">
-                        <h1 className=" text-white font-semibold text-xl">Women</h1>
+                    <div className="accessories-bg mb-6 h-[50vh] md:h-[65vh] w-[95%] md:w-[45%] p-3 m-auto bg-red-700 flex items-end justify-start">
+                        <h1 className=" text-white font-semibold text-xl">Accessories</h1>
                     </div>
                 </div>
             </div>

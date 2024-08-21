@@ -38,7 +38,7 @@ const Navbar = () => {
                                             <ul className=" mb-4">
                                                 <Link to={'/dermalfillers'} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Dermal Fillers</Link>
                                                 <Link to={'/mesotherapy'} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Mesotherapy</Link>
-                                                <Link to={''} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Hair Treatments</Link>
+                                                <Link to={'/hairTreatments'} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Hair Treatments</Link>
                                                 <Link to={''} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Beauty</Link>
                                                 <Link to={''} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Fat Dissolvers</Link>
                                                 <Link to={''} className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500">Chemical Peels</Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 <div className="lg:flex w-full hidden items-center justify-between px-4 py-3 bg-white">
                     <Link to={'/dermalfillers'} className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black uppercase hover:text-blue-500 duration-500">Dermal Fillers</Link>
                     <Link to={'/mesotherapy'} className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black uppercase hover:text-blue-500 duration-500">Mesotherapy</Link>
-                    <Link to={''} className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black uppercase hover:text-blue-500 duration-500">Hair Treatments</Link>
+                    <Link to={'/hairTreatments'} className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black uppercase hover:text-blue-500 duration-500">Hair Treatments</Link>
                     <Link to={''} className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black uppercase hover:text-blue-500 duration-500">Beauty</Link>
                     <Link to={''} className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black uppercase hover:text-blue-500 duration-500">Fat Dissolvers</Link>
                     <Link to={''} className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black uppercase hover:text-blue-500 duration-500">Chemical Peels</Link>

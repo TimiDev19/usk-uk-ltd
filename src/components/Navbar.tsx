@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className=' z-50 fixed w-full'>
             <div className="md:hidden fixed w-full  px-4 py-3 bg-white">
-                <div className=" flex items-center justify-between mb-6">
+                <div className=" flex items-center justify-between ">
                     <h1 className=" uppercase text-lg">USV UK Limited</h1>
                     <div className=" text-black hover:cursor-pointer " onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         {
@@ -17,7 +17,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 {
-                    isMenuOpen && <div className=" w-full bg-white">
+                    isMenuOpen && <div className=" w-full bg-white pt-6">
                         <ul>
                             <li>
                                 <Link to={''} className="block mb-4  uppercase hover:text-blue-500 duration-500">Home</Link>

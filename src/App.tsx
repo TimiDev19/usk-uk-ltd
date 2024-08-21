@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Landingpage from './pages/Landingpage';
 import Footer from './components/Footer';
+import Aboutpage from './pages/Aboutpage';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Landingpage />} />
+          <Route path='/about' element={<Aboutpage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

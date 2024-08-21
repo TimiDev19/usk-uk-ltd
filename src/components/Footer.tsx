@@ -19,9 +19,9 @@ const Footer = () => {
                 <div className=" mb-6 md:w-[20%]">
                     <ul>
                         <li className=" font-semibold text-2xl uppercase mb-4">Links</li>
-                        <li className=" text-lg font-light">Home</li>
+                        <li className=" text-lg font-light"><Link to={'/'}>Home</Link></li>
                         <li className=" text-lg font-light">Shop</li>
-                        <li className=" text-lg font-light">About</li>
+                        <li className=" text-lg font-light"><Link to={'/about'}>About</Link></li>
                         <li className=" text-lg font-light">Contact</li>
                     </ul>
                 </div>

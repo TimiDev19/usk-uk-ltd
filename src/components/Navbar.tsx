@@ -20,13 +20,13 @@ const Navbar = () => {
                     isMenuOpen && <div className=" w-full bg-white pt-6">
                         <ul>
                             <li>
-                                <Link to={''} className="block mb-4  uppercase hover:text-blue-500 duration-500">Home</Link>
+                                <Link to={'/'} className="block mb-4  uppercase hover:text-blue-500 duration-500">Home</Link>
                             </li>
                             <li>
                                 <Link to={''} className="block mb-4  uppercase hover:text-blue-500 duration-500">Shop</Link>
                             </li>
                             <li>
-                                <Link to={''} className="block  mb-4 uppercase hover:text-blue-500 duration-500">About</Link>
+                                <Link to={'/about'} className="block  mb-4 uppercase hover:text-blue-500 duration-500">About</Link>
                             </li>
                             <li>
                                 <Link to={''} className="block mb-4  uppercase hover:text-blue-500 duration-500">Contact</Link>
@@ -39,8 +39,8 @@ const Navbar = () => {
             <div className="md:flex fixed w-full hidden items-center justify-between px-4 py-3 bg-white">
                 <div>
                     <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Shop</Link>
-                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Men</Link>
-                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Women</Link>
+                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Cosmetics</Link>
+                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Accessories</Link>
                 </div>
 
                 <div>
@@ -48,7 +48,8 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">About</Link>
+                    <Link to={'/'} className=" mx-4 uppercase hover:text-blue-500 duration-500">Home</Link>
+                    <Link to={'/about'} className=" mx-4 uppercase hover:text-blue-500 duration-500">About</Link>
                     <Link to={''} className=" mx-4 uppercase hover:text-blue-500 duration-500">Contact</Link>
                 </div>
             </div>

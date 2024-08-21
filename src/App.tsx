@@ -1,5 +1,6 @@
-import './App.css'
-import Navbar from './components/Navbar'
+import './App.css';
+import './../app/globals.css';
+import Navbar from './components/Navbar';
 import { Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
@@ -11,22 +12,21 @@ import Shop from './pages/Shop';
 import Mesotherapy from './categories/Mesotherapy';
 
 function App() {
-
   return (
     <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Landingpage />} />
-          <Route path='/about' element={<Aboutpage/>}/>
-          <Route path='/shop' element={<Shop/>}/>
-          <Route path='/dermalfillers' element={<DermalFillers/>}/>
-          <Route path='/mesotherapy' element={<Mesotherapy/>}/>
+          <Route path="/about" element={<Aboutpage />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/dermalfillers" element={<DermalFillers />} />
+          <Route path="/mesotherapy" element={<Mesotherapy />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

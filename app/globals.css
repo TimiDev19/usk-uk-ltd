@@ -1,4 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
+.pxpx {
+  @apply px-6 lg:px-16;
+}
+
+.mx2xl {
+  @apply 2xl:w-[1400px] 2xl:m-auto 2xl:px-0;
+}

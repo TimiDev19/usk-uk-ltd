@@ -15,7 +15,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className=" z-50 fixed w-full">
-      <div className="lg:hidden fixed w-full  pxpx py-3 bg-white">
+      <div className="lg:hidden fixed w-full  pxpx py-5 bg-white border-b border-b-black/20">
         <div className=" flex items-center justify-between ">
           <h1 className=" uppercase text-lg">USV UK Limited</h1>
           <div

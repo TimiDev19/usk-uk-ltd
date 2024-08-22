@@ -20,14 +20,14 @@ const Landingpage = () => {
   useEffect(() => {
     // Initialize ScrollReveal
     ScrollReveal().reveal('.reveal-bottom', {
-      duration: 2000,
+      duration: 1500,
       origin: 'bottom',
       distance: '50px',
       easing: 'ease-in-out',
     });
 
     ScrollReveal().reveal('.reveal-left', {
-      duration: 2000,
+      duration: 1500,
       origin: 'left',
       distance: '50px',
       easing: 'ease-in-out',

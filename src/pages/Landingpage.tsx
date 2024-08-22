@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import ArrowRightAltOutlinedIcon from '@mui/icons-material/ArrowRightAltOutlined';
 import products from '../helpers/products';
 import { FadeReveal } from '@/components/animations/FadeReveal';
+import '../index.css';
+
 
 const Landingpage = () => {
   const bestSellingProducts = products.items.filter((item) => {
@@ -16,7 +18,7 @@ const Landingpage = () => {
       <FadeReveal>
         <div className="h-[90vh] md:h-screen mb-6 home-bg flex items-center sm:justify-start justify-center text-center pxpx">
           <div className=" w-full sm:w-[40%] md:w-[60%] lg:w-[80%] sm:text-left mx2xl">
-            <h1 className="uppercase text-4xl md:text-5xl lg:text-[72px] lg:leading-[1.2] font-bold text-white mb-6">
+            <h1 className=" uppercase text-4xl md:text-5xl lg:text-[72px] lg:leading-[1.2] font-bold text-white mb-6">
               we provide <span className=" text-blue-500">medical</span>{' '}
               products that you can{' '}
               <span className=" text-blue-500">trust</span>

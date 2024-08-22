@@ -20,7 +20,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div>
+    <div className=' font-urbanist'>
       <BrowserRouter>
         <Navbar />
         <Routes>

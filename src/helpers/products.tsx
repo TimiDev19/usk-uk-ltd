@@ -83,7 +83,7 @@ const products = {
         {
             image: AesPlla,
             name: "AesPlla (1 x 365mg)",
-            price: "£99.00",
+            price: "£ 99.00",
             bestSeller: "no",
             featured: "yes",
             category: "dermal-fillers",
@@ -92,7 +92,7 @@ const products = {
         {
             image: Aquashine,
             name: "Aquashine PTX (2 x 2ml)",
-            price: "£64.50",
+            price: "£ 64.50",
             bestSeller: "no",
             featured: "yes",
             category: "dermal-fillers",
@@ -101,7 +101,7 @@ const products = {
         {
             image: Aquashine_Soft,
             name: "Aquashine Soft Filler (2 x 2ml)",
-            price: "£59.00",
+            price: "£ 59.00",
             bestSeller: "yes",
             featured: "no",
             category: "dermal-fillers",
@@ -110,7 +110,7 @@ const products = {
         {
             image: Desirial,
             name: "Desirial (1 x 1ml)",
-            price: "£56.50",
+            price: "£ 56.50",
             bestSeller: "no",
             featured: "yes",
             category: "dermal-fillers",
@@ -119,7 +119,7 @@ const products = {
         {
             image: DesirialPlus,
             name: "Desirial Plus (2 x 2ml)",
-            price: "£233.00",
+            price: "£ 233.00",
             bestSeller: "no",
             featured: "no",
             category: "dermal-fillers",
@@ -128,7 +128,7 @@ const products = {
         {
             image: HArmonyCa,
             name: "HArmonyCa with Lidocaine (2 x 1.25ml)",
-            price: "£232.00",
+            price: "£ 232.00",
             bestSeller: "yes",
             featured: "yes",
             category: "dermal-fillers",
@@ -137,7 +137,7 @@ const products = {
         {
             image: Karisma,
             name: "Karisma Rh Collagen FACE (1 x 2ml)",
-            price: "£79.00",
+            price: "£ 79.00",
             bestSeller: "yes",
             featured: "no",
             category: "dermal-fillers",
@@ -146,7 +146,7 @@ const products = {
         {
             image: Mesoestetic,
             name: "Mesoestetic Blemiderm Pack (1 Kit)",
-            price: "£125.00",
+            price: "£ 125.00",
             bestSeller: "yes",
             featured: "no",
             category: "dermal-fillers",
@@ -155,7 +155,7 @@ const products = {
         {
             image: Mesoestetic_mpen,
             name: "Mesoestetic m.pen [pro] Ultimate Microneedling Device (1 Depth)",
-            price: "£299.00",
+            price: "£ 299.00",
             bestSeller: "no",
             featured: "no",
             category: "dermal-fillers",
@@ -164,7 +164,7 @@ const products = {
         {
             image: Newgyn,
             name: "Newgyn (1 x 2ml)",
-            price: "£84.50",
+            price: "£ 84.50",
             bestSeller: "no",
             featured: "no",
             category: "dermal-fillers",
@@ -173,7 +173,7 @@ const products = {
         {
             image: Perfectha,
             name: "Perfectha Deep (1 x 1ml)",
-            price: "£39.00",
+            price: "£ 39.00",
             bestSeller: "no",
             featured: "no",
             category: "dermal-fillers",
@@ -182,7 +182,7 @@ const products = {
         {
             image: Prostrolane,
             name: "Prostrolane Blanc-B (2 x 2ml)",
-            price: "£68.00",
+            price: "£ 68.00",
             bestSeller: "no",
             featured: "no",
             category: "dermal-fillers",
@@ -195,7 +195,7 @@ const products = {
         {
             image: Alidya,
             name: "Alidya Anti LipoDystrophic Agents (5 x 340mg + 5 x 10ml)",
-            price: "£57.00",
+            price: "£ 57.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -204,7 +204,7 @@ const products = {
         {
             image: Dermaheal,
             name: "Dermaheal Dark Circle Solution (5 x 1.5ml)",
-            price: "£53.00",
+            price: "£ 53.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -213,7 +213,7 @@ const products = {
         {
             image: Dermaheal_HL,
             name: "Dermaheal HL (10 x 5ml)",
-            price: "£53.00",
+            price: "£ 53.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -222,7 +222,7 @@ const products = {
         {
             image: FILLMED,
             name: "FILLMED NCTF 135HA (5 x 3ml)",
-            price: "£126.00",
+            price: "£ 126.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -231,7 +231,7 @@ const products = {
         {
             image: Juvederm,
             name: "Juvederm Volite (2 x 1ml)",
-            price: "£153.00",
+            price: "£ 153.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -240,7 +240,7 @@ const products = {
         {
             image: Neauvia,
             name: "Neauvia Organic Hydro Deluxe (2 x 2.5ml)",
-            price: "£48.00",
+            price: "£ 48.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -249,7 +249,7 @@ const products = {
         {
             image: Neauvia_Organic,
             name: "Neauvia Organic Hydro Deluxe Man (2 x 1ml) - Special Offer",
-            price: "£48.00",
+            price: "£ 48.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -258,7 +258,7 @@ const products = {
         {
             image: Profhilo,
             name: "Profhilo Body Kit (1 Kit)",
-            price: "£153.00",
+            price: "£ 153.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -267,7 +267,7 @@ const products = {
         {
             image: Profhilo_H,
             name: "Profhilo H+L (1 x 2ml)",
-            price: "£76.00",
+            price: "£ 76.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -276,7 +276,7 @@ const products = {
         {
             image: Saypha,
             name: "Saypha Rich (1 x 1ml)",
-            price: "£28.00",
+            price: "£ 28.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -285,7 +285,7 @@ const products = {
         {
             image: TKN,
             name: "TKN HA 3 (1 x 1.6ml) - Special Offer",
-            price: "£48.00",
+            price: "£ 48.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -294,7 +294,7 @@ const products = {
         {
             image: Aqualyx,
             name: "Aqualyx (10 x 8ml)",
-            price: "£139.00",
+            price: "£ 139.00",
             bestSeller: "no",
             featured: "no",
             category: "mesotherapy",
@@ -306,7 +306,7 @@ const products = {
         {
             image: BCN_Advanced,
             name: "BCN Advanced Capillum Peptides (5 x 5ml)",
-            price: "£71.00",
+            price: "£ 71.00",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -315,7 +315,7 @@ const products = {
         {
             image: BCN_Classics,
             name: "BCN Classics Asian Centella (10 x 2ml)",
-            price: "£12.50",
+            price: "£ 12.50",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -324,7 +324,7 @@ const products = {
         {
             image: Haircare,
             name: "Haircare (10 x 5ml)",
-            price: "£136.00",
+            price: "£ 136.00",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -333,7 +333,7 @@ const products = {
         {
             image: PhilArt,
             name: "PhilArt Hair (1 x 2ml)",
-            price: "£75.50",
+            price: "£ 75.50",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -342,7 +342,7 @@ const products = {
         {
             image: Plinest,
             name: "Plinest Hair (1 x 2ml)",
-            price: "£50.50",
+            price: "£ 50.50",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -351,7 +351,7 @@ const products = {
         {
             image: Dermaheal_HL_,
             name: "Dermaheal HL (10 x 5ml)",
-            price: "£53.00",
+            price: "£ 53.00",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -360,7 +360,7 @@ const products = {
         {
             image: INNO_DERMA,
             name: "INNO-DERMA Hair Lotion (1 x 70ml) - Special Offer",
-            price: "£18.00",
+            price: "£ 18.00",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -369,7 +369,7 @@ const products = {
         {
             image: INNO_TDS,
             name: "INNO-TDS Hair Loss Control (4 x 2.5ml) - Special Offer",
-            price: "£16.00",
+            price: "£ 16.00",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -378,7 +378,7 @@ const products = {
         {
             image: INNO_TDS_Hair,
             name: "INNO-TDS Hair Vital (4 x 2.5ml) - Special Offer",
-            price: "£16.00",
+            price: "£ 16.00",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -387,7 +387,7 @@ const products = {
         {
             image: Pelo,
             name: "Pelo Baum Hair Revitalizing Conditioner (1 x 110ml)",
-            price: "£15.00",
+            price: "£ 15.00",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -396,7 +396,7 @@ const products = {
         {
             image: Pelo_Baum,
             name: "Pelo Baum Hair Revitalizing Shampoo (1 x 150ml)",
-            price: "£15.00",
+            price: "£ 15.00",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -405,7 +405,7 @@ const products = {
         {
             image: Pelo_Baum_Hair,
             name: "Pelo Baum Hair Revitalizing Solution (1 x 60ml)",
-            price: "£24.50",
+            price: "£ 24.50",
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
@@ -416,7 +416,7 @@ const products = {
         {
             image: BCN_Pre,
             name: "BCN Pre & Post Arni+K (1 x 35ml)",
-            price: "£20.50",
+            price: "£ 20.50",
             bestSeller: "no",
             featured: "no",
             category: "beauty",
@@ -425,7 +425,7 @@ const products = {
         {
             image: BCN_Pre_Cleanser,
             name: "BCN Pre & Post Cleanser (1 x 150ml)",
-            price: "£17.00",
+            price: "£ 17.00",
             bestSeller: "no",
             featured: "no",
             category: "beauty",
@@ -434,7 +434,7 @@ const products = {
         {
             image: BCN_Pre_Epithel,
             name: "BCN Pre & Post Epithel (1 x 50ml)",
-            price: "£26.50",
+            price: "£ 26.50",
             bestSeller: "no",
             featured: "no",
             category: "beauty",
@@ -443,7 +443,7 @@ const products = {
         {
             image: Biologique,
             name: "Biologique Recherche Biokiss (1 x 15ml)",
-            price: "£43.00",
+            price: "£ 43.00",
             bestSeller: "no",
             featured: "no",
             category: "beauty",
@@ -452,7 +452,7 @@ const products = {
         {
             image: Biologique_Recherche,
             name: "Biologique Recherche Biomagic Mask (1 x 100ml)",
-            price: "£87.50",
+            price: "£ 87.50",
             bestSeller: "no",
             featured: "no",
             category: "beauty",
@@ -461,7 +461,7 @@ const products = {
         {
             image: Biologique_Recherche_Cocktail,
             name: "Biologique Recherche Cocktail d'Actifs Regenerants (10 x 5ml)",
-            price: "£348.50",
+            price: "£ 348.50",
             bestSeller: "no",
             featured: "no",
             category: "beauty",

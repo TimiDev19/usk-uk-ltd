@@ -26,7 +26,7 @@ const Landingpage = () => {
               fit your needs but fit your budget.
             </p>
             <Link
-              to={''}
+              to={'/shop'}
               className=" capitalize py-4 px-10 bg-blue-500 text-white font-semibold hover:bg-blue-300 duration-500 rounded-lg"
             >
               shop now
@@ -44,27 +44,25 @@ const Landingpage = () => {
             {bestSellingProducts.map((item, index) => (
               <div
                 key={index}
-                className="relative group w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto min-h-[400px] border border-slate-300 rounded-lg mb-6"
+                className="flex flex-col items-center justify-between w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto min-h-[400px] border border-slate-300 mb-6"
               >
-                <div>
+                <div className=' group text-center'>
                   <img
                     src={item.image}
                     alt={item.name}
-                    className=" w-full rounded-t-lg"
+                    className=" w-[90%] m-auto rounded-t-lg group-hover:w-[91%] duration-500"
                   />
-                  <h1 className=" mx-4">{item.name}</h1>
-                  <h1 className=" mx-4 font-semibold text-green-600">
+                  <h1 className=" mx-4 text-xl">{item.name}</h1>
+                  <h1 className=" mx-4 font-semibold text-green-600 text-2xl mb-6">
                     {item.price}
                   </h1>
                 </div>
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-700">
-                  <a
-                    href="#"
-                    className="text-black text-lg py-2 px-6 duration-500 hover:px-8 bg-white"
-                  >
-                    Buy Now
-                  </a>
-                </div>
+                <Link
+                  to={''}
+                  className=' w-full text-center bg-green-600 text-white text-s py-4 uppercase'
+                >
+                  Buy Now
+                </Link>
               </div>
             ))}
           </div>
@@ -83,7 +81,7 @@ const Landingpage = () => {
               elegance. Explore now!
             </p>
             <Link
-              to={''}
+              to={'/shop'}
               className=" text-white md:text-xl hover:border-b-2 hover:border-white duration-500 pb-2"
             >
               Visit Shop <ArrowRightAltOutlinedIcon />
@@ -101,27 +99,25 @@ const Landingpage = () => {
             {featuredProducts.map((item, index) => (
               <div
                 key={index}
-                className="relative group w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto min-h-[400px] border border-slate-300 rounded-lg mb-6"
+                className="flex flex-col items-center justify-between w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto min-h-[400px] border border-slate-300 mb-6"
               >
-                <div>
+                <div className=' group text-center'>
                   <img
                     src={item.image}
                     alt={item.name}
-                    className=" w-full rounded-t-lg"
+                    className=" w-[90%] m-auto rounded-t-lg group-hover:w-[91%] duration-500"
                   />
-                  <h1 className=" mx-4">{item.name}</h1>
-                  <h1 className=" mx-4 font-semibold text-green-600">
+                  <h1 className=" mx-4 text-xl">{item.name}</h1>
+                  <h1 className=" mx-4 font-semibold text-green-600 text-2xl mb-6">
                     {item.price}
                   </h1>
                 </div>
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-700">
-                  <a
-                    href="#"
-                    className="text-black text-lg py-2 px-6 duration-500 hover:px-8 bg-white"
-                  >
-                    Buy Now
-                  </a>
-                </div>
+                <Link
+                  to={''}
+                  className=' w-full text-center bg-green-600 text-white text-s py-4 uppercase'
+                >
+                  Buy Now
+                </Link>
               </div>
             ))}
           </div>
@@ -135,23 +131,33 @@ const Landingpage = () => {
               SHOP
             </h1>
             <Link
-              to={''}
+              to={'/shop'}
               className=" capitalize py-4 px-10 bg-blue-500 text-white font-semibold hover:bg-blue-300 duration-500 rounded-lg"
             >
               visit shop
             </Link>
           </div>
           <div className=" flex flex-col items-center justify-between sm:flex-row mb-4 md:mb-6 mx2xl">
-            <div className="cosmetics-bg mb-6 h-[50vh] md:h-[65vh] w-[95%] md:w-[45%] p-3 m-auto bg-red-700 flex items-end justify-start">
-              <h1 className=" text-white font-semibold text-xl">Cosmetics</h1>
-            </div>
-            <div className="accessories-bg mb-6 h-[50vh] md:h-[65vh] w-[95%] md:w-[45%] p-3 m-auto bg-red-700 flex items-end justify-start">
-              <h1 className=" text-white font-semibold text-xl">Accessories</h1>
-            </div>
+            <Link
+              to={'/shop'}
+              className='w-[95%] md:w-[45%]'
+            >
+              <div className="cosmetics-bg mb-6 h-[50vh] md:h-[65vh]  p-3 m-auto bg-red-700 flex items-end justify-start">
+                <h1 className=" text-white font-semibold text-xl">Cosmetics</h1>
+              </div>
+            </Link>
+            <Link
+              to={'/shop'}
+              className=' w-[95%] md:w-[45%]'
+            >
+              <div className="accessories-bg mb-6 h-[50vh] md:h-[65vh]  p-3 m-auto bg-red-700 flex items-end justify-start">
+                <h1 className=" text-white font-semibold text-xl">Accessories</h1>
+              </div>
+            </Link>
           </div>
         </div>
-      </FadeReveal>
-    </div>
+      </FadeReveal >
+    </div >
   );
 };
 

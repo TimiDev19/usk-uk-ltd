@@ -76,7 +76,7 @@ const Navbar = () => {
                           Mesotherapy
                         </Link>
                         <Link
-                          to={''}
+                          to={'/hairTreatments'}
                           className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
                         >
                           Hair Treatments
@@ -168,7 +168,7 @@ const Navbar = () => {
             Mesotherapy
           </Link>
           <Link
-            to={''}
+            to={'/hairTreatments'}
             className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Hair Treatments

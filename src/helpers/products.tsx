@@ -63,6 +63,18 @@ import Prostrolane_Inner_B from '../assets/Prostrolane_Inner_B.webp'
 import Lemon from '../assets/Lemon.webp'
 import Lemon_Bottle from '../assets/Lemon_Bottle.webp'
 import Cellucare from '../assets/Cellucare.webp'
+import BCN_Peel from '../assets/BCN_Peel.webp'
+import BCN_Peel_2 from '../assets/BCN_Peel_2.webp'
+import BCN_Peel_3 from '../assets/BCN_Peel_3.webp'
+import BCN_Peels from '../assets/BCN_Peels.webp'
+import FILLMED_Bright from '../assets/FILLMED_Bright.webp'
+import FILLMED_light from '../assets/FILLMED_light.webp'
+import FILLMED_time from '../assets/FILLMED_time.webp'
+import BioRePeelCl3 from '../assets/BioRePeelCl3.webp'
+import BioRePeelCl3_FND from '../assets/BioRePeelCl3_FND.webp'
+import INNO_EXFO from '../assets/INNO_EXFO.webp'
+import INNO_EXFO_Bio from '../assets/INNO_EXFO_Bio.webp'
+import INNO_EXFO_Degreasing from '../assets/INNO_EXFO_Degreasing.webp'
 
 const products = {
     "items": [
@@ -656,6 +668,116 @@ const products = {
             bestSeller: "no",
             featured: "no",
             category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+
+        // chemical peels
+        {
+            image: BCN_Peel,
+            name: "BCN Peel #01 Purifying (1 x 50ml)",
+            price: "£23.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: BCN_Peel_2,
+            name: "BCN Peel #02 Anti-Ageing (1 x 50ml)",
+            price: "£23.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: BCN_Peel_3,
+            name: "BCN Peel #03 Depigmentant (1 x 50ml)",
+            price: "£23.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: BCN_Peels,
+            name: "BCN Peels Neutralizer (1 x 100ml)",
+            price: "£10.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: FILLMED_Bright,
+            name: "FILLMED Bright Peel (1 x 100ml)",
+            price: "£77.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: FILLMED_light,
+            name: "FILLMED Light Peel (1 x 100ml)",
+            price: "£77.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: FILLMED_time,
+            name: "FILLMED Time Peel (1 x 100ml)",
+            price: "£85.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: BioRePeelCl3,
+            name: "BioRePeelCl3 Body (3 x 12ml)",
+            price: "£160.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: BioRePeelCl3_FND,
+            name: "BioRePeelCl3 FND (5 x 6ml)",
+            price: "£160.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: INNO_EXFO,
+            name: "INNO-EXFO AKN Peel (6 x 2ml)",
+            price: "£29.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: INNO_EXFO_Bio,
+            name: "INNO-EXFO Bio C (5 x 2ml + 5 x 2ml)",
+            price: "£29.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics"
+        },
+        {
+            image: INNO_EXFO_Degreasing,
+            name: "INNO-EXFO Degreasing Solution (1 x 100ml)",
+            price: "£18.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
             type: "cosmetics"
         },
     ]

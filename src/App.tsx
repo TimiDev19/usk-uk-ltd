@@ -14,6 +14,7 @@ import HairTreatments from './categories/HairTreatments';
 import { FadeReveal } from './components/animations/FadeReveal';
 import Beauty from './categories/Beauty';
 import FatDissolvers from './categories/FatDissolvers';
+import ChemicalPeels from './categories/ChemicalPeels';
 
 function App() {
   return (
@@ -61,6 +62,14 @@ function App() {
             element={
               <FadeReveal>
                 <FatDissolvers />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/chemicalPeels"
+            element={
+              <FadeReveal>
+                <ChemicalPeels />
               </FadeReveal>
             }
           />

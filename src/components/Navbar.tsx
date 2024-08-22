@@ -94,7 +94,7 @@ const Navbar = () => {
                           Fat Dissolvers
                         </Link>
                         <Link
-                          to={''}
+                          to={'/chemicalPeels'}
                           className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
                         >
                           Chemical Peels
@@ -186,7 +186,7 @@ const Navbar = () => {
             Fat Dissolvers
           </Link>
           <Link
-            to={''}
+            to={'/chemicalPeels'}
             className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Chemical Peels

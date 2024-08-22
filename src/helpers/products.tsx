@@ -5,7 +5,6 @@ import BCN from '../assets/bcn_meso_body_roller_0002.webp'
 import Mesoestetic_mpen from '../assets/mesoestetic_mpen_0004_1.webp'
 import Surface_Paris_Mesoroller from '../assets/surface_paris_mesoroller_0002.webp'
 import Thermage_Body_Frame from '../assets/thermage_body_tip_16.0_0003.webp'
-
 import AesPlla from '../assets/aesplla_dermal_filler_0001.webp'
 import Aquashine from '../assets/aquashine_ptx_0004.webp'
 import Aquashine_Soft from '../assets/aquashine_soft_filler_0004.webp'
@@ -75,49 +74,11 @@ import BioRePeelCl3_FND from '../assets/BioRePeelCl3_FND.webp'
 import INNO_EXFO from '../assets/INNO_EXFO.webp'
 import INNO_EXFO_Bio from '../assets/INNO_EXFO_Bio.webp'
 import INNO_EXFO_Degreasing from '../assets/INNO_EXFO_Degreasing.webp'
+import Hyacorp from '../assets/Hyacorp.webp'
+import Softfil from '../assets/Softfil.webp'
 
 const products = {
     "items": [
-
-        {
-            image: Ejal,
-            name: "Ejal Sunscreen Face SPF50+ (1 x 30ml)",
-            price: "£33.00",
-            type: "bestSeller",
-            category: "cosmetics",
-        },
-
-        {
-            image: Clinisoothe,
-            name: "Clinisoothe+ Skin Purifier (1 x 100ml)",
-            price: "£13.50",
-            type: "bestSeller",
-            category: "cosmetics",
-        },
-        {
-            image: BCN,
-            name: "BCN Tech Meso Body Roller (1 x 1.0mm)",
-            price: "£12.50",
-            type: "featured",
-            category: "accessories",
-        },
-
-        {
-            image: Surface_Paris_Mesoroller,
-            name: "Surface Paris Mesoroller (1 x 0.3mm)",
-            price: "£15.50",
-            type: "featured",
-            category: "accessories",
-        },
-        {
-            image: Thermage_Body_Frame,
-            name: "Thermage Body Frame Tip 16.0cm2 (1 x 500 REP) - Clearance",
-            price: "£267.00",
-            type: "featured",
-            category: "cosmetics",
-        },
-
-
         // Dermal Fillers
         {
             image: AesPlla,
@@ -778,6 +739,73 @@ const products = {
             bestSeller: "no",
             featured: "no",
             category: "chemical-peels",
+            type: "cosmetics"
+        },
+
+        // miscellaneous
+        {
+            image: Hyacorp,
+            name: "Hyacorp Medical Marker",
+            price: "£17.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics"
+        },
+        {
+            image: Softfil,
+            name: "Softfil Skin Marker (1 x Marker)",
+            price: "£15.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics"
+        },
+        {
+            image: Ejal,
+            name: "Ejal Sunscreen Face SPF50+ (1 x 30ml)",
+            price: "£33.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics"
+        },
+
+        {
+            image: Clinisoothe,
+            name: "Clinisoothe+ Skin Purifier (1 x 100ml)",
+            price: "£13.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics"
+        },
+        {
+            image: BCN,
+            name: "BCN Tech Meso Body Roller (1 x 1.0mm)",
+            price: "£12.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics"
+        },
+
+        {
+            image: Surface_Paris_Mesoroller,
+            name: "Surface Paris Mesoroller (1 x 0.3mm)",
+            price: "£15.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics"
+        },
+        {
+            image: Thermage_Body_Frame,
+            name: "Thermage Body Frame Tip 16.0cm2 (1 x 500 REP) - Clearance",
+            price: "£267.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
             type: "cosmetics"
         },
     ]

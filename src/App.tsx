@@ -15,6 +15,7 @@ import { FadeReveal } from './components/animations/FadeReveal';
 import Beauty from './categories/Beauty';
 import FatDissolvers from './categories/FatDissolvers';
 import ChemicalPeels from './categories/ChemicalPeels';
+import Miscellaneous from './categories/Miscellaneous';
 
 function App() {
   return (
@@ -70,6 +71,14 @@ function App() {
             element={
               <FadeReveal>
                 <ChemicalPeels />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/miscellaneous"
+            element={
+              <FadeReveal>
+                <Miscellaneous />
               </FadeReveal>
             }
           />

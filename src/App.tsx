@@ -13,6 +13,7 @@ import Mesotherapy from './categories/Mesotherapy';
 import HairTreatments from './categories/HairTreatments';
 import { FadeReveal } from './components/animations/FadeReveal';
 import Beauty from './categories/Beauty';
+import FatDissolvers from './categories/FatDissolvers';
 
 function App() {
   return (
@@ -52,6 +53,14 @@ function App() {
             element={
               <FadeReveal>
                 <Beauty />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/fatDissolvers"
+            element={
+              <FadeReveal>
+                <FatDissolvers />
               </FadeReveal>
             }
           />

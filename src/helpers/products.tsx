@@ -52,6 +52,17 @@ import BioReLift from '../assets/BioReLift.webp'
 import BioReLift_new from '../assets/BioReLift_new.webp'
 import Croma from '../assets/Croma.webp'
 import Croma_Farewell from '../assets/Croma_Farewell.webp'
+import Alidya_Anti from '../assets/Alidya_Anti.webp'
+import Dermaheal_LL from '../assets/Dermaheal_LL.webp'
+import Dermaheal_Obessia from '../assets/Dermaheal_Obessia.webp'
+import Pluryal from '../assets/Pluryal.webp'
+import Pluryal_Mesoline from '../assets/Pluryal_Mesoline.webp'
+import Aqualyx_ from '../assets/Aqualyx_.webp'
+import INNO_TDS_Cynara from '../assets/INNO_TDS_Cynara.webp'
+import Prostrolane_Inner_B from '../assets/Prostrolane_Inner_B.webp'
+import Lemon from '../assets/Lemon.webp'
+import Lemon_Bottle from '../assets/Lemon_Bottle.webp'
+import Cellucare from '../assets/Cellucare.webp'
 
 const products = {
     "items": [
@@ -535,6 +546,116 @@ const products = {
             bestSeller: "no",
             featured: "no",
             category: "beauty",
+            type: "cosmetics"
+        },
+
+        // fat dissolvers
+        {
+            image: Alidya_Anti,
+            name: "Alidya Anti LipoDystrophic Agents (5 x 340mg + 5 x 10ml)",
+            price: "£57.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Dermaheal_LL,
+            name: "Dermaheal LL (10 x 5ml)",
+            price: "£52.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Dermaheal_LL,
+            name: "Dermaheal LL (10 x 5ml) - Special Offer",
+            price: "£28.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Dermaheal_Obessia,
+            name: "Dermaheal Obessia Massage & Slimming Cream (1 x 500ml)",
+            price: "£39.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Pluryal,
+            name: "Pluryal Mesoline Bodycontour (10 vials x 5ml)",
+            price: "£49.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Pluryal_Mesoline,
+            name: "Pluryal Mesoline Facecontour (5 vials x 5ml)",
+            price: "£76.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Aqualyx_,
+            name: "Aqualyx (10 x 8ml)",
+            price: "£139.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: INNO_TDS_Cynara,
+            name: "INNO-TDS Cynara Plus+ (4 x 5ml)",
+            price: "£27.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Prostrolane_Inner_B,
+            name: "Prostrolane Inner-B (2 x 2ml)",
+            price: "£68.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Lemon,
+            name: "Lemon Bottle Ampoule Solution (1 x 10ml) (Single)",
+            price: "£19.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Lemon_Bottle,
+            name: "Lemon Bottle Ampoule Solution (5 x 10ml)",
+            price: "£79.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics"
+        },
+        {
+            image: Cellucare,
+            name: "Cellucare C Line (10 x 5ml)",
+            price: "£108.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
             type: "cosmetics"
         },
     ]

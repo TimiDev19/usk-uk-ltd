@@ -3,6 +3,9 @@ import ArrowRightAltOutlinedIcon from '@mui/icons-material/ArrowRightAltOutlined
 import products from '../helpers/products';
 import { FadeReveal } from '@/components/animations/FadeReveal';
 import '../index.css';
+import Typewriter from 'typewriter-effect';
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 
 const Landingpage = () => {
@@ -13,19 +16,37 @@ const Landingpage = () => {
   const featuredProducts = products.items.filter((item) => {
     return item.bestSeller === 'yes';
   });
+
+  useEffect(() => {
+    // Initialize ScrollReveal
+    ScrollReveal().reveal('.reveal-bottom', {
+      duration: 2000,
+      origin: 'bottom',
+      distance: '50px',
+      easing: 'ease-in-out',
+    });
+
+    ScrollReveal().reveal('.reveal-left', {
+      duration: 2000,
+      origin: 'left',
+      distance: '50px',
+      easing: 'ease-in-out',
+    })
+  }, []);
+
+
   return (
     <div className="pt-10">
       <FadeReveal>
         <div className="h-[90vh] md:h-screen mb-6 home-bg flex items-center sm:justify-start justify-center text-center pxpx">
           <div className=" w-full sm:w-[40%] md:w-[60%] lg:w-[80%] sm:text-left mx2xl">
-            <h1 className=" uppercase text-4xl md:text-5xl lg:text-[72px] lg:leading-[1.2] font-bold text-white mb-6">
+            <h1 className=" reveal-bottom uppercase text-4xl md:text-5xl lg:text-[72px] lg:leading-[1.2] font-bold text-white mb-6">
               we provide <span className=" text-blue-500">medical</span>{' '}
               products that you can{' '}
               <span className=" text-blue-500">trust</span>
             </h1>
             <p className=" mb-10 text-white">
-              USV UK Limited, your go to for top medical products that not only
-              fit your needs but fit your budget.
+              USV UK Limited, your go to for top medical products that not only fit your needs but fit your budget.
             </p>
             <Link
               to={'/shop'}
@@ -40,7 +61,15 @@ const Landingpage = () => {
       <FadeReveal>
         <div className="mb-10 pxpx">
           <h1 className=" uppercase font-semibold text-black text-3xl sm:text-4xl mb-6 mx2xl">
-            Best seller
+            <Typewriter
+              options={{
+                strings: ['Best seller'],
+                autoStart: true,
+                loop: true,
+                cursor: "",
+                delay: 75,
+              }}
+            />
           </h1>
           <div className="flex flex-col md:flex-row mx2xl">
             {bestSellingProducts.map((item, index) => (
@@ -73,7 +102,7 @@ const Landingpage = () => {
 
       <FadeReveal>
         <div className=" exclusive-bg w-[100vw] py-20 pxpx mx2xl mb-20 flex items-center md:items-end justify-start">
-          <div className=" md:w-[50%] mb-6 mx2xl">
+          <div className=" md:w-[50%] mb-6 mx2xl reveal-left">
             <h1 className=" font-semibold text-4xl md:text-5xl text-white mb-4">
               USV Exclusive Deal
             </h1>
@@ -95,7 +124,15 @@ const Landingpage = () => {
       <FadeReveal>
         <div className=" w-[100vw] mb-10 pxpx">
           <h1 className=" uppercase font-semibold text-black text-3xl sm:text-4xl mb-6 mx2xl">
-            Featured
+            <Typewriter
+              options={{
+                strings: ['Featured'],
+                autoStart: true,
+                loop: true,
+                cursor: "",
+                delay: 75,
+              }}
+            />
           </h1>
           <div className="mx2xl flex flex-col md:flex-row">
             {featuredProducts.map((item, index) => (

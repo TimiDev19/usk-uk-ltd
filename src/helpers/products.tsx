@@ -40,6 +40,18 @@ import INNO_TDS_Hair from '../assets/inno-tds_hair_vital_01_1_1.webp'
 import Pelo from '../assets/Pelo.webp'
 import Pelo_Baum from '../assets/Pelo_Baum.webp'
 import Pelo_Baum_Hair from '../assets/Pelo_Baum_Hair.webp'
+import BCN_Pre from '../assets/BCN_Pre.webp'
+import BCN_Pre_Cleanser from '../assets/BCN_Pre_Cleanser.webp'
+import BCN_Pre_Epithel from '../assets/BCN_Pre_Epithel.webp'
+import Biologique from '../assets/Biologique.webp'
+import Biologique_Recherche from '../assets/Biologique_Recherche.webp'
+import Biologique_Recherche_Cocktail from '../assets/Biologique_Recherche_Cocktail.webp'
+import BioReHydra from '../assets/BioReHydra.webp'
+import BioReHydra_new from '../assets/BioReHydra_new.webp'
+import BioReLift from '../assets/BioReLift.webp'
+import BioReLift_new from '../assets/BioReLift_new.webp'
+import Croma from '../assets/Croma.webp'
+import Croma_Farewell from '../assets/Croma_Farewell.webp'
 
 const products = {
     "items": [
@@ -413,6 +425,116 @@ const products = {
             bestSeller: "no",
             featured: "no",
             category: "hair-treatments",
+            type: "cosmetics"
+        },
+
+        // beauty
+        {
+            image: BCN_Pre,
+            name: "BCN Pre & Post Arni+K (1 x 35ml)",
+            price: "£20.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: BCN_Pre_Cleanser,
+            name: "BCN Pre & Post Cleanser (1 x 150ml)",
+            price: "£17.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: BCN_Pre_Epithel,
+            name: "BCN Pre & Post Epithel (1 x 50ml)",
+            price: "£26.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: Biologique,
+            name: "Biologique Recherche Biokiss (1 x 15ml)",
+            price: "£43.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: Biologique_Recherche,
+            name: "Biologique Recherche Biomagic Mask (1 x 100ml)",
+            price: "£87.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: Biologique_Recherche_Cocktail,
+            name: "Biologique Recherche Cocktail d'Actifs Regenerants (10 x 5ml)",
+            price: "£348.50",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: BioReHydra,
+            name: "BioReHydra (1 x 200ml)",
+            price: "£88.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: BioReHydra_new,
+            name: "BioReHydra (1 x 30ml)",
+            price: "£36.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: BioReLift,
+            name: "BioReLift (1 x 200ml)",
+            price: "£88.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: BioReLift_new,
+            name: "BioReLift (1 x 30ml)",
+            price: "£36.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: Croma,
+            name: "Croma Farewell Aging Skin (1 x 30ml)",
+            price: "£55.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics"
+        },
+        {
+            image: Croma_Farewell,
+            name: "Croma Farewell Aging Skin (1 x 5ml)",
+            price: "£18.00",
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
             type: "cosmetics"
         },
     ]

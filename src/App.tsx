@@ -12,6 +12,7 @@ import Shop from './pages/Shop';
 import Mesotherapy from './categories/Mesotherapy';
 import HairTreatments from './categories/HairTreatments';
 import { FadeReveal } from './components/animations/FadeReveal';
+import Beauty from './categories/Beauty';
 
 function App() {
   return (
@@ -43,6 +44,14 @@ function App() {
             element={
               <FadeReveal>
                 <HairTreatments />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/beauty"
+            element={
+              <FadeReveal>
+                <Beauty />
               </FadeReveal>
             }
           />

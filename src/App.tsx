@@ -16,6 +16,7 @@ import Beauty from './categories/Beauty';
 import FatDissolvers from './categories/FatDissolvers';
 import ChemicalPeels from './categories/ChemicalPeels';
 import Miscellaneous from './categories/Miscellaneous';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -79,6 +80,14 @@ function App() {
             element={
               <FadeReveal>
                 <Miscellaneous />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <FadeReveal>
+                <Contact />
               </FadeReveal>
             }
           />

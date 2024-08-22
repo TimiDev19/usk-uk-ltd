@@ -51,7 +51,7 @@ const Navbar = () => {
                           Shop
                         </Link>
                         <Link
-                          to={''}
+                          to={'/contact'}
                           className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
                         >
                           Contact
@@ -147,7 +147,7 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              to={''}
+              to={'/contact'}
               className=" mx-4 uppercase hover:text-blue-500 duration-500"
             >
               Contact

@@ -9,7 +9,9 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
+  SheetClose,
 } from '@/components/ui/sheet';
+// import * as SheetPrimitive from "@radix-ui/react-dialog"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,30 +34,42 @@ const Navbar = () => {
                   <SheetDescription>
                     <div className=" w-full">
                       <ul className=" mb-4">
-                        <Link
-                          to={'/'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Home
-                        </Link>
-                        <Link
-                          to={'/about'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          About
-                        </Link>
-                        <Link
-                          to={'/shop'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Shop
-                        </Link>
-                        <Link
-                          to={'/contact'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Contact
-                        </Link>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href='/'
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+
+                            Home
+
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href='/about'
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            About
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/shop'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Shop
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/contact'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Contact
+                          </a>
+                        </SheetClose>
+
+
                       </ul>
 
                       <h1 className=" text-left text-black text-xl mb-4">
@@ -63,48 +77,62 @@ const Navbar = () => {
                       </h1>
 
                       <ul className=" mb-4">
-                        <Link
-                          to={'/dermalfillers'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Dermal Fillers
-                        </Link>
-                        <Link
-                          to={'/mesotherapy'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Mesotherapy
-                        </Link>
-                        <Link
-                          to={'/hairTreatments'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Hair Treatments
-                        </Link>
-                        <Link
-                          to={'/beauty'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Beauty
-                        </Link>
-                        <Link
-                          to={'/fatDissolvers'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Fat Dissolvers
-                        </Link>
-                        <Link
-                          to={'/chemicalPeels'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Chemical Peels
-                        </Link>
-                        <Link
-                          to={'/miscellaneous'}
-                          className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
-                        >
-                          Miscellaneous
-                        </Link>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/dermalfillers'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Dermal Fillers
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/mesotherapy'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Mesotherapy
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/hairTreatments'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Hair Treatments
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/beauty'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Beauty
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/fatDissolvers'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Fat Dissolvers
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/chemicalPeels'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Chemical Peels
+                          </a>
+                        </SheetClose>
+                        <SheetClose className=' w-full'>
+                          <a
+                            href={'/miscellaneous'}
+                            className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                          >
+                            Miscellaneous
+                          </a>
+                        </SheetClose>
                       </ul>
                     </div>
                   </SheetDescription>

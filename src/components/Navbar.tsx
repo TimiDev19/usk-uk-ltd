@@ -32,7 +32,6 @@ const Navbar = () => {
                 <SheetHeader>
                   <SheetTitle>USV UK Limited</SheetTitle>
                   <SheetDescription>
-
                     <div className=" w-full">
                       <ul className=" mb-4">
                         <SheetClose className=' w-full'>
@@ -40,9 +39,7 @@ const Navbar = () => {
                             to='/'
                             className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
                           >
-
                             Home
-
                           </Link>
                         </SheetClose>
                         <SheetClose className=' w-full'>
@@ -134,7 +131,6 @@ const Navbar = () => {
                         </SheetClose>
                       </ul>
                     </div>
-
                   </SheetDescription>
                 </SheetHeader>
               </SheetContent>

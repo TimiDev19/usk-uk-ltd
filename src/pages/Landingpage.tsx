@@ -7,7 +7,6 @@ import Typewriter from 'typewriter-effect';
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
 
-
 const Landingpage = () => {
   const bestSellingProducts = products.items.filter((item) => {
     return item.featured === 'yes';
@@ -31,9 +30,8 @@ const Landingpage = () => {
       origin: 'left',
       distance: '50px',
       easing: 'ease-in-out',
-    })
+    });
   }, []);
-
 
   return (
     <div className="pt-10">
@@ -46,7 +44,8 @@ const Landingpage = () => {
               <span className=" text-blue-500">trust</span>
             </h1>
             <p className=" mb-10 text-white">
-              USV UK Limited, your go to for top medical products that not only fit your needs but fit your budget.
+              USV UK Limited, your go to for top medical products that not only
+              fit your needs but fit your budget.
             </p>
             <Link
               to={'/shop'}
@@ -66,7 +65,7 @@ const Landingpage = () => {
                 strings: ['Best seller'],
                 autoStart: true,
                 loop: true,
-                cursor: "",
+                cursor: '',
                 delay: 75,
               }}
             />
@@ -77,7 +76,7 @@ const Landingpage = () => {
                 key={index}
                 className="flex flex-col items-center justify-between w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto min-h-[400px] border border-slate-300 mb-6"
               >
-                <div className=' group text-center'>
+                <div className=" group text-center">
                   <img
                     src={item.image}
                     alt={item.name}
@@ -90,7 +89,7 @@ const Landingpage = () => {
                 </div>
                 <Link
                   to={''}
-                  className=' w-full text-center bg-green-600 text-white text-s py-4 uppercase'
+                  className=" w-full text-center bg-green-600 text-white text-s py-4 uppercase"
                 >
                   Buy Now
                 </Link>
@@ -129,7 +128,7 @@ const Landingpage = () => {
                 strings: ['Featured'],
                 autoStart: true,
                 loop: true,
-                cursor: "",
+                cursor: '',
                 delay: 75,
               }}
             />
@@ -140,7 +139,7 @@ const Landingpage = () => {
                 key={index}
                 className="flex flex-col items-center justify-between w-[95%] md:w-[22%] cursor-pointer duration-500 m-auto min-h-[400px] border border-slate-300 mb-6"
               >
-                <div className=' group text-center'>
+                <div className=" group text-center">
                   <img
                     src={item.image}
                     alt={item.name}
@@ -153,7 +152,7 @@ const Landingpage = () => {
                 </div>
                 <Link
                   to={''}
-                  className=' w-full text-center bg-green-600 text-white text-s py-4 uppercase'
+                  className=" w-full text-center bg-green-600 text-white text-s py-4 uppercase"
                 >
                   Buy Now
                 </Link>
@@ -163,39 +162,54 @@ const Landingpage = () => {
         </div>
       </FadeReveal>
 
-
       <FadeReveal>
-        <div className=' mb-10 pxpx'>
+        <div className=" mb-10 pxpx">
           <h1 className=" uppercase font-semibold text-black text-3xl sm:text-4xl mb-6 mx2xl">
             <Typewriter
               options={{
                 strings: ['Why pick us?'],
                 autoStart: true,
                 loop: true,
-                cursor: "",
+                cursor: '',
                 delay: 75,
               }}
             />
           </h1>
-          <div className=' w-full flex flex-col items-center justify-center lg:flex-row lg:justify-between'>
-            <div className=' reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-2 py-4 rounded'>
-              <h1 className='font-semibold text-2xl sm:text-3xl mb-6 mx2xl'>High Quality Products</h1>
+          <div className=" w-full flex flex-col items-center justify-center lg:flex-row lg:justify-between">
+            <div className=" reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-8 py-6 rounded">
+              <h1 className="font-semibold text-2xl sm:text-3xl mb-6 mx2xl">
+                High Quality Products
+              </h1>
               <p>
-                At USV UK Limited we deliver high quality products that cater to your needs. Our products undergo multiple testing processes just to ensure they are not just up to standard but high quality.
+                At USV UK Limited we deliver high quality products that cater to
+                your needs. Our products undergo multiple testing processes just
+                to ensure they are not just up to standard but high quality.
               </p>
             </div>
 
-            <div className=' reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-2 py-4 rounded'>
-              <h1 className='font-semibold text-2xl sm:text-3xl mb-6 mx2xl'>Fast Delivery</h1>
+            <div className=" reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-8 py-6 rounded">
+              <h1 className="font-semibold text-2xl sm:text-3xl mb-6 mx2xl">
+                Fast Delivery
+              </h1>
               <p>
-                At USV UK Limited we value our customers and respect their time. We have multiple measures in place to ensure your product reaches you as soon as possible. Our full-proof delivery scheme eliminates all unecessary waiting time and focuses on getting your product to you as soon as possible.
+                At USV UK Limited we value our customers and respect their time.
+                We have multiple measures in place to ensure your product
+                reaches you as soon as possible. Our full-proof delivery scheme
+                eliminates all unecessary waiting time and focuses on getting
+                your product to you as soon as possible.
               </p>
             </div>
 
-            <div className=' reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-2 py-4 rounded'>
-              <h1 className='font-semibold text-2xl sm:text-3xl mb-6 mx2xl'>Budget Friendly</h1>
+            <div className=" reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-8 py-6 rounded">
+              <h1 className="font-semibold text-2xl sm:text-3xl mb-6 mx2xl">
+                Budget Friendly
+              </h1>
               <p>
-                At USV UK Limited we focus more on customer satisfaction which is why we make sure all our products are not unecessarily expensive. Our finance team works with the production team to closely monitors the economy making sure we do not overprice our goods in relation to the current market.
+                At USV UK Limited we focus more on customer satisfaction which
+                is why we make sure all our products are not unecessarily
+                expensive. Our finance team works with the production team to
+                closely monitors the economy making sure we do not overprice our
+                goods in relation to the current market.
               </p>
             </div>
           </div>
@@ -216,26 +230,22 @@ const Landingpage = () => {
             </Link>
           </div>
           <div className=" flex flex-col items-center justify-between sm:flex-row mb-4 md:mb-6 mx2xl">
-            <Link
-              to={'/shop'}
-              className='w-[95%] md:w-[45%]'
-            >
+            <Link to={'/shop'} className="w-[95%] md:w-[45%]">
               <div className="cosmetics-bg mb-6 h-[50vh] md:h-[65vh]  p-3 m-auto bg-red-700 flex items-end justify-start">
                 <h1 className=" text-white font-semibold text-xl">Cosmetics</h1>
               </div>
             </Link>
-            <Link
-              to={'/shop'}
-              className=' w-[95%] md:w-[45%]'
-            >
+            <Link to={'/shop'} className=" w-[95%] md:w-[45%]">
               <div className="accessories-bg mb-6 h-[50vh] md:h-[65vh]  p-3 m-auto bg-red-700 flex items-end justify-start">
-                <h1 className=" text-white font-semibold text-xl">Accessories</h1>
+                <h1 className=" text-white font-semibold text-xl">
+                  Accessories
+                </h1>
               </div>
             </Link>
           </div>
         </div>
-      </FadeReveal >
-    </div >
+      </FadeReveal>
+    </div>
   );
 };
 

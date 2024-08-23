@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .home-bg {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url('./assets/home-background-wallpaper.webp');
@@ -21,7 +20,7 @@
 }
 
 .cosmetics-bg {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+  background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
     url('./assets/mesoestetic_blemiderm_pack_0001.webp');
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +28,7 @@
 }
 
 .accessories-bg {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+  background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),
     url('./assets/bcn_meso_body_roller_0002.webp');
   background-position: center;
   background-repeat: no-repeat;

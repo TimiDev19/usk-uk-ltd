@@ -163,6 +163,45 @@ const Landingpage = () => {
         </div>
       </FadeReveal>
 
+
+      <FadeReveal>
+        <div className=' mb-10 pxpx'>
+          <h1 className=" uppercase font-semibold text-black text-3xl sm:text-4xl mb-6 mx2xl">
+            <Typewriter
+              options={{
+                strings: ['Why pick us?'],
+                autoStart: true,
+                loop: true,
+                cursor: "",
+                delay: 75,
+              }}
+            />
+          </h1>
+          <div className=' w-full flex flex-col items-center justify-center lg:flex-row lg:justify-between'>
+            <div className=' reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-2 py-4 rounded'>
+              <h1 className='font-semibold text-2xl sm:text-3xl mb-6 mx2xl'>High Quality Products</h1>
+              <p>
+                At USV UK Limited we deliver high quality products that cater to your needs. Our products undergo multiple testing processes just to ensure they are not just up to standard but high quality.
+              </p>
+            </div>
+
+            <div className=' reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-2 py-4 rounded'>
+              <h1 className='font-semibold text-2xl sm:text-3xl mb-6 mx2xl'>Fast Delivery</h1>
+              <p>
+                At USV UK Limited we value our customers and respect their time. We have multiple measures in place to ensure your product reaches you as soon as possible. Our full-proof delivery scheme eliminates all unecessary waiting time and focuses on getting your product to you as soon as possible.
+              </p>
+            </div>
+
+            <div className=' reveal-bottom w-full lg:w-[30%] bg-blue-500 text-white mb-6 min-h-[250px] px-2 py-4 rounded'>
+              <h1 className='font-semibold text-2xl sm:text-3xl mb-6 mx2xl'>Budget Friendly</h1>
+              <p>
+                At USV UK Limited we focus more on customer satisfaction which is why we make sure all our products are not unecessarily expensive. Our finance team works with the production team to closely monitors the economy making sure we do not overprice our goods in relation to the current market.
+              </p>
+            </div>
+          </div>
+        </div>
+      </FadeReveal>
+
       <FadeReveal>
         <div className=" w-full pxpx mx2xl">
           <div className=" flex flex-col items-center justify-between sm:flex-row mb-4 md:mb-6 mx2xl">

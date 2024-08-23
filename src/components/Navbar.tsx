@@ -35,12 +35,12 @@ const Navbar = () => {
                     <div className=" w-full">
                       <ul className=" mb-4">
                         <SheetClose className=' w-full'>
-                          <Link
-                            to='/'
+                          <a
+                            href='/'
                             className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
                           >
                             Home
-                          </Link>
+                          </a>
                         </SheetClose>
                         <SheetClose className=' w-full'>
                           <a

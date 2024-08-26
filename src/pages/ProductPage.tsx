@@ -9,7 +9,7 @@ type Product = {
     name: string;
     price: string;
     image: string;
-    description: string;
+    description?: string;
 };
 
 const ProductPage: React.FC = () => {

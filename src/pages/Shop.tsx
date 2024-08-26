@@ -23,7 +23,7 @@ const Shop = () => {
               </h1>
             </div>
             <Link
-              to={''}
+              to={`/product/${item.id}`}
               className=' w-full text-center bg-green-600 text-white text-s py-4 uppercase'
             >
               Buy Now

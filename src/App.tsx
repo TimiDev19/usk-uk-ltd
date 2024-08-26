@@ -17,6 +17,7 @@ import FatDissolvers from './categories/FatDissolvers';
 import ChemicalPeels from './categories/ChemicalPeels';
 import Miscellaneous from './categories/Miscellaneous';
 import Contact from './pages/Contact';
+import ProductPage from './pages/ProductPage';
 
 function App() {
   return (
@@ -88,6 +89,14 @@ function App() {
             element={
               <FadeReveal>
                 <Contact />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/product/:id"
+            element={
+              <FadeReveal>
+                <ProductPage />
               </FadeReveal>
             }
           />

@@ -175,43 +175,43 @@ const Navbar = () => {
         <div className="lg:flex w-full hidden items-center justify-between pxpx py-3 bg-white">
           <Link
             to={'/dermalfillers'}
-            className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
+            className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Dermal Fillers
           </Link>
           <Link
             to={'/mesotherapy'}
-            className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
+            className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Mesotherapy
           </Link>
           <Link
             to={'/hairTreatments'}
-            className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
+            className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Hair Treatments
           </Link>
           <Link
             to={'/beauty'}
-            className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
+            className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Beauty
           </Link>
           <Link
             to={'/fatDissolvers'}
-            className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
+            className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Fat Dissolvers
           </Link>
           <Link
             to={'/chemicalPeels'}
-            className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
+            className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Chemical Peels
           </Link>
           <Link
             to={'/miscellaneous'}
-            className=" w-fit text-left py-2 hover:border-b-2 border-b-blue-300 text-black hover:text-blue-500 duration-500"
+            className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
           >
             Miscellaneous
           </Link>

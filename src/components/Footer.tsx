@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className=" bg-white pxpx mx2xl py-4">
+    <div className=" bg-white pxpx mx2xl py-4 mt-6">
       <div className=" md:flex items-start justify-between">
         <div className=" mb-6 md:w-[20%]">
           <ul>

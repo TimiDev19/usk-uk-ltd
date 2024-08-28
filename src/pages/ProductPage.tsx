@@ -32,7 +32,7 @@ const ProductPage: React.FC = () => {
     }
 
     return (
-        <div className=' lg:h-[100vh] w-full pt-[120px] lg:pt-[180px] pb-8 bg-red-500'>
+        <div className=' lg:h-[100vh] w-full pt-[120px] lg:pt-[180px] pb-8'>
             <div className=' w-[95%] m-auto flex flex-col lg:flex-row items-start justify-between mb-10'>
                 <img src={product.image} alt="" className=' w-full lg:w-[45%] border border-slate-300 mb-6' />
                 <div className=' w-full lg:w-[45%] text-left'>

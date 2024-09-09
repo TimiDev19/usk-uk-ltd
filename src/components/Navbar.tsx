@@ -158,7 +158,7 @@ const Navbar = () => {
               </div>
               <div onClick={toogleCartHandler} className="relative inline-flex items-center space-x-2 cursor-pointer">
                 <img src={cartimg} alt="cart-svg" className="h-6 w-6" />
-                <div className="absolute top-0 right-0 translate-y-[-0.4rem] translate-x-[0.4rem] bg-[#D87D4A] text-white text-xs px-1 py-[2px] font-semibold rounded-full">
+                <div className="absolute top-0 right-0 translate-y-[-0.4rem] translate-x-[0.4rem] bg-blue-500 text-white text-xs px-1 py-[2px] font-semibold rounded-full">
                   {totalItems}
                 </div>
               </div>
@@ -199,7 +199,7 @@ const Navbar = () => {
               </Link>
               <div onClick={toogleCartHandler} className="relative inline-flex items-center space-x-2 cursor-pointer">
                 <img src={cartimg} alt="cart-svg" className="h-6 w-6" />
-                <div className="absolute top-0 right-0 translate-y-[-0.4rem] translate-x-[0.4rem] bg-[#D87D4A] text-white text-xs px-1 py-[2px] font-semibold rounded-full">
+                <div className="absolute top-0 right-0 translate-y-[-0.4rem] translate-x-[0.4rem] bg-blue-500 text-white text-xs px-1 py-[2px] font-semibold rounded-full">
                   {totalItems}
                 </div>
               </div>

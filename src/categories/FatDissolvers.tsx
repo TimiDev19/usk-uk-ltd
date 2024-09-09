@@ -24,7 +24,7 @@ const FatDissolvers = () => {
                             />
                             <h1 className=" mx-4 text-xl">{item.name}</h1>
                             <h1 className=" mx-4 font-semibold text-green-600 text-2xl mb-6">
-                                {item.price}
+                                £ {item.price}
                             </h1>
                         </div>
                         <Link

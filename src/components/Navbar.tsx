@@ -85,12 +85,6 @@ const Navbar = () => {
                               Contact
                             </a>
                           </SheetClose>
-                          <div onClick={toogleCartHandler}>
-                            <img src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.svgrepo.com%2Fsvg%2F80543%2Fshopping-cart-outline&psig=AOvVaw0vygow-op6uHarqZzsFdiq&ust=1725939800355000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjHhaTjtYgDFQAAAAAdAAAAABAE"} alt="cart-svg" className="cursor-pointer" />
-                            <div className="absolute cursor-pointer top-0 right-0 translate-y-[-0.4rem] translate-x-[0.5rem] bg-[#D87D4A] text-[0.7rem] px-2 py-[2px] font-semibold rounded-full">
-                              {totalItems}
-                            </div>
-                          </div>
                         </ul>
 
                         <h1 className=" text-left text-black text-xl mb-4">
@@ -160,6 +154,12 @@ const Navbar = () => {
                   </SheetHeader>
                 </SheetContent>
               </Sheet>
+            </div>
+            <div onClick={toogleCartHandler} className="relative inline-flex items-center space-x-2 cursor-pointer">
+              <img src={cartimg} alt="cart-svg" className="h-6 w-6" />
+              <div className="absolute top-0 right-0 translate-y-[-0.4rem] translate-x-[0.4rem] bg-[#D87D4A] text-white text-xs px-1 py-[2px] font-semibold rounded-full">
+                {totalItems}
+              </div>
             </div>
           </div>
         </div>

@@ -1,34 +1,35 @@
-"use client";
+'use client';
 
-import CartItem from "./CartItem";
-import { useAppSelector, useAppDispatch } from "@/store/hooks/hooks";
+import CartItem from './CartItem';
+import { useAppSelector, useAppDispatch } from '@/store/hooks/hooks';
 import {
   emptyCart,
-//   toggleCart,
-//   toggleAuthModal,
-} from "@/store/audophileSlice";
+  //   toggleCart,
+  //   toggleAuthModal,
+} from '@/store/audophileSlice';
 
 // import { useAuthContext } from "@/components/auth/context/AuthContext";
 // import { useRouter } from "next/navigation";
 
 const CartModal = () => {
-//   const router = useRouter();
+  //   const router = useRouter();
   const dispatch = useAppDispatch();
-//   const { user } = useAuthContext();
+  //   const { user } = useAuthContext();
   const cart = useAppSelector((state) => state.appState.cart);
+
   const totalCostArr = cart.flatMap((crt) => crt.quantity * crt.price);
   const totalCost = totalCostArr.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
   }, 0);
 
-//   const checkoutHAndler = () => {
-//     if (user === null) {
-//       dispatch(toggleAuthModal(true));
-//     } else {
-//       router.push("/checkout");
-//       dispatch(toggleCart(false));
-//     }
-//   };
+  //   const checkoutHAndler = () => {
+  //     if (user === null) {
+  //       dispatch(toggleAuthModal(true));
+  //     } else {
+  //       router.push("/checkout");
+  //       dispatch(toggleCart(false));
+  //     }
+  //   };
 
   return (
     <div className="bg-white px-[2rem] py-[2rem] rounded-xl flex flex-col gap-[0.5rem]">
@@ -59,7 +60,7 @@ const CartModal = () => {
       </div>
       <div className="flex justify-between items-center pt-[1rem]">
         <p className="opacity-50 text-[1rem]">TOTAL</p>
-        <p className="font-semibold text-[1.1rem] tracking-wider">{`$ ${totalCost.toLocaleString()}`}</p>
+        <p className="font-semibold text-[1.1rem] tracking-wider">{`£ ${totalCost.toLocaleString()}`}</p>
       </div>
 
       <button

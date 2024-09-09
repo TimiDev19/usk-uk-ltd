@@ -172,7 +172,7 @@ const products = {
             id: 9,
             image: Mesoestetic_mpen,
             name: "Mesoestetic m.pen [pro] Ultimate Microneedling Device (1 Depth)",
-            price: "£ 299.00",
+            price: 299.00,
             bestSeller: "no",
             featured: "no",
             category: "dermal-fillers",

@@ -12,7 +12,7 @@ import {
   SheetClose,
 } from '@/components/ui/sheet';
 import { useDispatch } from 'react-redux';
-import { useAppDispatch, useAppSelector } from "@/store/hooks/hooks";
+import { useAppSelector } from "@/store/hooks/hooks";
 import {
   toggleCart,
   toggleMobileMenu,

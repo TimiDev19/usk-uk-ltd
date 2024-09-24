@@ -1,3 +1,9 @@
+import Bocouture2 from '../assets/bocouture2.jpg'
+import Bocouture from '../assets/bocouture1.jpg'
+import dysport2vial from '../assets/dysport2vial.jpeg'
+import dysport1vial from '../assets/Single-Vial-Dysport.jpg'
+import azzalure2vial from '../assets/azzalure2vial.webp'
+import azzalure1vial from '../assets/Azzalure1vial.jpeg'
 import Mesoestetic from '../assets/mesoestetic_blemiderm_pack_0001.webp'
 import Ejal from '../assets/ejal_sunscreen_face_spf50_30ml.webp'
 import Clinisoothe from '../assets/clinisoothe_100ml.webp'
@@ -76,6 +82,33 @@ import INNO_EXFO_Bio from '../assets/INNO_EXFO_Bio.webp'
 import INNO_EXFO_Degreasing from '../assets/INNO_EXFO_Degreasing.webp'
 import Hyacorp from '../assets/Hyacorp.webp'
 import Softfil from '../assets/Softfil.webp'
+import Ozempic from '../assets/Ozempic.webp'
+import Ozempic1 from '../assets/ozempic 0.5.webp'
+import Ozempic1mg from '../assets/ozempic1mg.jpg'
+import Wegovy from '../assets/Wegovy-1ml.webp'
+import Wegovey175 from '../assets/wegovy1.75.jpg'
+import Saxenda from '../assets/saxenda-1.png'
+import Mounjaro5mg from '../assets/mounjaro5.0mg.webp'
+import Mounjaro75mg from '../assets/mounjaro7.5mg.jpg'
+import Mounjaro125mg from '../assets/mounjaro12.5mg.png'
+import Mounjaro25mg from '../assets/mounjaro2.5mg.jpg'
+import Botox50units from '../assets/botox50units.jpg'
+import Botox100units from '../assets/botox100units.png'
+import Botox150units from '../assets/botox150units.jpeg'
+import Botox200units from '../assets/botox200units.jpg'
+import xeomin1vial from '../assets/xeomin1vial.jpeg'
+import nebota50 from '../assets/nebota50units.jpg'
+import nebota100 from '../assets/nebota100units.png'
+import nebota200 from '../assets/nebota200.webp'
+import Neurobloc5k from '../assets/neurobloc5000.png'
+import Neurobloc10k from '../assets/neurobloc10000.jpg'
+import Botulax50 from '../assets/botulax50.jpg'
+import Botulax100 from '../assets/botulax100.png'
+import Botulax150 from '../assets/botulax150.webp'
+import Botulax200 from '../assets/botulax200.jpeg'
+import refinex from '../assets/refinex.jpg'
+
+// new products start from id 80
 
 const products = {
     "items": [
@@ -751,6 +784,140 @@ const products = {
             type: "cosmetics",
             description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
         },
+        {
+            id: 80,
+            image: Ozempic,
+            name: "Ozempic (1 x 0.25mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 81,
+            image: Ozempic1,
+            name: "Ozempic (1 x 0.5mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 82,
+            image: Ozempic1mg,
+            name: "Ozempic (1 x 1.0mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 89,
+            image: Mounjaro25mg,
+            name: "Mounjaro (1 x 2.5mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 86,
+            image: Mounjaro5mg,
+            name: "Mounjaro (1 x 5.0mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 87,
+            image: Mounjaro75mg,
+            name: "Mounjaro (1 x 7.5mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 88,
+            image: Mounjaro125mg,
+            name: "Mounjaro (1 x 12.5mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 82,
+            image: Cellucare,
+            name: "Wegovy (1 x 0.25mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 82,
+            image: Cellucare,
+            name: "Wegovy (1 x 0.5mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 83,
+            image: Wegovy,
+            name: "Wegovy (1 x 1mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        {
+            id: 84,
+            image: Wegovey175,
+            name: "Wegovy (1 x 1.75mg)",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+
+        {
+            id: 85,
+            image: Saxenda,
+            name: "Saxenda",
+            price: 108.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+
 
         // chemical peels
         {
@@ -959,6 +1126,248 @@ const products = {
             id: 79,
             image: Thermage_Body_Frame,
             name: "Thermage Body Frame Tip 16.0cm2 (1 x 500 REP) - Clearance",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 90,
+            image: Botox50units,
+            name: "Botox (50 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 91,
+            image: Botox100units,
+            name: "Botox (100 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 92,
+            image: Botox150units,
+            name: "Botox (150 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 93,
+            image: Botox200units,
+            name: "Botox (200 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 94,
+            image: xeomin1vial,
+            name: "Xeomin (1vial)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 94,
+            image: xeomin1vial,
+            name: "Xeomin (2vial)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 95,
+            image: nebota50,
+            name: "Nebota (50 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 96,
+            image: nebota100,
+            name: "Nebota (100 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 97,
+            image: nebota200,
+            name: "Nebota (150 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 98,
+            image: Neurobloc5k,
+            name: "Neurobloc (5000 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 99,
+            image: Neurobloc10k,
+            name: "Neurobloc (10000 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 100,
+            image: Botulax50,
+            name: "Botulax (50 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 101,
+            image: Botulax100,
+            name: "Botulax (100 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 102,
+            image: Botulax150,
+            name: "Botulax (150 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 103,
+            image: Botulax200,
+            name: "Botulax (200 units)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 104,
+            image: refinex,
+            name: "Refinex",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 105,
+            image: azzalure1vial,
+            name: "Azzalure (1 vial)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 106,
+            image: azzalure2vial,
+            name: "Azzalure (2 vial)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 107,
+            image: dysport1vial,
+            name: "Dysport (1 vial)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 108,
+            image: dysport2vial,
+            name: "Dysport (2 vial)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 109,
+            image: Bocouture,
+            name: "Bocouture (1 vial)",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 110,
+            image: Bocouture2,
+            name: "Bocouture (2 vial)",
             price: 267.00,
             bestSeller: "no",
             featured: "no",

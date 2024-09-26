@@ -21,7 +21,7 @@ import ProductPage from './pages/ProductPage';
 
 function App() {
   return (
-    <div className=' font-urbanist'>
+    <div className=" font-urbanist">
       <BrowserRouter>
         <Navbar />
         <Routes>

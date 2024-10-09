@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Link } from 'react-router-dom';
 import {
@@ -20,7 +19,6 @@ import {
 } from '@/store/audophileSlice';
 import Cart from './cart/Cart';
 import cartimg from '@/assets/cart.svg';
-// import * as SheetPrimitive from "@radix-ui/react-dialog"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

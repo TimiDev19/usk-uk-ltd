@@ -18,6 +18,7 @@ import ChemicalPeels from './categories/ChemicalPeels';
 import Miscellaneous from './categories/Miscellaneous';
 import Contact from './pages/Contact';
 import ProductPage from './pages/ProductPage';
+import Botulinum from './categories/Botulinum';
 
 function App() {
   return (
@@ -73,6 +74,14 @@ function App() {
             element={
               <FadeReveal>
                 <ChemicalPeels />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/botulinum"
+            element={
+              <FadeReveal>
+                <Botulinum />
               </FadeReveal>
             }
           />

@@ -143,6 +143,14 @@ const Navbar = () => {
                             </SheetClose>
                             <SheetClose className=" w-full">
                               <a
+                                href={'/botulinum'}
+                                className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
+                              >
+                                Botulinum
+                              </a>
+                            </SheetClose>
+                            <SheetClose className=" w-full">
+                              <a
                                 href={'/miscellaneous'}
                                 className=" block w-full text-left py-4 border-b-2 border-b-slate-100 text-black uppercase hover:text-blue-500 duration-500"
                               >
@@ -247,6 +255,12 @@ const Navbar = () => {
               className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
             >
               Chemical Peels
+            </Link>
+            <Link
+              to={'/botulinum'}
+              className=" w-fit text-left py-2 border-b-2 border-b-transparent hover:border-b-2 hover:border-b-blue-300 text-black hover:text-blue-500 duration-500"
+            >
+              Botulinum
             </Link>
             <Link
               to={'/miscellaneous'}

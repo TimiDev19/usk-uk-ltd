@@ -1394,7 +1394,7 @@ const products = {
             price: 47.31,
             bestSeller: "no",
             featured: "no",
-            category: "miscellaneous",
+            category: "botulinum",
             type: "cosmetics",
             description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
         }

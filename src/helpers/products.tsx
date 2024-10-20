@@ -1,3 +1,22 @@
+import inno20 from '../assets/inno20.webp'
+import inno19 from '../assets/inno19.webp'
+import inno18 from '../assets/inno18.webp'
+import inno17 from '../assets/inno17.webp'
+import inno16 from '../assets/inno16.webp'
+import inno15 from '../assets/inno15.webp'
+import inno14 from '../assets/inno14.webp'
+import inno13 from '../assets/inno13.webp'
+import inno12 from '../assets/inno12.webp'
+import inno11 from '../assets/inno11.webp'
+import inno10 from '../assets/inno10.webp'
+import inno9 from '../assets/inno9.webp'
+import inno8 from '../assets/inno8.webp'
+import inno7 from '../assets/inno7.webp'
+import inno6 from '../assets/inno6.webp'
+import inno5 from '../assets/inno5.webp'
+import inno4 from '../assets/inno4.webp'
+import inno3 from '../assets/inno3.webp'
+import inno2 from '../assets/inno2.webp'
 import Zepbound from '../assets/Zepbound.jpg'
 import Bocouture2 from '../assets/bocouture2.jpg'
 import Bocouture from '../assets/bocouture1.jpg'
@@ -108,6 +127,26 @@ import Botulax100 from '../assets/botulax100.png'
 import Botulax150 from '../assets/botulax150.webp'
 import Botulax200 from '../assets/botulax200.jpeg'
 import refinex from '../assets/refinex.jpg'
+import Volifil from '../assets/volifil.webp'
+import Volifil2 from '../assets/volifil2.webp'
+import Volifil3 from '../assets/volifil3.webp'
+import Teosyal from '../assets/teosyal.webp'
+import Teosyal2 from '../assets/Teosyal2.webp'
+import Teosyal3 from '../assets/teosyal3.webp'
+import Teosyal4 from '../assets/teosyal4.webp'
+import Teosyal6 from '../assets/teosyal6.webp'
+import Teosyal7 from '../assets/teosyal7.webp'
+import Teosyal8 from '../assets/teosyal8.webp'
+import Teosyal9 from '../assets/teosyal9.webp'
+import Teosyal10 from '../assets/teosyal10.webp'
+import Teosyal11 from '../assets/teosyal11.webp'
+import Teosyal12 from '../assets/teosyal12.webp'
+import Teosyal13 from '../assets/teosyal_13.webp'
+import Ialest from '../assets/ialest.webp'
+import Monalisa from '../assets/monalisa.webp'
+import Monalisa2 from '../assets/monalisa2.webp'
+import Monalisa3 from '../assets/monalisa3.webp'
+import inno from '../assets/inno.webp'
 
 // new products start from id 80
 
@@ -246,6 +285,226 @@ const products = {
             type: "cosmetics",
             description: "Prostrolane Blanc-B is an injectable gel indicated for mid-deep dermal implantation for whitening and toning, to bring the brightness to the face and neck. Use Prostrolane Blanc-B for skin contouring, brightening and reducing skin pigmentation. In addition, the product is ideal for use in treating sun damaged and photo-aged, wrinkled and ageing skin."
         },
+        {
+            id: 112,
+            image: Volifil,
+            name: "Volifil Classic with Lidocaine (1 x 1.1ml)",
+            price: 18.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Volifil Classic has the softest and thinnest properties in the Volifil range that is designed for a correction of fine to moderate lines. Volifil is a cross-linked HA Dermal Filler with Lidocaine."
+        },
+        {
+            id: 113,
+            image: Volifil2,
+            name: "Volifil Deep with Lidocaine (1 x 1.1ml)",
+            price: 18.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Volifil Deep has a higher viscoelastic properties, that is designed for correction of deep folds and natural volume of facial area with repetitive and frequent movements. Volifil is a cross-linked HA Dermal Filler with Lidocaine."
+        },
+        {
+            id: 114,
+            image: Volifil3,
+            name: "Volifil Sub-Q with Lidocaine (1 x 1.1ml)",
+            price: 18.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Volifil Sub-Q has the thickest properties in the Volifil family that is designed for replenishing facial shape and reconstruction of facial volume loss. Volifil is a cross-linked HA Dermal Filler with Lidocaine."
+        },
+        {
+            id: 115,
+            image: Teosyal,
+            name: "Teosyal Puresense Deep Lines Lidocaine (2 x 1ml)",
+            price: 102.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal Puresense Deep Lines is an injectable used for filling highly pronounced wrinkles. Teosyal Puresense Deep Lines has an optimal viscoelastic composition, adapted for treating deep wrinkles such as severe nasolabial folds and marionette lines. Hyaluronic acid has been specifically used to maintain the good hydration of the skin and can be administered on the neck and face. Hyaluronic acid also helps fill in deep wrinkles and fold whilst maintaining skin hydration. The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 116,
+            image: Teosyal2,
+            name: "Teosyal Puresense Global Action Lidocaine (2 x 1ml)",
+            price: 94.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal Puresense Global Action is a long lasting viscoelastic gel with hyaluronic acid designed to treat facial wrinkles. Teosyal Puresense Global Action is recommended to treat moderate wrinkles, cutaneous depressions, mild or moderate nasolabial folds, as well as perioral, glabella wrinkles in the mid dermis and akin atrophies. It is made with hyaluronic acid, it has anti-ageing properties and acts as a powerful antioxidant. The product also strongly rehydrates the skin and restores radiance, improving the complexion and suppleness of the skin. The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 117,
+            image: Teosyal3,
+            name: "Teosyal Puresense Kiss Lidocaine (2 x 1ml)",
+            price: 110.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal Puresense Kiss is resorbable product made with hyluronic acid and is a lip enhancement filler designed to harmonise lip contours and volume. With its ideal elastic profile, Teosyal Puresense Kiss is specifically adapted to the mobility of the lips. Use Teosyal Puresense Kiss to reshape the lips and increase lip volume whilst treating lip hydration and mouth wrinkles giving your face a beauty enhancing effect. The injection is gentle and harmonious in order to obtain maximum safety and comfort. The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 118,
+            image: Teosyal4,
+            name: "Teosyal Puresense Redensity 1 Lidocaine (1 x 3ml)",
+            price: 62.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal Puresense Redensity 1 is a unique hyaluronic acid-based skin enhancer which prevents premature skin from ageing, restores skin density and maintains skin glow. It helps eliminate wrinkles and fill out loose or sagging skin. It contains hyaluronic acid which maintains skin hydration and produces a smooth, natural looking finish. Teosyal PureSense Redensity 1 is suitable for the face, neck and also neckline, where skin is showing signs of dryness, cutaneous slackening, sun damage and ageing."
+        },
+        {
+            id: 119,
+            image: Teosyal4,
+            name: "Teosyal Puresense Redensity 1 Lidocaine (2 x 1ml)",
+            price: 57.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal Puresense Redensity 1 is a unique hyaluronic acid-based skin enhancer which prevents premature skin from ageing, restores skin density and maintains skin glow. It helps eliminate wrinkles and fill out loose or sagging skin. It contains hyaluronic acid which maintains skin hydration and produces a smooth, natural looking finish. Teosyal PureSense Redensity 1 is suitable for the face, neck and also neckline, where skin is showing signs of dryness, cutaneous slackening, sun damage and ageing."
+        },
+        {
+            id: 120,
+            image: Teosyal6,
+            name: "Teosyal Puresense Redensity 2 Lidocaine (2 x 1ml)",
+            price: 110.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal Puresense Redensity 2 is an advanced gel designed to treat the delicate and sensitive eye area. The product has a subtle mix of non cross-linked and cross-linked hyaluronic acid that is specifically indicated for under-eye circles and hollow areas under the eyes. The ingredients in Teosyal Puresense Redensity 2 help to regenerate and restructure skin cells, while protecting the cells from oxidation. This improves the quality of the skin and provides a natural and long-lasting correction of tired looking eyes. It contains hyaluronic acid which maintains skin hydration and gives a smooth, natural looking result. It also contains lidocaine, a powerful anaesthetic, for a more comfortable injection.            "
+        },
+        {
+            id: 121,
+            image: Teosyal7,
+            name: "Teosyal Puresense Ultimate Lidocaine (2 x 1ml)",
+            price: 110.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal Puresense Ultimate is a unique volumising filler designed to restore lost volume in wide areas such as the cheeks, jawline and temples to sculpt facial contours with injection into the sub-dermis. It fills in skin depressions and adds volume to facial features. Teosyal Puresense Ultimate is designed to be used in the subcutaneous or pre-periosteum tissue with long lasting results. It is made with hyaluronic acid which maintains skin hydration and is viscoelastic to combat visible signs of ageing with a smooth and natural looking result. The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 122,
+            image: Teosyal8,
+            name: "Teosyal Puresense Ultra Deep Lidocaine (2 x 1.2ml)",
+            price: 110.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal Puresense Ultra Deep is a hyaluronic acid filler with a high viscoelastic profile and cohesivity. The product is designed to create volume in targeted areas such as cheekbones and chin, redefine facial outlines and fill deep wrinkles on thick skin. It gives a youthful effect by filling in sunken or sagging contours. Natural facial expressions are unaffected and the formulation supports the skin adding rigidity. Teosyal Puresense Ultra Deep is designed to be used in the subcutaneous or pre-periosteum tissue. The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 123,
+            image: Teosyal9,
+            name: "Teosyal RHA 1 Lidocaine (2 x 1ml)",
+            price: 97.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal RHA 1 is a filler for wrinkles containing hyaluronic acid designed to support the skin in every move, while helping to preserve the vitality and softness of the face. It has an anti ageing effect on the face. Teosyal RHA 1 is designed specifically to treat superficial and fine wrinkles. RHA 1 restores the hyaluronic acid levels that are naturally found in the face. It offers soft, flexible support to the skin, for a smoothing effect that delivers firmness without hardness or excessive tautening of the skin.The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 124,
+            image: Teosyal10,
+            name: "Teosyal RHA 2 Lidocaine (2 x 1ml)",
+            price: 123.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal RHA 2 is a filler for wrinkles using hyaluronic acid designed to support the skin in every move, while helping to preserve the vitality and softness of the face. Teosyal RHA 2 is designed to smooth out more visible wrinkles that are more noticeable than just fine lines. Teosyal RHA 2 can also be used to volumise lips. The hyaluronic acid maintains hydration and gives a smooth finish, The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 125,
+            image: Teosyal11,
+            name: "Teosyal RHA 3 Lidocaine (2 x 1ml)",
+            price: 116.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal RHA 3 is a filler for wrinkles with hyaluronic acid designed to support the skin in every move, while helping to preserve the vitality and softness of the face. Teosyal RHA 3 is designed specifically to smooth out deeper wrinkles and maintain your natural looks. Each facial expression you make is supported with RHA 3 and works when your face is static or dynamic. Teosyal RHA 3 can also be used to create volume to the lips. The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 126,
+            image: Teosyal12,
+            name: "Teosyal RHA 4 Lidocaine (2 x 1.2ml)",
+            price: 118.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal RHA 4 is a filler for wrinkles made with hyaluronic acid designed to support the skin in every move, while helping to preserve the vitality and softness of the face. Teosyal RHA 4 is designed specifically to create volume in the deep skin layers and to treat skin depression and smooths sagging. You can look forward to softer, rounder cheeks and improved contours which resemble a youthful look. The gel formula adapts and stretches to work with each facial expression whilst looking natural. The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection."
+        },
+        {
+            id: 127,
+            image: Teosyal13,
+            name: "Teosyal RHA Kiss Lidocaine (2 x 0.7ml",
+            price: 80.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Teosyal RHA Kiss Lidocaine is designed to add volume to the lips as well as enhancing the lip contour and treat fine lines. The filler can also be used to fill facial wrinkles such as perioral lines. The smaller volume of 0.7ml creates a more natural-looking result, whilst offering the same premium composition as RHA 2. RHA Kiss is similar to RHA 2 but the smaller volume gives a more natural result. The formula gives the filler unique benefits and makes it ideal for reshaping the lip. The product contains lidocaine, a powerful anaesthetic, for a more comfortable injection.            "
+        },
+        {
+            id: 128,
+            image: Ialest,
+            name: "Ialest (1 x 2ml)",
+            price: 41.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Gel containing Hyaluronic Acid per intradermal infiltrations, 2 ml pre-filled syringe."
+        },
+        {
+            id: 129,
+            image: Monalisa,
+            name: "Monalisa Lidocaine Hard (1 x 1ml)",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Suitable for forehead volume, nasolabial fold, chin and facial oval. Appearance: No impurities, transparent and colourless gel. Concentration: 24mg/mL. Lidocaine Concentration: 0.3%. Particle Size: 600㎛. Syringe Volume: 1.0mL. Recommended Indication: Middle to deep layer of subcutis. Needle Size: 25G, 27GTW. Storage: 2~25°C"
+        },
+        {
+            id: 130,
+            image: Monalisa2,
+            name: "Monalisa Lidocaine Mild (1 x 1ml)",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Suitable for perioral lines, cheek volume and forehead lines. Appearance: No impurities, transparent and colourless gel. Concentration: 24mg/mL. Lidocaine Concentration: 0.3%. Particle Size: 400㎛. Syringe Volume: 1.0mL. Recommended Indication: Superficial dermis/Middle layer of subcutis. Needle Size: 27GTW (2ea). Storage: 2~25°C"
+        },
+        {
+            id: 131,
+            image: Monalisa3,
+            name: "Monalisa Lidocaine Soft (1 x 1ml)",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "dermal-fillers",
+            type: "cosmetics",
+            description: "Suitable for fine lines and tear throughs Appearance: No impurities, transparent and colourless gel. Concentration: 24mg/mL. Lidocaine Concentration: 0.3%. Particle Size: 200㎛.  Syringe Volume: 1.0mL.  Recommended Indication: Superficial dermis. Needle Size: 30GTW (2ea). Storage: 2~25°C"
+        },
 
 
 
@@ -381,6 +640,227 @@ const products = {
             category: "mesotherapy",
             type: "cosmetics",
             description: "Aqualyx developed for the non-surgical reduction of localised fat under the skin is a gel-based aqueous solution, which dissolves fat and is biocompatible and biodegradable. Aqualyx works by causing the dissolution of fat cells. The body then expels the released fatty acids naturally."
+        },
+        // 132-151
+        {
+            id: 132,
+            image: inno,
+            name: "INNO-TDS AKN-ID (4 x 2.5ml)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "AKN-ID is the ultimate solution for acne-prone skins. It effectively controls sebum production, bacteria proliferation, and inflammation, thus preventing pore-clogging and breakouts."
+        },
+        {
+            id: 133,
+            image: inno2,
+            name: "INNO-TDS Cynara Plus+ (4 x 5ml)",
+            price: 27.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Venotonic and lymphokinetic effects for the treatment of water retention and superficial venous insufficiency. This solution improves blood flow and stimulates drainage which leads to a rapid improvement of oedematous cellulite."
+        },
+        {
+            id: 134,
+            image: inno3,
+            name: "INNO-TDS DNA Pept-HA (4 x 2.5ml)",
+            price: 33.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Therapy for dermal reconstruction and tissue recovery. Promotes collagen synthesis favoring skin healing and restoring the skin balance. Effectively redensifies the dermis and attenuates expression lines and wrinkles."
+        },
+        {
+            id: 135,
+            image: inno4,
+            name: "INNO-TDS Draining PPC (4 x 5ml)",
+            price: 28.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Body contouring and redefining treatment to reduce localized fat and adipose cellulite. Its formula contains fat dissolving ingredients like Phosphatidylcholine that accelerates the breakdown of fat deposits and the elimination of toxins through urine."
+        },
+        {
+            id: 136,
+            image: inno5,
+            name: "INNO-TDS Draining PPC (Sample Pack) (1 x 1ml) - Special Offer",
+            price: 1.20,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "INNO-TDS Draining PPC reduces localized fat and improves your silhouette. Body contouring and redefining treatment to reduce localized fat and adipose cellulite. Its formula contains fat dissolving ingredients like Phosphatidylcholine that accelerates the breakdown of fat deposits and the elimination of toxins through urine."
+        },
+        {
+            id: 137,
+            image: inno6,
+            name: "INNO-TDS Face Nade (4 x 2.5ml)",
+            price: 24.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Dual-action face contouring treatment that, in the first stage, favors the elimination of waste and toxins, and, in the second stage, reinforces and firms the skin structure, effectively reshaping the facial contour."
+        },
+        {
+            id: 138,
+            image: inno7,
+            name: "INNO-TDS Fill Up (4 x 2.5)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Transdermal solution to increase skin density, enhance skin moisture and elasticity. It plumps up the skin and fills wrinkles."
+        },
+        {
+            id: 139,
+            image: inno8,
+            name: "INNO-TDS Firming (4 x 5ml) - Special Offer",
+            price: 29.80,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Significant improvement of skin firmness and toning. Its formula with DMAE strengthens the elastic fibers to prevent and firm sagging skin on the face and body."
+        },
+        {
+            id: 140,
+            image: inno9,
+            name: "INNO-TDS Hair Loss Control (4 x 2.5ml) - Special Offer",
+            price: 20.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Stimulates microcirculation in the scalp and inhibits the formation of DHT, the hormone responsible for male pattern baldness. Effectively prevents hair loss and improves its density."
+        },
+        {
+            id: 141,
+            image: inno10,
+            name: "INNO-TDS Hair Vital (4 x 2.5ml) - Special Offer",
+            price: 20.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Powerful intradermal treatment based on Sulphur Amino Acids and coenzymes to specifically treat alopecia in women. Nourishes the hair follicle, preventing its fall and increasing its density."
+        },
+        {
+            id: 142,
+            image: inno11,
+            name: "INNO-TDS Hyaluronic Acid (4 x 2.5ml)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Hyaluronic Acid is the key molecule for skin hydration and moisture as it can hold up to one thousand times its own weight in water. Replenish HA levels lost with age to boost skin hydration and moisture."
+        },
+        {
+            id: 143,
+            image: inno12,
+            name: "INNO-TDS Hyaluronidase (4 x 500 IU)",
+            price: 33.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Hyaluronidase enzymes effectively degrade and dissolve Hyaluronic Acid, favoring its diffusion and reabsorption. Moreover, they improve the appearance of hypertrophic scars, as well as skin fibrosis after liposuction."
+        },
+        {
+            id: 144,
+            image: inno13,
+            name: "INNO-TDS Matrix (4 x 2.5ml)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Solution with Pyruvic Acid for skin biorevitalization that effectively restores the extracellular matrix and the dermal tissues, visibly redensifying and rejuvenating the skin."
+        },
+        {
+            id: 145,
+            image: inno14,
+            name: "INNO-TDS Matrix (4 x 2.5ml) - Special Offer",
+            price: 11.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Solution with Pyruvic Acid for skin biorevitalization that effectively restores the extracellular matrix and the dermal tissues, visibly redensifying and rejuvenating the skin."
+        },
+        {
+            id: 146,
+            image: inno15,
+            name: "INNO-TDS Redness ID (4 x 2.5ml)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Treatment for facial redness, rosacea and couperose-prone skins. It regulates skin microcirculation and strengthens the skin defenses, thus preventing the formation of telangiectasias and reducing inflammation."
+        },
+        {
+            id: 147,
+            image: inno16,
+            name: "INNO-TDS Restructurer (4 x 5ml)",
+            price: 40.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "This formula significantly reduces the formation of free radicals, protecting the skin from cell oxidation and oxidative stress. It effectively slows down the skin aging process, attenuates fine lines and wrinkles, and evens the skin tone."
+        },
+        {
+            id: 148,
+            image: inno17,
+            name: "INNO-TDS Sensitive ID (4 x 2.5ml)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Skin strengthening treatment that boosts the defenses of sensitive skin. It prevents and improves skin hyperreactivity."
+        },
+        {
+            id: 149,
+            image: inno18,
+            name: "INNO-TDS Slimming (4 x 5ml) - Special Offer",
+            price: 19.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Reduces cellulite and smooths the skin. Improves visibly and quickly the appearance of orange peel skin."
+        },
+        {
+            id: 150,
+            image: inno19,
+            name: "INNO-TDS TIGF (4 x 2.5ml)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Growth factor stimulation to promote cell differentiation and tissue repair. This therapy restores and heals damaged skin tissues, providing all the elements to maintain them healthy. It effectively revitalizes and rejuvenates the skin tissues."
+        },
+        {
+            id: 151,
+            image: inno20,
+            name: "INNO-TDS Vitamin Complex (4 x 5ml)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "mesotherapy",
+            type: "cosmetics",
+            description: "Rich skin supplement that provides long-term skin nutrition, and optimizes cell metabolism and function. Restores and maintains skin health and glow."
         },
 
 

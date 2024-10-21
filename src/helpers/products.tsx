@@ -1,3 +1,37 @@
+import therm21 from '../assets/therm18.webp'
+import therm20 from '../assets/therm18.webp'
+import therm19 from '../assets/therm18.webp'
+import therm18 from '../assets/therm18.webp'
+import therm17 from '../assets/therm17.webp'
+import therm15 from '../assets/therm14.webp'
+import therm16 from '../assets/therm14.webp'
+import therm14 from '../assets/therm14.webp'
+import therm13 from '../assets/therm13.webp'
+import therm12 from '../assets/therm12.webp'
+import therm11 from '../assets/therm11.webp'
+import therm10 from '../assets/therm10.webp'
+import therm9 from '../assets/therm9.webp'
+import therm8 from '../assets/therm8.webp'
+import therm7 from '../assets/therm7.webp'
+import therm6 from '../assets/therm6.webp'
+import therm5 from '../assets/therm5.webp'
+import therm4 from '../assets/therm4.webp'
+import therm3 from '../assets/therm3.webp'
+import therm2 from '../assets/therm2.webp'
+import therm from '../assets/therm.webp'
+import mmeso8 from '../assets/mmeso8.webp'
+import mmeso7 from '../assets/mmeso7.webp'
+import mmeso6 from '../assets/mmeso6.webp'
+import mmeso5 from '../assets/mmeso4.webp'
+import mmeso4 from '../assets/mmeso5.webp'
+import mmeso3 from '../assets/mmeso3.webp'
+import mmeso2 from '../assets/mmeso2.webp'
+import mmeso from '../assets/mmeso.webp'
+import cell from '../assets/cell.webp'
+import mbcn3 from '../assets/mbcn3.webp'
+import mbcn2 from '../assets/mbcn2.webp'
+import mbcn from '../assets/mbcn.webp'
+import cingal from '../assets/cingal.webp'
 import prx6 from '../assets/prx6.webp'
 import prx5 from '../assets/prx5.webp'
 import prx4 from '../assets/prx4.webp'
@@ -2018,86 +2052,9 @@ const products = {
             description: "Degreasing solution is a pre-peel cleanser that has been specially designed to remove sebum and deeply cleanse and disinfect the skin before any INNO-EXFO treatment. It removes surface oils and bacteria whilst effectively preparing the skin for the proper penetration of active ingredients."
         },
 
-        // miscellaneous
-        {
-            id: 73,
-            image: Hyacorp,
-            name: "Hyacorp Medical Marker",
-            price: 17.00,
-            bestSeller: "no",
-            featured: "no",
-            category: "miscellaneous",
-            type: "cosmetics",
-            description: " "
-        },
-        {
-            id: 74,
-            image: Softfil,
-            name: "Softfil Skin Marker (1 x Marker)",
-            price: 15.00,
-            bestSeller: "no",
-            featured: "no",
-            category: "miscellaneous",
-            type: "cosmetics",
-            description: "White dermographic pencil ideal for marking on the skin. It allows the patient and the practitioner to identify the areas to be treated. For a perfect diagnosis of the desired injection areas, the patient should be examined in a sitting position before each treatment. The shadows will be used to draw the anatomical markers of the areas to be treated and to determine the points where the cannulas will be inserted. To draw, place your patient in a sitting position."
-        },
-        {
-            id: 75,
-            image: Ejal,
-            name: "Ejal Sunscreen Face SPF50+ (1 x 30ml)",
-            price: 33.00,
-            bestSeller: "no",
-            featured: "no",
-            category: "miscellaneous",
-            type: "cosmetics",
-            descrtiption: "The hyaluronic acid in it intensively hydrates the skin and reduces the excessive water loss of the epidermis. Vitamin E in combination with maritime pine extract and Lactobacillus Ferment deeply regenerates and soothes the skin."
-        },
 
-        {
-            id: 76,
-            image: Clinisoothe,
-            name: "Clinisoothe+ Skin Purifier (1 x 100ml)",
-            price: 13.50,
-            bestSeller: "no",
-            featured: "no",
-            category: "miscellaneous",
-            type: "cosmetics",
-            description: "Clinisoothe+ Skin Purifier 100ml is designed to effectively eliminate impurities, dirt, and pollutants from your skin. Its gentle yet potent ingredients ensure a thorough cleanse without causing irritation or dryness. With advanced antimicrobial properties, Clinisoothe+ can shield the skin from harmful bacteria and environmental stressors. This unique formula harnesses advanced hypochlorous technology to soothe and calm both facial and body skin. It also aids in reducing redness and preventing breakouts, promoting clear and healthy skin."
-        },
-        {
-            id: 77,
-            image: BCN,
-            name: "BCN Tech Meso Body Roller (1 x 1.0mm)",
-            price: 12.50,
-            bestSeller: "no",
-            featured: "no",
-            category: "miscellaneous",
-            type: "cosmetics",
-            description: "BCN Meso Body Roller is a device ideal for use in non-surgical treatment of various skin conditions such as fine lines and wrinkles, stretch marks, hyperpigmentation, cellulite and hair loss."
-        },
 
-        {
-            id: 78,
-            image: Surface_Paris_Mesoroller,
-            name: "Surface Paris Mesoroller (1 x 0.3mm)",
-            price: 15.50,
-            bestSeller: "no",
-            featured: "no",
-            category: "miscellaneous",
-            type: "cosmetics",
-            description: "Surface Paris Mesoroller is a device ideal for use in non-surgical treatment of various skin conditions such as fine lines and wrinkles, stretch marks, hyperpigmentation, cellulite and hair loss."
-        },
-        {
-            id: 79,
-            image: Thermage_Body_Frame,
-            name: "Thermage Body Frame Tip 16.0cm2 (1 x 500 REP) - Clearance",
-            price: 67.40,
-            bestSeller: "no",
-            featured: "no",
-            category: "miscellaneous",
-            type: "cosmetics",
-            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
-        },
+        // Botulinum
         {
             id: 90,
             image: Botox50units,
@@ -2361,7 +2318,464 @@ const products = {
             category: "botulinum",
             type: "cosmetics",
             description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
-        }
+        },
+
+
+        // miscellaneous
+        {
+            id: 73,
+            image: Hyacorp,
+            name: "Hyacorp Medical Marker",
+            price: 17.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: " "
+        },
+        {
+            id: 74,
+            image: Softfil,
+            name: "Softfil Skin Marker (1 x Marker)",
+            price: 15.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "White dermographic pencil ideal for marking on the skin. It allows the patient and the practitioner to identify the areas to be treated. For a perfect diagnosis of the desired injection areas, the patient should be examined in a sitting position before each treatment. The shadows will be used to draw the anatomical markers of the areas to be treated and to determine the points where the cannulas will be inserted. To draw, place your patient in a sitting position."
+        },
+        {
+            id: 75,
+            image: Ejal,
+            name: "Ejal Sunscreen Face SPF50+ (1 x 30ml)",
+            price: 33.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            descrtiption: "The hyaluronic acid in it intensively hydrates the skin and reduces the excessive water loss of the epidermis. Vitamin E in combination with maritime pine extract and Lactobacillus Ferment deeply regenerates and soothes the skin."
+        },
+
+        {
+            id: 76,
+            image: Clinisoothe,
+            name: "Clinisoothe+ Skin Purifier (1 x 100ml)",
+            price: 13.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Clinisoothe+ Skin Purifier 100ml is designed to effectively eliminate impurities, dirt, and pollutants from your skin. Its gentle yet potent ingredients ensure a thorough cleanse without causing irritation or dryness. With advanced antimicrobial properties, Clinisoothe+ can shield the skin from harmful bacteria and environmental stressors. This unique formula harnesses advanced hypochlorous technology to soothe and calm both facial and body skin. It also aids in reducing redness and preventing breakouts, promoting clear and healthy skin."
+        },
+        {
+            id: 77,
+            image: BCN,
+            name: "BCN Tech Meso Body Roller (1 x 1.0mm)",
+            price: 12.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "BCN Meso Body Roller is a device ideal for use in non-surgical treatment of various skin conditions such as fine lines and wrinkles, stretch marks, hyperpigmentation, cellulite and hair loss."
+        },
+        {
+            id: 78,
+            image: Surface_Paris_Mesoroller,
+            name: "Surface Paris Mesoroller (1 x 0.3mm)",
+            price: 15.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Surface Paris Mesoroller is a device ideal for use in non-surgical treatment of various skin conditions such as fine lines and wrinkles, stretch marks, hyperpigmentation, cellulite and hair loss."
+        },
+        {
+            id: 79,
+            image: Thermage_Body_Frame,
+            name: "Thermage Body Frame Tip 16.0cm2 (1 x 500 REP) - Clearance",
+            price: 67.40,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+
+        // 192-241
+        {
+            id: 192,
+            image: cingal,
+            name: "Cingal (1 x 4ml)",
+            price: 72.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Cingal is designed to safely and effectively treat the pain and certain symptoms associated with osteoarthritis. Cingal adds HA to the joints where it acts as a lubricant and shock absorber, it also reduces any inflammation. Cingal only requires a single injection to achieve fast acting and long lasting pain relief."
+        },
+        {
+            id: 193,
+            image: mbcn,
+            name: "BCN Tech Meso Facial Roller (1 x 0.5mm)",
+            price: 14.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "BCN Meso Facial Roller is a device ideal for use in non-surgical treatment of various skin conditions such as fine lines and wrinkles, stretch marks, hyperpigmentation, cellulite and hair loss."
+        },
+        {
+            id: 194,
+            image: mbcn2,
+            name: "BCN Tech Meso Pen Cartridges (1 x 25)",
+            price: 73.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Meso Pen is an electronic micro needle mechanism that opens more than 1.000 micro channels per second in the skin facilitating the introduction of active ingredients. The micro trauma that occurs stimulates skin repair"
+        },
+        {
+            id: 195,
+            image: mbcn3,
+            name: "BCN Tech Meso Pen Set",
+            price: 164.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Meso Pen is an electronic micro needle mechanism that opens more than 1.000 micro channels per second in the skin facilitating the introduction of active ingredients. The micro trauma that occurs stimulates skin repair"
+        },
+        {
+            id: 196,
+            image: cell,
+            name: "Celluerase (1 x 4 pieces)",
+            price: 103.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Love Cosmedical Celluerase is a microsurgical blade specifically designed to erase dimpling lesions that results from the alteration of the network of connective tissue strands that tethering the dermis to the deeper layers. Its aim is to perform subcision in a best and cheapest way."
+        },
+        {
+            id: 197,
+            image: mmeso,
+            name: "Mesoestetic Genesis Device",
+            price: 14480.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Genesis offering a combination of high power, versatility and efficacy wrapped up in a multi-tech device, Genesis is designed to achieve maximum results for the main aesthetic complaints."
+        },
+        {
+            id: 198,
+            image: mmeso2,
+            name: "Mesoestetic m.pen [pro] Ultimate Microneedling Device (5 Depths)",
+            price: 399.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Mesoestetic m.pen [pro] is the new device developed to afford spectacular results safely and effectively. Headpiece movement is automatic, constant and perpendicular to the skin, contributing to its recovery."
+        },
+        {
+            id: 199,
+            image: mmeso3,
+            name: "Mesoestetic MCT Injector (1 Device)",
+            price: 3762.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "In a single device, the mct injector brings together two complementary techniques: mesotherapy and carboxytherapy. Thanks to the combination of these two techniques in the same session or in alternate sessions, the physical therapist can use a complete tool to perform multiple facial and body treatments."
+        },
+        {
+            id: 200,
+            image: mmeso4,
+            name: "Mesoestetic MCT Injector Antibacterial Filter (1 x 5 Filters)",
+            price: 54.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "This product is for Mesoestetic MCT Injector device."
+        },
+        {
+            id: 201,
+            image: mmeso5,
+            name: "Mesoestetic MCT Injector CO2 Cartridges (1 x 10 Pieces)",
+            price: 159.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "This product is for Mesoestetic MCT Injector device."
+        },
+        {
+            id: 202,
+            image: mmeso6,
+            name: "Mesoestetic MCT Injector Long Catheters (1 x 20 Pieces)",
+            price: 42.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Mesoestetic MCT Inject Long Catheters"
+        },
+        {
+            id: 203,
+            image: mmeso7,
+            name: "Mesoestetic MCT Injector Short Catheters (1 x 50 Pieces)",
+            price: 53.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Mesoestetic MCT Injector Short Catheters"
+        },
+        {
+            id: 204,
+            image: mmeso8,
+            name: "Mesoestetic MCT Injector Skin Stabilisers (1 x 6 Pieces)",
+            price: 32.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Mesoestetic MCT Injector Skin Stabilisers"
+        },
+        {
+            id: 205,
+            image: therm,
+            name: "Thermage Body Frame Tip 16.0cm2 (1 x 500 REP) - Clearance",
+            price: 267.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage Body Frame Tip 16.0cm2 is a single-use, disposable tip designed for reshaping larger parts of the body, like the stomach, chest, thighs and the back. The body tip is used for passing radiofrequency energy through the skin tissues to rejuvenate larger skin surfaces. The Thermage Body Frame Tip 16.0cm2 uses maximum volume of bulk heat delivery for deep contouring and provides effective and comfortable body treatments and in half the time with five times the coverage of standard body tips. This tip has 500 REP and no vibration function. Works for both NXT and CPT system and with 4.3mm heating dept."
+        },
+        {
+            id: 206,
+            image: therm2,
+            name: "Thermage Body Tip 3.0cm2 DC (1 x 1200 REP)",
+            price: 290.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage 3.0cm2 Body Tip 1200 REP is used to deeply contour and tighten skin throughout the whole face, neck and body. The Body Tip addresses sagging skin and unwanted bulges. The Thermage 3.0cm2 DC Body Tip has 1200 REP and no vibration function. Works only for NXT system and with 4.3mm heating dept."
+        },
+        {
+            id: 207,
+            image: therm3,
+            name: "Thermage Coupling Fluid (6 x 60ml) - Special Offer",
+            price: 20.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage Coupling Fluid is an accessory used in Thermage CPT procedures to ensure consistent electrical contact between the patient’s skin and Thermage Treatment Tips for proper delivery of energy. The fluid also acts as a lubricant during the procedure, ensuring that the superficial epidermis is not affected by the treatment."
+        },
+        {
+            id: 208,
+            image: therm4,
+            name: "Thermage Eye Tip 0.25cm2 ST (1 x 450 REP)",
+            price: 209.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage 0.25cm2 Eye Tip is a Thermage treatment accessory designed to smooth out and tighten the skin of the upper and lower eyelids. The Eye Tip is specifically designed to use precise and shallow heating to smooth and tighten the sensitive skin of the upper and lower eyelids, reducing eyelid hooding and soften fine lines and crow’s feet. This treatment tip is configured to provide 450 pulses of radiofrequency energy."
+        },
+        {
+            id: 209,
+            image: therm5,
+            name: "Thermage Face Tip 3.0cm2 TC C1 (1 x 400 REP)",
+            price: 272.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage 3.0CM2 TC Face Tip C1 is a Thermage treatment accessory, used for skin tightening and contouring treatments. The Face Tip is only to be used for the face and neck and is specifically designed to be used on problematic facial skin as it helps to distribute lesser volumetric bulk heating than other membrane tips. This tip has 400 REP and no vibration function. Works for all systems with 2.4mm heating dept."
+        },
+        {
+            id: 210,
+            image: therm6,
+            name: "Thermage Face Tip 3.0cm2 TC C1 (1 x 900 REP)",
+            price: 333.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage Face Tip 3.0cm2 C1 is to be used for face and neck for skin tightening and contouring treatments. This tip has no vibration function. Works for all systems and with 2.4mm heating dept."
+        },
+        {
+            id: 211,
+            image: therm7,
+            name: "Thermage FLX Eye Tip 0.25cm2 (1 x 225 REP) - Clearance",
+            price: 233.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage FLX Eye Tip 0.25cm2 is a Thermage treatment accessory designed to smooth out and tighten the skin of the upper and lower eyelids. The Eye Tip is specifically designed to use precise and shallow heating to smooth and tighten the sensitive skin of the upper and lower eyelids, reducing eyelid hooding and soften fine lines and crow’s feet. This Treatment Tip is configured to provide 225 pulses of radiofrequency energy."
+        },
+        {
+            id: 212,
+            image: therm8,
+            name: "Thermage FLX Eye Tip 0.25cm2 (1 x 450 REP)",
+            price: 243.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage 0.25cm2 Eye Tip is a Thermage Treatment accessory to smooth out and tighten the skin of the upper and lower eyelids. The Eye Tip is specifically designed to use precise and shallow heating to smooth and tighten the sensitive skin of the upper and lower eyelids, reducing eyelid hooding and soften fine lines and crow’s feet. This Treatment Tip is configured to provide 450 pulses of radiofrequency energy."
+        },
+        {
+            id: 213,
+            image: therm9,
+            name: "Thermage FLX Footpiece",
+            price: 1800.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage FLX is a non-invasive radiofrequency treatment system designed to tighten the collagen in loose skin, and treat wrinkles and rhytids. It is also effective for the temporary improvement in the appearance of cellulite."
+        },
+        {
+            id: 214,
+            image: therm10,
+            name: "Thermage FLX Handpiece",
+            price: 11900.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage FLX is a non-invasive radiofrequency treatment system designed to tighten the collagen in loose skin, and treat wrinkles and rhytids. It is also effective for the temporary improvement in the appearance of cellulite."
+        },
+        {
+            id: 215,
+            image: therm11,
+            name: "Thermage FLX Return Pads TR-4 (1 x 12 pieces)",
+            price: 53.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage Return Pad is used to complete the radio frequency return pad to the console."
+        },
+        {
+            id: 216,
+            image: therm12,
+            name: "Thermage FLX Total Tip 3.0cm2 (1 x 1200 REP)",
+            price: 311.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage FLX Total Tip 3.0cm2 uses maximum volume of bulk heat delivery for the whole face, neck and body and treats deeply to contour and tighten skin, addressing sagging skin and unwanted bulges. This tip has 1200 REP and uses gentle vibrations interspersed with a cooling sensation."
+        },
+        {
+            id: 217,
+            image: therm13,
+            name: "Thermage FLX Total Tip 3.0cm2 (1 x 400 REP)",
+            price: 386.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Thermage FLX Total Tip 3.0cm2 uses maximum volume of bulk heat delivery for the whole face, neck and body and treats deeply to contour and tighten skin, addressing sagging skin and unwanted bulges. This tip has 400 REP and uses gentle vibrations interspersed with a cooling sensation."
+        },
+        {
+            id: 218,
+            image: therm14,
+            name: "Thermage FLX Total Tip 4.0cm2 (1 x 300 REP)",
+            price: 346.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage FLX Total Tip 4.0 is a Thermage treatment accessory, used for skin tightening and contouring treatments."
+        },
+        {
+            id: 219,
+            image: therm15,
+            name: "Thermage FLX Total Tip 4.0cm2 (1 x 600 REP)",
+            price: 293.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage FLX Total Tip 4.0 is a Thermage treatment accessory, used for skin tightening and contouring treatments."
+        },
+        {
+            id: 220,
+            image: therm16,
+            name: "Thermage FLX Total Tip 4.0cm2 (1 x 900 REP)",
+            price: 306.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage FLX Total Tip 4.0 is a Thermage treatment accessory, used for skin tightening and contouring treatments."
+        },
+        {
+            id: 221,
+            image: therm17,
+            name: "Thermage Return Pads TR-2 (1 x 12 pieces) - Clearance",
+            price: 38.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage Return Pads are single-use consumables used with the Thermage CPT system to help prevent electrical burns. The return pad is a rubber, non-active electrode that should be placed directly onto the patient’s skin surface to create a return path for the radiofrequency energy that are transmitted into the patient’s skin so it can return to the Thermage CPT system."
+        },
+        {
+            id: 222,
+            image: therm18,
+            name: "Thermage Skin Marking Paper 0.25cm2 (1 x 6 Sheets) - Clearance",
+            price: 28.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage TK Skin Marking Paper is used to delineate a specific treatment area to avoid overlapped or missed treatments in Thermage CPT treatments. The stencil is made of temporary ink that is meant to be transferred onto the skin so that physicians can conduct the procedure of Thermage CPT treatments precisely and uniformly."
+        },
+        {
+            id: 223,
+            image: therm19,
+            name: "Thermage Skin Marking Paper 16.0cm2 (1 x 6 Sheets) - Clearance",
+            price: 97.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage TK Skin Marking Paper is used to delineate a specific treatment area to avoid overlapped or missed treatments in Thermage CPT treatments. The stencil is made of temporary ink that is meant to be transferred onto the skin so that physicians can conduct the procedure of Thermage CPT treatments precisely and uniformly."
+        },
+        {
+            id: 224,
+            image: therm20,
+            name: "Thermage Skin Marking Paper 3.0cm2 (1 x 6 Sheets) - Clearance",
+            price: 39.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage Skin Marking Paper 3.0cm2 is used to delineate a specific treatment area to avoid overlapped or missed treatments in Thermage CPT treatments. The stencil is made of temporary ink that is meant to be transferred onto the skin so that physicians can conduct the procedure of Thermage CPT treatments precisely and uniformly. Thermage TK Skin Marking Paper contains 6 pre-defined grid pattern single-use stencil that is used to direct precise pulse placement for the treatment zones on the applied skin area."
+        },
+        {
+            id: 224,
+            image: therm21,
+            name: "Thermage Skin Marking Paper 4.0cm2 (1 x 6 Sheets) - Clearance",
+            price: 28.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage Skin Marking Paper 3.0cm2 is used to delineate a specific treatment area to avoid overlapped or missed treatments in Thermage CPT treatments. The stencil is made of temporary ink that is meant to be transferred onto the skin so that physicians can conduct the procedure of Thermage CPT treatments precisely and uniformly. Thermage TK Skin Marking Paper contains 6 pre-defined grid pattern single-use stencil that is used to direct precise pulse placement for the treatment zones on the applied skin area."
+        },
     ]
 }
 export default products

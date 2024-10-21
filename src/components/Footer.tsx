@@ -29,11 +29,15 @@ const Footer = () => {
             <li className=" text-lg font-light">
               <Link to={'/'}>Home</Link>
             </li>
-            <li className=" text-lg font-light">Shop</li>
+            <li className=" text-lg font-light">
+              <Link to={'/shop'}>Shop</Link>
+            </li>
             <li className=" text-lg font-light">
               <Link to={'/about'}>About</Link>
             </li>
-            <li className=" text-lg font-light">Contact</li>
+            <li className=" text-lg font-light">
+              <Link to={'/contact'}>Contact</Link>
+            </li>
           </ul>
         </div>
 
@@ -42,8 +46,12 @@ const Footer = () => {
             <li className=" font-semibold text-2xl uppercase mb-4">
               Categories
             </li>
-            <li className=" text-lg font-light">Cosmetics</li>
-            <li className=" text-lg font-light">Accessories</li>
+            <li className=" text-lg font-light">
+              <Link to={'/shop'}>Cosmetics</Link>
+            </li>
+            <li className=" text-lg font-light">
+              <Link to={'/shop'}>Accessories</Link>
+            </li>
           </ul>
         </div>
 

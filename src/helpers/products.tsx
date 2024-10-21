@@ -1,3 +1,21 @@
+import bd6 from '../assets/bd6.webp'
+import bd5 from '../assets/bd5.webp'
+import bd4 from '../assets/bd4.webp'
+import bd3 from '../assets/bd3.webp'
+import bd2 from '../assets/bd2.webp'
+import bd from '../assets/bd.webp'
+import thermo2 from '../assets/thermo2.webp'
+import thermo from '../assets/thermo.webp'
+import shield from '../assets/shield.webp'
+import travik from '../assets/travik.webp'
+import zimmer from '../assets/zimmer.webp'
+import therm28 from '../assets/therm28.webp'
+import therm27 from '../assets/therm27.webp'
+import therm26 from '../assets/therm26.webp'
+import therm25 from '../assets/therm25.webp'
+import therm24 from '../assets/therm24.webp'
+import therm23 from '../assets/therm22.webp'
+import therm22 from '../assets/therm22.webp'
 import therm21 from '../assets/therm18.webp'
 import therm20 from '../assets/therm18.webp'
 import therm19 from '../assets/therm18.webp'
@@ -2766,7 +2784,7 @@ const products = {
             description: "Thermage Skin Marking Paper 3.0cm2 is used to delineate a specific treatment area to avoid overlapped or missed treatments in Thermage CPT treatments. The stencil is made of temporary ink that is meant to be transferred onto the skin so that physicians can conduct the procedure of Thermage CPT treatments precisely and uniformly. Thermage TK Skin Marking Paper contains 6 pre-defined grid pattern single-use stencil that is used to direct precise pulse placement for the treatment zones on the applied skin area."
         },
         {
-            id: 224,
+            id: 225,
             image: therm21,
             name: "Thermage Skin Marking Paper 4.0cm2 (1 x 6 Sheets) - Clearance",
             price: 28.00,
@@ -2775,6 +2793,204 @@ const products = {
             category: "miscellaneous",
             type: "cosmetics",
             description: "Thermage Skin Marking Paper 3.0cm2 is used to delineate a specific treatment area to avoid overlapped or missed treatments in Thermage CPT treatments. The stencil is made of temporary ink that is meant to be transferred onto the skin so that physicians can conduct the procedure of Thermage CPT treatments precisely and uniformly. Thermage TK Skin Marking Paper contains 6 pre-defined grid pattern single-use stencil that is used to direct precise pulse placement for the treatment zones on the applied skin area."
+        },
+        {
+            id: 226,
+            image: therm22,
+            name: "Thermage Total Tip 3.0cm2 (1 x 1200 REP)",
+            price: 311.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage Total Tip 3.0cm2, 1200 REP uses maximum volume of bulk heat delivery for the whole face, neck and body and treats deeply to contour and tighten skin; addressing sagging skin and unwanted bulges. This tip has 1200 REP and uses gentle vibrations interspersed with a cooling sensation. Works only for CPT system and with 4,3mm heating dept."
+        },
+        {
+            id: 227,
+            image: therm23,
+            name: "Thermage Total Tip 3.0cm2 (1 x 900 REP)",
+            price: 371.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Thermage Total Tip 3.0cm2, 1200 REP uses maximum volume of bulk heat delivery for the whole face, neck and body and treats deeply to contour and tighten skin; addressing sagging skin and unwanted bulges. This tip has 1200 REP and uses gentle vibrations interspersed with a cooling sensation. Works only for CPT system and with 4,3mm heating dept."
+        },
+        {
+            id: 228,
+            image: therm24,
+            name: "Ulthera DeepSEE Transducer DS 10-1,5",
+            price: 2380.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Energy Type Ultrasound Transducers multi-patient use, region-specific Transducers DS 10-1,5 (2.5cm)"
+        },
+        {
+            id: 228,
+            image: therm25,
+            name: "Ulthera DeepSEE Transducer DS 4-4.5",
+            price: 2380.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Energy Type Ultrasound Transducers multi-patient use, region-specific Transducers DS 4-4,5"
+        },
+        {
+            id: 229,
+            image: therm26,
+            name: "Ulthera DeepSEE Transducer DS 7-3.0",
+            price: 2380.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Energy Type Ultrasound Transducers multi-patient use, region-specific Transducers DS 7-3,0"
+        },
+        {
+            id: 229,
+            image: therm27,
+            name: "Ulthera DeepSEE Transducer DS 7-3.0 Narrow",
+            price: 2380.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Energy Type: Ultrasound Transducers multi-patient use, region-specific Transducers DS 7-3.0 DeepSEE"
+        },
+        {
+            id: 230,
+            image: therm28,
+            name: "Ulthera Machine Hand Piece",
+            price: 4800.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Ulthera Machine Hand Piece"
+        },
+        {
+            id: 231,
+            image: zimmer,
+            name: "Zimmer MedizinSysteme enPuls 2.0",
+            price: 6479.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Zimmer MedizinSysteme enPuls 2.0 is the second generation mobile shockwave unit with a slow wave of approximately 13.5 µs, the enPuls 2.0 is designed to produce the same results while reducing discomfort or the 'whiplash effect' that is produced by similar shockwave devices."
+        },
+        {
+            id: 232,
+            image: travik,
+            name: "Travik Hand Sanitiser (1 x 500ml)",
+            price: 8.60,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Alcohol based hand sanitiser gel with moisturiser. Fast acting bacterial action."
+        },
+        {
+            id: 233,
+            image: shield,
+            name: "Disposable Face Shield (Single)",
+            price: 2.40,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Made of transparent HD material, provides clear vision"
+        },
+        {
+            id: 234,
+            image: thermo,
+            name: "BBLove Infrared Thermometer",
+            price: 23.60,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "Record temperature safely and accurately with this non-contact infrared digital thermometer from BBLove. The temperature reading is displayed within 1 second on the built-in LED display. The reading is accurate to within 0.36 to 0.54°F, it has a range of 90 to 108°F, and the built-in memory can recall the last 32 readings so you can track an illness."
+        },
+        {
+            id: 235,
+            image: thermo2,
+            name: "Hti Body Infrared Thermometer",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Hti infrared thermometer is a handheld device designed to measure body temperature in infants and adults without contact. There are two measurement modes: body temperature and body surface temperature. It can store 34 body temperature digits and alarms are available for high and low body temperature. To be used by consumers in a household environment or medical clinic."
+        },
+        {
+            id: 236,
+            image: bd,
+            name: "BD Catheter Tip Hypodermic Syringes 50ml Plastipak (1 x 60) - Clearance",
+            price: 39.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "BD Plastipak Luer Slip syringes are sterile, single use and latex free. Clear barrel and bold, black graduations for accurate measurement."
+        },
+        {
+            id: 237,
+            image: bd2,
+            name: "BD Luer-Lok Tip Syringes 10ml Plastipak (305959) (1 x 2 Syringes) - Clearance",
+            price: 2.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "BD Plastipak Luer-Lok syringes are sterile, single use and latex free. 3 piece construction Luer-Lok syringe without needle. Clear barrel and bold, black graduations for accurate measurement. BD Plastipak Luer-Lok syringes are latex free, sterile and individually wrapped."
+        },
+        {
+            id: 238,
+            image: bd3,
+            name: "BD Luer-Lok Tip Syringes 1ml Plastipak (309628) (1 x 100)",
+            price: 78.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "The Plastipak syringe has a clear central cone with bold scale markings for accurately reading measurements. The plunger has a smooth movement and and is secured at the end to prevent accidental withdrawal."
+        },
+        {
+            id: 239,
+            image: bd4,
+            name: "BD Luer-Lok Tip Syringes 20ml Plastipak (300629) (1 x 120) - Clearance",
+            price: 62.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "BD Plastipak Luer-Lok syringes are sterile, single use and latex free. 3 piece construction Luer-Lok syringe without needle. Clear barrel and bold, black graduations for accurate measurement. BD Plastipak Luer-Lok syringes are latex free, sterile and individually wrapped."
+        },
+        {
+            id: 240,
+            image: bd5,
+            name: "BD Luer-Lok Tip Syringes 50ml Plastipak (300865) (1 x 60) - Clearance",
+            price: 79.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "BD Plastipak Luer-Lok syringes are sterile, single use and latex free. 3 piece construction Luer-Lok syringe without needle. Clear barrel and bold, black graduations for accurate measurement. BD Plastipak Luer-Lok syringes are latex free, sterile and individually wrapped."
+        },
+        {
+            id: 241,
+            image: bd6,
+            name: "BD Luer-Lok Tip Syringes 50ml Plastipak (300865) (55 Syringes) - Special Offer",
+            price: 73.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "miscellaneous",
+            type: "cosmetics",
+            description: "BD Plastipak Luer-Lok syringes are sterile, single use and latex free. 3 piece construction Luer-Lok syringe without needle. Clear barrel and bold, black graduations for accurate measurement. BD Plastipak Luer-Lok syringes are latex free, sterile and individually wrapped."
         },
     ]
 }

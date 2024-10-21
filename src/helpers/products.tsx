@@ -1,3 +1,43 @@
+import prx6 from '../assets/prx6.webp'
+import prx5 from '../assets/prx5.webp'
+import prx4 from '../assets/prx4.webp'
+import prx3 from '../assets/prx3.webp'
+import prx2 from '../assets/prx2.webp'
+import prx from '../assets/prx.webp'
+import croma14 from '../assets/croma14.webp'
+import croma13 from '../assets/croma13.webp'
+import croma12 from '../assets/croma12.webp'
+import croma11 from '../assets/croma11.webp'
+import croma10 from '../assets/croma10.webp'
+import croma9 from '../assets/croma9.webp'
+import croma8 from '../assets/croma8.webp'
+import croma7 from '../assets/croma7.webp'
+import croma6 from '../assets/croma5.webp'
+import croma5 from '../assets/croma6.webp'
+import croma4 from '../assets/croma4.webp'
+import croma3 from '../assets/croma3.webp'
+import croma2 from '../assets/croma2.webp'
+import croma from '../assets/croma1.webp'
+import exo from '../assets/exo.webp'
+import bio5 from '../assets/bio5.webp'
+import bio4 from '../assets/bio4.webp'
+import bio3 from '../assets/bio3.webp'
+import bio2 from '../assets/bio2.webp'
+import bio from '../assets/bio.webp'
+import plu2 from '../assets/plu2.webp'
+import plu from '../assets/plu.webp'
+import nucleofil from '../assets/nucleofil.webp'
+import cyj5 from '../assets/cyj5.webp'
+import cyj4 from '../assets/cyj4.webp'
+import cyj3 from '../assets/cyj3.webp'
+import cyj2 from '../assets/cyj2.webp'
+import cyj from '../assets/cyj.webp'
+import bcn6 from '../assets/bcn6.webp'
+import bcn5 from '../assets/bcn5.webp'
+import bcn4 from '../assets/bcn4.webp'
+import bcn3 from '../assets/bcn3.webp'
+import bcn2 from '../assets/bcn2.webp'
+import bcn from '../assets/bcn.webp'
 import inno20 from '../assets/inno20.webp'
 import inno19 from '../assets/inno19.webp'
 import inno18 from '../assets/inno18.webp'
@@ -134,6 +174,7 @@ import Teosyal from '../assets/teosyal.webp'
 import Teosyal2 from '../assets/Teosyal2.webp'
 import Teosyal3 from '../assets/teosyal3.webp'
 import Teosyal4 from '../assets/teosyal4.webp'
+import Teosyal5 from '../assets/teosyal4.webp'
 import Teosyal6 from '../assets/teosyal6.webp'
 import Teosyal7 from '../assets/teosyal7.webp'
 import Teosyal8 from '../assets/teosyal8.webp'
@@ -364,7 +405,7 @@ const products = {
         },
         {
             id: 119,
-            image: Teosyal4,
+            image: Teosyal5,
             name: "Teosyal Puresense Redensity 1 Lidocaine (2 x 1ml)",
             price: 57.50,
             bestSeller: "no",
@@ -997,6 +1038,227 @@ const products = {
             type: "cosmetics",
             description: "Pelo Baum Hair Revitalizing Solution is a special formula containing 10 active ingredients for hair restoration: 3 peptides, 2 vitamins and 5 natural plant extracts. Everyone of these is crucial in growing long, luxurious hair. The solution is perfect for stimulating hair growth, preventing future hair loss and promoting longer, thicker healthier hair without any side effects. The formula is clinically formulated and the hair growth product is made to nourish and soothe the scalp to provide for comfort and better growth and lower hair loss. The products are highly recommended after hair transplant for faster results."
         },
+        // 152-171
+        {
+            id: 152,
+            image: bcn,
+            name: "BCN Classics Biotin (10 x 2ml)",
+            price: 13.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Biotin, also known as vitamin H, is necessary for cell growth, production of fatty acids and for metabolizing fats and amino acids. Biotin Nutritive Solution actively helps to stimulate cell repair and promote healthy skin cell and tissue growth, leading to an overall improvement in the structure and appearance of the skin. By accelerating lipid synthesis, it improves the skin’s ability to act as a natural barrier and noticeably reduces fine wrinkles. Furthermore, this active substance can be used to alleviate the symptoms of seborrheic dermatitis, eczema and dry skin, as well as combating hair loss and greying."
+        },
+        {
+            id: 153,
+            image: bcn2,
+            name: "BCN Classics Dexpanthenol (10 x 5ml)",
+            price: 15.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Dexpanthenol Nutritive Solution acts as a moisturizer, boosting moisture levels in the stratum corneum, reducing transepidermal water loss and maintaining the skin’s natural softness and elasticity. Dexpanthenol is a skin-calming agent whose beneficial effects have been widely documented."
+        },
+        {
+            id: 154,
+            image: bcn3,
+            name: "BCN Classics Ginkgo Biloba (10 x 5ml)",
+            price: 13.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Ginkgo’s most powerful effect is on the circulatory system. Ginkgo improves blood circulation by widening the micro-capillaries while simultaneously strengthening the vessel walls. This dual action makes Ginkgo Biloba Anti-Cellulite Solution ideal for stimulating localized lipolysis and for treating cellulite."
+        },
+        {
+            id: 155,
+            image: bcn4,
+            name: "BCN Classics Taurine (10 x 2ml)",
+            price: 17.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "BCN Taurine is an amino acid vital in keratin synthesis which promotes the circulation of nutrients in the hair. It focuses in hair bulbs preventing its deformation, prolonging its life and stimulating its growth. When applied to the scalp it reinforces hair mass and provides shine and volume to the hair which grows thicker, healthier and stronger."
+        },
+        {
+            id: 156,
+            image: bcn5,
+            name: "BCN Classics X-DNA Gel (5 x 2.5ml) - Special Offer",
+            price: 25.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "A natural polymer with excellent anti-oxidant and moisturizing capabilities that protect the cell membranes from oxidative degradation. Its capacity to restore dead cells and reconstruct connective tissue stimulates the healing processes. Nucleic acid combats collagen destruction caused by sun rays, oxidative stress and tobacco. As well as being used in anti-ageing treatments to fight photoageing, X-DNA Gel also enhances the skin of smokers and is able to improve a variety of conditions such as dry skin, wrinkles, stretch marks and hair loss."
+        },
+        {
+            id: 157,
+            image: bcn6,
+            name: "BCN Cocktails Scalp (5 x 5ml)",
+            price: 27.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "BCN Scalp acts on different levels of the hair growth cycle. It establishes cellular regeneration systems and seeks to correct the unbalanced hormonal and glandular conditions associated with men or women’s hair loss."
+        },
+        {
+            id: 158,
+            image: cyj,
+            name: "Dr. CYJ Hair Filler (2 x 1ml)",
+            price: 55.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Dr. CYJ Hair Filler is an injection gel that is created for treating hair problems including hair loss and improving thickness. Dr. CYJ Hair Filler is a unique formula combining hyaluronic acid with seven peptides. The gel acts through a revitalisation of the skin cells and the scalp, promotes blood circulation on the surface of the head and improves blood circulation."
+        },
+        {
+            id: 159,
+            image: cyj2,
+            name: "Dr. CYJ iDr Instant Damage Repair Hair Mask (1 x 100ml)",
+            price: 28.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "DR. CYJ iDR (Instant Damage Repair) is an innovative hair care brand that not only instantly repair hair damaged by dyeing, perming, straightening, etc., but also minimizes and prevents damages when used before chemical& physical hair treatments."
+        },
+        {
+            id: 160,
+            image: cyj3,
+            name: "Dr. CYJ iDr Instant Damage Repair Hair Mask (1 x 50ml)",
+            price: 25.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "DR. CYJ iDR (Instant Damage Repair) is an innovative hair care brand that not only instantly repair hair damaged by dyeing, perming, straightening, etc., but also minimizes and prevents damages when used before chemical& physical hair treatments."
+        },
+        {
+            id: 161,
+            image: cyj4,
+            name: "Dr. CYJ iDr Instant Damage Repair Hair Mist (1 x 100ml)",
+            price: 33.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "DR. CYJ iDR (Instant Damage Repair) is an innovative hair care brand that not only instantly repair hair damaged by dyeing, perming, straightening, etc., but also minimizes and prevents damages when used before chemical& physical hair treatments."
+        },
+        {
+            id: 162,
+            image: cyj5,
+            name: "Dr. CYJ iDr Instant Damage Repair Hair Mist (1 x 50ml)",
+            price: 27.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "DR. CYJ iDR (Instant Damage Repair) is an innovative hair care brand that not only instantly repair hair damaged by dyeing, perming, straightening, etc., but also minimizes and prevents damages when used before chemical& physical hair treatments."
+        },
+        {
+            id: 163,
+            image: nucleofil,
+            name: "Nucleofill Hair (1 x 2ml)",
+            price: 56.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Nucelofill Hair is a sterile sodium DNA-based gel with moisturizing properties, specific for the scalp."
+        },
+        {
+            id: 164,
+            image: plu,
+            name: "Pluryal Densifier Hair Density (1 x 2ml)",
+            price: 71.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Action Nourishes hair follicles and strengthens the scalp | Increases hair number and diameter"
+        },
+        {
+            id: 165,
+            image: plu2,
+            name: "Pluryal Mesoline Hair (5 vials x 5ml)",
+            price: 46.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Pluryal Mesoline Hair 5ml is a treatment designed to prevent hair loss caused by stress, pregnancy, medication, hormonal changes or the ageing process. This product is ideal to increase hair growth and improve hair quality by stimulating the blood flow in the hair follicles."
+        },
+        {
+            id: 166,
+            image: bio,
+            name: "Biologique Recherche Baume Capillaire (1 x 200ml)",
+            price: 59.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "A genuine boon for those with dry and damaged hair, Baume Capillaire is a triple-action treatment that detangles hair, smooths and protects the hair cuticles. It flattens the scales of the hair cuticles while covering hair shafts in a protective sheath to halt further external damage. The hair also becomes easier to detangle. Gives hair more vitality, gloss and suppleness."
+        },
+        {
+            id: 167,
+            image: bio2,
+            name: "Biologique Recherche Complexe Cegaba + Bioproline (12 x 5ml)",
+            price: 113.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Complexe Cegaba + Bioproline helps anchor the hair, so it’s less prone to fall out. This intensive treatment combats hair loss."
+        },
+        {
+            id: 168,
+            image: bio3,
+            name: "Biologique Recherche Lotion P50 Capillaire (1 x 250ml)",
+            price: 98.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Lotion Capillaire P50 contains the core ingredients of the P50 formula, as well as active ingredients specifically intended for the scalp, to reduce itching. It regulates sebum secretions so the scalp is clean and rebalanced."
+        },
+        {
+            id: 169,
+            image: bio4,
+            name: "Biologique Recherche Shampooing Traitant Dermo-Apaisant (1 x 250ml)",
+            price: 48.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Shampooing Traitant Dermo-Apaisant is a gentle treatment shampoo suitable even for the most sensitive scalps, cleansing and protecting hair while preserving the natural balance of the skin. Its soothing and reconditioning active ingredients combine effectively to calm an itching scalp and provide a genuine sensation of relief."
+        },
+        {
+            id: 170,
+            image: bio5,
+            name: "Biologique Recherche Shampooing Traitant VIP O2 (1 x 250ml)",
+            price: 44.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Shampooing Traitant VIP O2 delivers anti-pollution haircare by eliminating the polluting particles on the scalp and hair lengths. It contains Oxygenating Complex to stimulate cell respiration, replenishing cells whose oxygen content has become depleted. Once cleansed of urban pollutants, the hair regains its original strength and glossy shine."
+        },
+        {
+            id: 171,
+            image: exo,
+            name: "Exosignal Hair (5 x 5ml)",
+            price: 169.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "hair-treatments",
+            type: "cosmetics",
+            description: "Embrace the future of hair care with this unique and immediately effective cocktail. Its ingredients contain the perfect synergy to help prevent and slow down hair loss."
+        },
 
         // beauty
         {
@@ -1131,6 +1393,228 @@ const products = {
             type: "cosmetics",
             description: "Farewell aging skin is enriched with Hyaluronic Acid and Madecassoside to keep the skin hydrated and to improve the suppleness and firmness of the skin. Marine ferment extract and a plant derived alternative to Retinol are known for anti-aging effects and help to lift the sagging skin. The added Vitamin C offers additional antioxidative properties and effectively improves appearance of photo-damaged skin and wrinkles. Perfume Free. Vegan."
         },
+        // 172-191
+        {
+            id: 172,
+            image: croma,
+            name: "Croma Calming Face Mask (1 x 8 Masks)",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "The calming face mask contains many ingredients known for their antioxidant and soothing effects as well as skin-regenerating properties. Its components replenish the skin with vitamins, soothe irritations and provide protection against harmful environmental influences. Regular use helps to strengthen the skin barrier and provides optimal care for your skin. "
+        },
+        {
+            id: 173,
+            image: croma2,
+            name: "Croma Detox Face Mask (1 x 8 Masks)",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "The serum within our Croma Detox Sheet Mask is composed of a unique blend of ingredients known to purify the skin and leave a smooth and radiant appearance. Calming and hydrating ingredients guarantee a gentle application without stripping the skin of its natural barrier. The sheet material is comprised of a mixture of bamboo fibres and charcoal which leave the skin feeling soft."
+        },
+        {
+            id: 174,
+            image: croma3,
+            name: "Croma Energizing Eye Mask (1 x 8 Patches)",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Croma energizing eye mask provides an instant boost of hydration. The mask is packed with soothing ingredients that sustainably improve the skin barrier function and skin elasticity. The fermented extracts nourish the skin with valuable postbiotics. The eye mask contains powerful antioxidants, including vitamin C, that help to moisturize and reduce signs of fatigue, while providing an extra energy kick for a fresh and energized appearance."
+        },
+        {
+            id: 175,
+            image: croma4,
+            name: "Croma Farewell Dry Skin (1 x 30ml)",
+            price: 55.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Dry skin, often characterized by a feeling of skin tightness, fine lines and scaling, can be caused by various reasons (e.g. environmental causes). farewell dry skin combines active agents with highly hydrating properties including Hyaluronic Acid, Niacinamide, D-Panthenol and Aloe Vera to effectively moisturize the skin, strengthen the skin barrier and maintain skin softness and elasticity. Perfume Free. Vegan."
+        },
+        {
+            id: 176,
+            image: croma5,
+            name: "Croma Farewell Dry Skin (1 x 5ml)",
+            price: 18.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Dry skin, often characterized by a feeling of skin tightness, fine lines and scaling, can be caused by various reasons (e.g. environmental causes). farewell dry skin combines active agents with highly hydrating properties including Hyaluronic Acid, Niacinamide, D-Panthenol and Aloe Vera to effectively moisturize the skin, strengthen the skin barrier and maintain skin softness and elasticity. Perfume Free. Vegan."
+        },
+        {
+            id: 177,
+            image: croma6,
+            name: "Croma Farewell Irritated Skin (1 x 30ml)",
+            price: 55.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Especially formulated for irritated, sensitive skin, farewell irritated skin helps soothing irritations, reducing skin redness and strengthening the skin barrier. Due to the main ingredients, including Hyaluronic Acid, Madecassoside, Niacinamide and D-Panthenol the serum is highly moisturizing, while increasing the elasticity and the smoothness of the skin. Perfume Free. Vegan."
+        },
+        {
+            id: 178,
+            image: croma7,
+            name: "Croma Farewell Oily Skin (1 x 30ml)",
+            price: 55.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Oily skin is often characterized by an increased sebum production. The oilier areas of the face are prone to acne, blackheads and pimples. Formulated especially for this skin type, farewell oily skin contains a Zinc complex and Plankton Extract to reduce blemishes and clogged pores, while reducing the facial sebum production and minimizing the shine. Niacinamide and Wintergreen leaf extract regenerate the skin barrier and ensure a smoother, softer skin and a perfect glowing complexion. Perfume Free. Vegan."
+        },
+        {
+            id: 179,
+            image: croma8,
+            name: "Croma Farewell Oily Skin (1 x 5ml)",
+            price: 18.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Oily skin is often characterized by an increased sebum production. The oilier areas of the face are prone to acne, blackheads and pimples. Formulated especially for this skin type, farewell oily skin contains a Zinc complex and Plankton Extract to reduce blemishes and clogged pores, while reducing the facial sebum production and minimizing the shine. Niacinamide and Wintergreen leaf extract regenerate the skin barrier and ensure a smoother, softer skin and a perfect glowing complexion. Perfume Free. Vegan."
+        },
+        {
+            id: 180,
+            image: croma9,
+            name: "Croma Farewell Puffy Eyes (1 x 30ml)",
+            price: 55.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Puffiness and dark circles under the eyes are often caused by tiredness and stress. farewell puffy eyes is the ideal serum to fight appearances of shadows and swelling around the eyes, thanks to effective ingredients such as Hyaluronic Acid, D-Panthenol, Ash tree bark extract, organic silicon and Vitamin B3. The delicate formulation ensures a refreshing and cooling effect for an enhanced radiance and a glowing skin. Perfume Free. Vegan."
+        },
+        {
+            id: 181,
+            image: croma10,
+            name: "Croma Farewell Puffy Eyes (1 x 5ml)",
+            price: 18.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Puffiness and dark circles under the eyes are often caused by tiredness and stress. farewell puffy eyes is the ideal serum to fight appearances of shadows and swelling around the eyes, thanks to effective ingredients such as Hyaluronic Acid, D-Panthenol, Ash tree bark extract, organic silicon and Vitamin B3. The delicate formulation ensures a refreshing and cooling effect for an enhanced radiance and a glowing skin. Perfume Free. Vegan."
+        },
+        {
+            id: 182,
+            image: croma11,
+            name: "Croma Firming Laugh Line Mask (1 x 8 Patches)",
+            price: 28.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Croma firming mask for laugh lines is enriched with hyaluronic acid to intensely hydrate and soothe the skin of the nasolabial folds. The carefully selected ingredients include Palmitoyl hexapeptide, a biomimetic peptide that gives a firming effect and smoothes the appearance of wrinkles. Pomegranate ferment extract, a potent antioxidant, has the ability to increase skin collagen."
+        },
+        {
+            id: 183,
+            image: croma12,
+            name: "Croma Hyaluronic Acid Face Mask (1 x 8 Masks)",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "The Hyaluronic Acid Face Mask refreshes dehydrated skin, alleviates visible dryness and helps to improve the skin’s elasticity. In addition to its pleasant cooling effect, it helps to smooth small wrinkles and ensures a radiant complexion."
+        },
+        {
+            id: 184,
+            image: croma13,
+            name: "Croma Regenerating Lip Mask (1 x 8 Patches)",
+            price: 28.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "The regenerating lip mask is infused with hyaluronic acid, aloe vera and berry ferment that deeply moisturize the delicate lip area while providing a cooling and regenerating effect. The ingredients soften and plump the lips."
+        },
+        {
+            id: 185,
+            image: croma14,
+            name: "Croma Tightening Face Mask (1 x 5 Masks)",
+            price: 29.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Indulge in a luxurious skincare experience with our Croma Tightening Face Mask, crafted from a biocellulose sheet infused with hydrating and revitalizing ingredients. The advanced peptide complex contains biomimetic signal peptides that work to soften fine lines, may support collagen production, and deliver antioxidant effects. Coenzyme Q10 offers soothing and antioxidant properties, while spinach leaves and green tea extract provide potent antioxidant support. The formula is enriched with hyaluronic acid to deeply hydrate the skin, alleviating dryness and enhancing moisture levels."
+        },
+        {
+            id: 186,
+            image: prx,
+            name: "PRX P-Solution (1 x 300ml)",
+            price: 33.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "PRX P-Solution is a pre-treatment solution for delicate cleansing, which is ideal to use before PRX-T33 treatment. PRX P-Solution gently cleanses the skin without drying it and without leaving any residue, while it helps to stabilise the skins pH. PRX P-Solution also evens and loosens the stratum corneum (top layer of the epidermis) which prepares the skin for treatment and improves the penetration of products applied after. PRX P-Solution is formulated with delicate cleansers and calibrated acids, which helps to exfoliate, moisturise and cleanse the skin."
+        },
+        {
+            id: 187,
+            image: prx2,
+            name: "PRX P-Solution (1 x 300ml)",
+            price: 57.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "PRX-Therapy Kit is an innovative post-procedure kit for home use after an aesthetic treatment, like PRX-T33, to maintain the characteristics of a younger-looking and healthier skin. The skin care kit is suitable for all ages. The treatment has no “downtime”, is simple and painless."
+        },
+        {
+            id: 188,
+            image: prx3,
+            name: "PRX-T33 Spatula (Large) (Single)",
+            price: 32.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "To be used as an applicator for PRX-T33 products."
+        },
+        {
+            id: 189,
+            image: prx4,
+            name: "PRX-T33 Spatula (Medium) (Single)",
+            price: 29.60,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "To be used as an applicator for PRX-T33 products."
+        },
+        {
+            id: 190,
+            image: prx5,
+            name: "PRX-T33 Spatula (Small) (Single)",
+            price: 28.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "To be used as an applicator for PRX-T33 products."
+        },
+        {
+            id: 191,
+            image: prx6,
+            name: "WiQo Balancing Cream (1 x 30ml)",
+            price: 39.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "beauty",
+            type: "cosmetics",
+            description: "Contains micronised azelaic acid in combination with encapsulated salicylic acid, three active fermented plant extracts - Bifida lysate, fermented camellia oil, fermented folic acid - vitamin E, vitamin B3 (niacinamide) and Azelamidopropyl Dimethyl Amine (ADA), a super new-generation active ingredient that has many beneficial effects on impure skin."
+        },
+
 
         // fat dissolvers
         {

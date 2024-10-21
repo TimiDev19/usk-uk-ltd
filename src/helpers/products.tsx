@@ -1,3 +1,13 @@
+import fsun from '../assets/fsun.webp'
+import fdeso from '../assets/fdeso.webp'
+import fbio from '../assets/fbio.webp'
+import fbcn3 from '../assets/fbcn3.webp'
+import fbcn2 from '../assets/fbcn2.webp'
+import fbcn from '../assets/fbcn.webp'
+import finno4 from '../assets/finno4.webp'
+import finno3 from '../assets/finno3.webp'
+import finno2 from '../assets/finno2.webp'
+import finno from '../assets/finno.webp'
 import bd6 from '../assets/bd6.webp'
 import bd5 from '../assets/bd5.webp'
 import bd4 from '../assets/bd4.webp'
@@ -1922,7 +1932,6 @@ const products = {
             type: "cosmetics",
             description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
         },
-
         {
             id: 85,
             image: Saxenda,
@@ -1933,6 +1942,117 @@ const products = {
             category: "fat-dissolvers",
             type: "cosmetics",
             description: "Cellucare C Line is an exceptionally balanced cocktail for the treatment of even the most advanced cellulite, consisting of hyaluronic acid, caffeine and microelements."
+        },
+        // 242-261
+        {
+            id: 242,
+            image: finno,
+            name: "INNO-TDS Draining PPC (4 x 5ml)",
+            price: 28.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Body contouring and redefining treatment to reduce localized fat and adipose cellulite. Its formula contains fat dissolving ingredients like Phosphatidylcholine that accelerates the breakdown of fat deposits and the elimination of toxins through urine."
+        },
+        {
+            id: 243,
+            image: finno2,
+            name: "INNO-TDS Draining PPC (Sample Pack) (1 x 1ml) - Special Offer",
+            price: 1.20,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "INNO-TDS Draining PPC reduces localized fat and improves your silhouette. Body contouring and redefining treatment to reduce localized fat and adipose cellulite. Its formula contains fat dissolving ingredients like Phosphatidylcholine that accelerates the breakdown of fat deposits and the elimination of toxins through urine."
+        },
+        {
+            id: 244,
+            image: finno3,
+            name: "INNO-TDS Face Nade (4 x 2.5ml)",
+            price: 24.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Dual-action face contouring treatment that, in the first stage, favors the elimination of waste and toxins, and, in the second stage, reinforces and firms the skin structure, effectively reshaping the facial contour."
+        },
+        {
+            id: 245,
+            image: finno4,
+            name: "INNO-TDS Slimming (4 x 5ml) - Special Offer",
+            price: 19.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Reduces cellulite and smooths the skin. Improves visibly and quickly the appearance of orange peel skin."
+        },
+        {
+            id: 246,
+            image: fbcn,
+            name: "BCN Classics Artichoke Extract (10 x 5ml)",
+            price: 9.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "BCN Artichoke Extract Anti Cellulite Solution has a detoxifying and diuretic action. It contains the active ingredient Cynarin, used to treat cellulite and fat. Artichoke Extract also helps stimulate the lymphatic drainage system."
+        },
+        {
+            id: 247,
+            image: fbcn2,
+            name: "BCN Cocktails Adipo (5 x 5ml)",
+            price: 29.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "BCN Adipo has been developed to combat cellulite and restore skin firmness, it can also be used in aesthetic treatments for conditions such as double chin."
+        },
+        {
+            id: 248,
+            image: fbcn3,
+            name: "BCN Cocktails Adipo Forte (5 x 10ml) - Special Offer",
+            price: 37.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "BCN ADIPO FORTE redefines the body contour and strengthens the skin, minimizing the appearance of uneven skin texture. Reshapes and visibly improves the body in critical points: abdominal folds, upper arms, hips, thighs, buttocks and waist. Helps to maintain a more defined and sculpted silhouette."
+        },
+        {
+            id: 249,
+            image: fbio,
+            name: "Biologique Recherche Liposculpt AC (1 x 200ml)",
+            price: 134.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Liposculpt AC is a multi-benefit slimming care product which refines the figure and reduces the appearance of cellulite. Its lipolytic and draining active ingredients help combat adipose cellulite (lipolytic action) and aqueous cellulite (effect on microcirculation). They facilitate the elimination of fatty deposits and water stored in the tissues. An average loss of -1.0 cm on the waist circumference and -0.9 cm on the thigh circumference was observed*. The skin is firmer and smoother, its dimpled appearance is reduced. Its texture is ideal to perform a daily massage necessary to reshape the body. Recommended for Skin Instants© with localized curves or cellulite."
+        },
+        {
+            id: 250,
+            image: fdeso,
+            name: "Desobody (5 x 10ml)",
+            price: 73.50,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "DesoBody is a fat dissolving injection, also known as lipolytic injection, which destroys fat cells by damaging the fat cell membrane and liquifying the fat in the treatment area. The destroyed fat cells are then broken down and removed naturally through the body’s lymphatic system."
+        },
+        {
+            id: 251,
+            image: fsun,
+            name: "Sunekos Cell 15 (1 x 4.5ml + 1 x 10.5ml)",
+            price: 99.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "fat-dissolvers",
+            type: "cosmetics",
+            description: "Promotes the optimization of the ECM protein turnover: neo-collagenesis and not collagenase. (HA + AA) Improves the micro-circulation"
         },
 
 

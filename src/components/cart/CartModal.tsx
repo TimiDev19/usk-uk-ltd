@@ -35,6 +35,7 @@ const CartModal = () => {
           boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
         },
       });
+      setIsOrdering(false)
       return;
     }
 
@@ -88,6 +89,7 @@ const CartModal = () => {
           boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
         },
       });
+      setIsOrdering(false)
     }
   };
 

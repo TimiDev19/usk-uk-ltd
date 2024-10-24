@@ -1,5 +1,3 @@
-
-
 const Contact = () => {
     return (
         <div className=" w-[100vw] py-10 lg:py-20">
@@ -14,7 +12,6 @@ const Contact = () => {
                         </p>
                     </div>
                 </div>
-                {/* <div className=" h-1/2 about-bg"></div> */}
             </div>
 
 

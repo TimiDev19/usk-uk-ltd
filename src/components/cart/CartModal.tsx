@@ -1,35 +1,67 @@
 'use client';
-
+import emailjs from '@emailjs/browser';
+emailjs.init('vniYYZ7cQTr3doimy');
 import CartItem from './CartItem';
 import { useAppSelector, useAppDispatch } from '@/store/hooks/hooks';
 import {
   emptyCart,
-  //   toggleCart,
-  //   toggleAuthModal,
 } from '@/store/audophileSlice';
-
-// import { useAuthContext } from "@/components/auth/context/AuthContext";
-// import { useRouter } from "next/navigation";
+import { useState } from 'react';
 
 const CartModal = () => {
-  //   const router = useRouter();
   const dispatch = useAppDispatch();
-  //   const { user } = useAuthContext();
   const cart = useAppSelector((state) => state.appState.cart);
-
+  const [userEmail, setUserEmail] = useState('');
+  const [error, setError] = useState<string | null>(null);
+  const [order, setOrder] = useState<string | null>(null);
   const totalCostArr = cart.flatMap((crt) => crt.quantity * crt.price);
   const totalCost = totalCostArr.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
   }, 0);
 
-  //   const checkoutHAndler = () => {
-  //     if (user === null) {
-  //       dispatch(toggleAuthModal(true));
-  //     } else {
-  //       router.push("/checkout");
-  //       dispatch(toggleCart(false));
-  //     }
-  //   };
+  const sendCartContent = async () => {
+    if (cart.length === 0) {
+      alert("Your cart is empty. Please add items before sending.");
+      return;
+    }
+  
+    const serviceID = "service_xpo4uhb";
+    const templateID = "template_fxk86xg";
+    const userID = "vniYYZ7cQTr3doimy";
+  
+    const filteredCart = cart.map(item => ({
+      name: item.name,
+      price: item.price,
+      quantity: item.quantity,
+    }));
+  
+    const emailParams = {
+      cart_content: filteredCart,
+      from_email: userEmail,
+    };
+  
+    console.log("Email Params:", emailParams);
+  
+    try {
+      const res = await emailjs.send(serviceID, templateID, emailParams, userID);
+      if (res.status === 200) {
+        console.log("Email sent successfully!");
+        setOrder("Order placed successfully !")
+      }
+    } catch (error) {
+      console.error("Failed to send email:", error);
+      alert("Failed to send email. Please try again.");
+    }
+  };
+
+  const handleCheckout = () => {
+    if (!userEmail) {
+      setError("Please enter your email address");
+    } else {
+      sendCartContent();
+      setError(null);
+    }
+  };
 
   return (
     <div className="bg-white px-[2rem] py-[2rem] rounded-xl flex flex-col gap-[0.5rem]">
@@ -63,11 +95,24 @@ const CartModal = () => {
         <p className="font-semibold text-[1.1rem] tracking-wider">{`£ ${totalCost.toLocaleString()}`}</p>
       </div>
 
+      <input
+        type="email"
+        placeholder="Enter your email"
+        value={userEmail}
+        onChange={(e) => setUserEmail(e.target.value)}
+        required
+        className="border border-gray-300 p-2 rounded mb-2"
+      />
+      {error && (
+        <p style={{ color: 'red', marginBottom: '10px' }}>{error}</p>
+      )}
+      {order && (
+        <p style={{ color: 'green', marginBottom: '10px' }}>{order}</p>
+      )}
       <button
-        // onClick={checkoutHAndler}
+        onClick={handleCheckout}
         className={`bg-blue-500 md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
       >
-        {/* {user === null ? "SIGN-IN To CHECKOUT" : "CHECKOUT"} */}
         Checkout
       </button>
     </div>
@@ -75,3 +120,7 @@ const CartModal = () => {
 };
 
 export default CartModal;
+
+
+
+

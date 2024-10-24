@@ -17,7 +17,6 @@ const Landingpage = () => {
   });
 
   useEffect(() => {
-    // Initialize ScrollReveal
     ScrollReveal().reveal('.reveal-bottom', {
       duration: 1500,
       origin: 'bottom',

@@ -111,7 +111,7 @@ const CartModal = () => {
       )}
       <button
         onClick={handleCheckout}
-        className={`bg-blue-500 md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
+        className={`bg-blue-500 ${!userEmail && `opacity-65`} md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
       >
         Checkout
       </button>

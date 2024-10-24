@@ -12,8 +12,8 @@ export const CartReveal = ({ children }: Props) => {
   return (
     <div className={`w-screen fixed z-[60]`}>
       <motion.div
-        initial={{ y: -600 }}
-        animate={{ y: cartIsShowing ? 0 : -600 }}
+        initial={{ y: -800 }}
+        animate={{ y: cartIsShowing ? 0 : -800 }}
         transition={{
           duration: 1.5,
           type: "spring",

@@ -7,6 +7,7 @@ import {
   emptyCart,
 } from '@/store/audophileSlice';
 import { useState } from 'react';
+import { toast } from 'react-hot-toast';
 
 const CartModal = () => {
   const dispatch = useAppDispatch();
@@ -47,6 +48,18 @@ const CartModal = () => {
       if (res.status === 200) {
         console.log("Email sent successfully!");
         setOrder("Order placed successfully !")
+        toast('Order placed successfully !', {
+          duration: 4000, // Duration in milliseconds
+          position: 'top-center', // Position of the toast
+          style: {
+            background: '#4CAF50', // Green background
+            color: '#fff', // White text
+            padding: '16px', // Padding
+            borderRadius: '8px', // Rounded corners
+            fontSize: '16px', // Font size
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
+          },
+        });
       }
     } catch (error) {
       console.error("Failed to send email:", error);

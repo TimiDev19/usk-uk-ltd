@@ -11,6 +11,7 @@ import { toast } from 'react-hot-toast';
 
 const CartModal = () => {
   const dispatch = useAppDispatch();
+  const [isOrdering, setIsOrdering] = useState(false)
   const cart = useAppSelector((state) => state.appState.cart);
   const [userEmail, setUserEmail] = useState('');
   const [error, setError] = useState<string | null>(null);
@@ -25,24 +26,24 @@ const CartModal = () => {
       alert("Your cart is empty. Please add items before sending.");
       return;
     }
-  
+
     const serviceID = "service_xpo4uhb";
     const templateID = "template_fxk86xg";
     const userID = "vniYYZ7cQTr3doimy";
-  
+
     const filteredCart = cart.map(item => ({
       name: item.name,
       price: item.price,
       quantity: item.quantity,
     }));
-  
+
     const emailParams = {
       cart_content: filteredCart,
       from_email: userEmail,
     };
-  
+    setIsOrdering(true)
     console.log("Email Params:", emailParams);
-  
+
     try {
       const res = await emailjs.send(serviceID, templateID, emailParams, userID);
       if (res.status === 200) {
@@ -60,6 +61,7 @@ const CartModal = () => {
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
           },
         });
+        setIsOrdering(false)
       }
     } catch (error) {
       console.error("Failed to send email:", error);
@@ -122,12 +124,24 @@ const CartModal = () => {
       {order && (
         <p style={{ color: 'green', marginBottom: '10px' }}>{order}</p>
       )}
-      <button
-        onClick={handleCheckout}
-        className={`bg-blue-500 ${!userEmail && `opacity-65`} md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
-      >
-        Checkout
-      </button>
+      {
+        isOrdering ? (
+          <button
+            className={`bg-blue-500 ${!userEmail && `opacity-65`} md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
+          >
+            <div className="animate-spin h-5 w-5 mx-auto border-2 border-white rounded-full border-t-transparent"></div>
+          </button>
+        )
+          :
+          (
+            <button
+              onClick={handleCheckout}
+              className={`bg-blue-500 ${!userEmail && `opacity-65`} md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
+            >
+              Checkout
+            </button>
+          )
+      }
     </div>
   );
 };

@@ -23,7 +23,18 @@ const CartModal = () => {
 
   const sendCartContent = async () => {
     if (cart.length === 0) {
-      alert("Your cart is empty. Please add items before sending.");
+      toast('Your cart is empty. Please add items before placing an order.', {
+        duration: 4000, // Duration in milliseconds
+        position: 'top-center', // Position of the toast
+        style: {
+          background: 'red', // Green background
+          color: '#fff', // White text
+          padding: '16px', // Padding
+          borderRadius: '8px', // Rounded corners
+          fontSize: '16px', // Font size
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
+        },
+      });
       return;
     }
 
@@ -65,13 +76,35 @@ const CartModal = () => {
       }
     } catch (error) {
       console.error("Failed to send email:", error);
-      alert("Failed to send email. Please try again.");
+      toast('Failed to send email. Please try again.', {
+        duration: 4000, // Duration in milliseconds
+        position: 'top-center', // Position of the toast
+        style: {
+          background: 'red', // Green background
+          color: '#fff', // White text
+          padding: '16px', // Padding
+          borderRadius: '8px', // Rounded corners
+          fontSize: '16px', // Font size
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
+        },
+      });
     }
   };
 
   const handleCheckout = () => {
     if (!userEmail) {
-      setError("Please enter your email address");
+      toast('Please enter your email address', {
+        duration: 4000, // Duration in milliseconds
+        position: 'top-center', // Position of the toast
+        style: {
+          background: 'red', // Green background
+          color: '#fff', // White text
+          padding: '16px', // Padding
+          borderRadius: '8px', // Rounded corners
+          fontSize: '16px', // Font size
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
+        },
+      });
     } else {
       sendCartContent();
       setError(null);

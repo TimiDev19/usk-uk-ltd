@@ -19,7 +19,7 @@ import {
 } from '@/store/audophileSlice';
 import Cart from './cart/Cart';
 import cartimg from '@/assets/cart.svg';
-import logo from '../../public/usv_uk_favicon.jpg'
+import logo from '../assets/usvlogo.jpg'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="lg:hidden fixed w-full  pxpx py-5 bg-white border-b border-b-black/20">
           <div className=" flex items-center justify-between ">
             <h1 className=" uppercase text-lg flex items-center justify-center">
-              <img src={logo} className=' h-[30px] mx-[10px] rounded-full' />
+              <img src={logo} className=' h-[50px] mx-[10px] rounded-full' />
               USV UK Limited
             </h1>
             <div className=" flex items-center justify-center">
@@ -53,7 +53,7 @@ const Navbar = () => {
                   <SheetContent>
                     <SheetHeader>
                       <SheetTitle className=' flex items-center justify-center'>
-                        <img src={logo} className=' h-[30px] mx-[10px] rounded-full' />
+                        <img src={logo} className=' h-[50px] mx-[10px] rounded-full' />
                         USV UK Limited
                       </SheetTitle>
                       <SheetDescription>
@@ -186,7 +186,7 @@ const Navbar = () => {
           <div className="lg:flex w-full hidden items-center justify-between pxpx py-3 bg-white">
             <div>
               <h1 className=" font-semibold text-xl flex items-center justify-center ">
-                <img src={logo} className=' h-[30px] mx-[10px] rounded-full' />
+                <img src={logo} className=' h-[50px] mx-[10px] rounded-full ' />
                 USV UK LIMITED
               </h1>
             </div>

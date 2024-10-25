@@ -19,6 +19,7 @@ import {
 } from '@/store/audophileSlice';
 import Cart from './cart/Cart';
 import cartimg from '@/assets/cart.svg';
+import logo from '../../public/usv_uk_favicon.jpg'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +37,10 @@ const Navbar = () => {
       <div className=" z-50 fixed w-full">
         <div className="lg:hidden fixed w-full  pxpx py-5 bg-white border-b border-b-black/20">
           <div className=" flex items-center justify-between ">
-            <h1 className=" uppercase text-lg">USV UK Limited</h1>
+            <h1 className=" uppercase text-lg flex items-center justify-center">
+              <img src={logo} className=' h-[30px] mx-[10px] rounded-full' />
+              USV UK Limited
+            </h1>
             <div className=" flex items-center justify-center">
               <div
                 className=" text-black hover:cursor-pointer mx-2"
@@ -48,7 +52,10 @@ const Navbar = () => {
                   </SheetTrigger>
                   <SheetContent>
                     <SheetHeader>
-                      <SheetTitle>USV UK Limited</SheetTitle>
+                      <SheetTitle className=' flex items-center justify-center'>
+                        <img src={logo} className=' h-[30px] mx-[10px] rounded-full' />
+                        USV UK Limited
+                      </SheetTitle>
                       <SheetDescription>
                         <div className=" w-full">
                           <ul className=" mb-4">
@@ -178,7 +185,10 @@ const Navbar = () => {
         <div className=" w-full fixed border-b border-b-black/20">
           <div className="lg:flex w-full hidden items-center justify-between pxpx py-3 bg-white">
             <div>
-              <h1 className=" font-semibold text-xl">USV UK LIMITED</h1>
+              <h1 className=" font-semibold text-xl flex items-center justify-center ">
+                <img src={logo} className=' h-[30px] mx-[10px] rounded-full' />
+                USV UK LIMITED
+              </h1>
             </div>
 
             <div className=" flex items-center justify-center">

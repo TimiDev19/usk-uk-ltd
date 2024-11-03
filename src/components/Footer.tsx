@@ -73,37 +73,6 @@ const Footer = () => {
       {/* <div className=" text-center mb-4">
         <p>All Rights Reserved By @USV UK LIMITED</p>
       </div> */}
-
-      <div className=' w-full h-[70px] text-center bg-blue-500 text-[#fffaf6] flex items-center justify-center'>
-        <h1 className=' flex'>
-          Copyright©2024 All rights reserved. Developed by
-          <Link
-            target='blank'
-            to={"https://oluwatimilehin-eportfolio.vercel.app/"}
-            className="relative cursor-pointer group w-fit mx-2"
-          >
-            <p>TIMI</p>
-            <div className="absolute bottom-0 h-px w-full bg-[#fffaf6] scale-x-0 group-hover:scale-x-100 duration-300 origin-left"></div>
-          </Link>
-          and
-          <Link
-            target='blank'
-            to={"https://emmanuelayeniko.netlify.app/"}
-            className="relative cursor-pointer group w-fit mx-2"
-          >
-            <p>NIKO</p>
-            <div className="absolute bottom-0 h-px w-full bg-[#fffaf6] scale-x-0 group-hover:scale-x-100 duration-300 origin-left"></div>
-          </Link>
-          in partnership with 
-          <Link
-            to={"/"}
-            className="relative cursor-pointer group w-fit mx-2"
-          >
-            <p>USV UK LIMITED</p>
-            <div className="absolute bottom-0 h-px w-full bg-[#fffaf6] scale-x-0 group-hover:scale-x-100 duration-300 origin-left"></div>
-          </Link>
-        </h1>
-      </div>
     </div>
   );
 };

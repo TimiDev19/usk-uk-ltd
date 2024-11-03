@@ -1,3 +1,5 @@
+import cmeso10 from '../assets/cmeso10.webp'
+import cmeso9 from '../assets/cmeso9.webp'
 import cmeso8 from '../assets/cmeso8.webp'
 import cmeso7 from '../assets/cmeso7.webp'
 import cmeso6 from '../assets/cmeso6.webp'
@@ -4202,6 +4204,28 @@ const products = {
             category: "chemical-peels",
             type: "cosmetics",
             description: "Mesoestetic Mesopeel Mandelic acid 30% peel that gently and gradually penetrates the skin. It stimulates collagen and proteoglycan synthesis, encouraging skin rejuvenation and allowing gentler, more gradual exfoliation. Indicated for oily and seborrheic skin and/or individuals with dyschromia."
+        },
+        {
+            id: 418,
+            image: cmeso9,
+            name: "Mesoestetic Mesopeel Mandelic 40% (1 x 50ml)",
+            price: 48.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics",
+            description: "Mesoestetic Mesopeel Mandelic acid 40% peel gently and gradually penetrates the skin. It stimulates collagen and proteoglycan synthesis, encouraging skin rejuvenation and allowing gentler, more gradual exfoliation. Indicated for oily and seborrheic skin and/or individuals with dyschromia."
+        },
+        {
+            id: 419,
+            image: cmeso10,
+            name: "Mesoestetic Mesopeel Mandelic 40% (1 x 50ml)",
+            price: 65.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics",
+            description: "Peel with antiinflammatory, antibacterial and keratolytic action. Reduces the reactive skin manifestations, such as: redness, itching, burning and irritation. Attenuates capillary fragility and redness, soothing and alleviating the skin."
         },
 
 

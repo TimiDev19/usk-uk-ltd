@@ -1,5 +1,6 @@
 import { AudiofileState, CartItem } from "@/interface/Interface";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { toast } from 'react-hot-toast';
 
 const initialState: AudiofileState = {
   customerName: "",
@@ -42,8 +43,31 @@ const audiofileSlice = createSlice({
           price: newItem.price,
           quantity: newItem.quantity,
         });
+        toast('Item added to cart successfully !', {
+          duration: 4000, // Duration in milliseconds
+          position: 'top-center', // Position of the toast
+          style: {
+            background: '#4CAF50', // Green background
+            color: '#fff', // White text
+            padding: '16px', // Padding
+            borderRadius: '8px', // Rounded corners
+            fontSize: '16px', // Font size
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
+          },
+        });
       } else {
-        return alert("item is in cart");
+        toast('The item is already in the cart.', {
+          duration: 4000, // Duration in milliseconds
+          position: 'top-center', // Position of the toast
+          style: {
+            background: 'red', // Green background
+            color: '#fff', // White text
+            padding: '16px', // Padding
+            borderRadius: '8px', // Rounded corners
+            fontSize: '16px', // Font size
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
+          },
+        });
       }
     },
     updateCart: (

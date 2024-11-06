@@ -1,3 +1,4 @@
+import cmeso11 from '../assets/cmeso11.webp'
 import cmeso10 from '../assets/cmeso10.webp'
 import cmeso9 from '../assets/cmeso9.webp'
 import cmeso8 from '../assets/cmeso8.webp'
@@ -4219,13 +4220,24 @@ const products = {
         {
             id: 419,
             image: cmeso10,
-            name: "Mesoestetic Mesopeel Mandelic 40% (1 x 50ml)",
+            name: "Mesoestetic Mesopeel MD Azelan RX (1 x 50ml)",
             price: 65.00,
             bestSeller: "no",
             featured: "no",
             category: "chemical-peels",
             type: "cosmetics",
             description: "Peel with antiinflammatory, antibacterial and keratolytic action. Reduces the reactive skin manifestations, such as: redness, itching, burning and irritation. Attenuates capillary fragility and redness, soothing and alleviating the skin."
+        },
+        {
+            id: 420,
+            image: cmeso11,
+            name: "Mesoestetic Mesopeel MD Blemiskin (1 x 50ml)",
+            price: 65.00,
+            bestSeller: "no",
+            featured: "no",
+            category: "chemical-peels",
+            type: "cosmetics",
+            description: "Skin types prone to acne and seborrhoea. Keratolytic, comedolytic, anti-inflammatory and antibacterial effect. It favours the control of sebaceous secretion and reduces pore size and basal erythema."
         },
 
 

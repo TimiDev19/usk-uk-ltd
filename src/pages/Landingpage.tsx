@@ -34,7 +34,7 @@ const Landingpage = () => {
 
   return (
     <div className="pt-10">
-      <FadeReveal>
+      {/* <FadeReveal> */}
         <div id="home" className="h-[90vh] md:h-screen mb-6 home-bg flex items-center sm:justify-start justify-center text-center pxpx">
           <div className=" w-full sm:w-[40%] md:w-[60%] lg:w-[80%] sm:text-left mx2xl">
             <h1 className=" reveal-bottom uppercase text-4xl md:text-5xl lg:text-[72px] lg:leading-[1.2] font-bold text-white mb-6">
@@ -54,7 +54,7 @@ const Landingpage = () => {
             </Link>
           </div>
         </div>
-      </FadeReveal>
+      {/* </FadeReveal> */}
 
       <FadeReveal>
         <div className="mb-10 pxpx">

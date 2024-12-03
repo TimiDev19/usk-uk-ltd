@@ -57,7 +57,9 @@ const ProductPage: React.FC = () => {
                 <div className=' w-full lg:w-[45%] text-left'>
                     <h1 className=' font-semibold text-3xl mb-4'>{product.name}</h1>
                     <p className=' text-xl mb-4'>{product.description}</p>
-                    <h1 className=' text-green-700 font-semibold text-5xl mb-6'>£ {product.price}</h1>
+                    <h1 className=' text-green-700 font-semibold text-5xl mb-6'>
+                        £ {product.price.toFixed(2)}
+                    </h1>
                     <button
                         onClick={handleAddToCart}
                         className=' mt-5 px-11 text-center bg-green-600 text-white text-s py-4 uppercase duration-500 hover:bg-green-500'

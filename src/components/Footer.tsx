@@ -3,6 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { Link } from 'react-router-dom';
+import { smoothScrollToSection } from './SmoothScrollToSection';
 
 const Footer = () => {
   return (
@@ -27,10 +28,10 @@ const Footer = () => {
           <ul>
             <li className=" font-semibold text-2xl uppercase mb-4">Links</li>
             <li className=" text-lg font-light">
-              <Link to={'/'}>Home</Link>
+              <h1 onClick={(e) => smoothScrollToSection(e, 'home')}>Home</h1>
             </li>
             <li className=" text-lg font-light">
-              <Link to={'/shop'}>Shop</Link>
+            <Link to={'/shop'}>Shop</Link>
             </li>
             <li className=" text-lg font-light">
               <Link to={'/about'}>About</Link>

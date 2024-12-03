@@ -134,7 +134,7 @@ const CartModal = () => {
               id={crt.id}
               img={crt.img}
               name={crt.name}
-              price={crt.price}
+              price={crt.price.toFixed(2)}
               quantity={crt.quantity}
             />
           ))
@@ -142,7 +142,7 @@ const CartModal = () => {
       </div>
       <div className="flex justify-between items-center pt-[1rem]">
         <p className="opacity-50 text-[1rem]">TOTAL</p>
-        <p className="font-semibold text-[1.1rem] tracking-wider">{`£ ${totalCost.toLocaleString()}`}</p>
+        <p className="font-semibold text-[1.1rem] tracking-wider">{`£ ${totalCost.toFixed(2)}`}</p>
       </div>
 
       <input

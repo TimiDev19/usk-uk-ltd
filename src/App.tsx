@@ -25,7 +25,7 @@ function App() {
     <div className=" font-urbanist">
       <BrowserRouter>
         <Navbar />
-        <Routes>
+        <Routes> 
           <Route path="/" element={<Landingpage />} />
           <Route path="/about" element={<Aboutpage />} />
           <Route path="/shop" element={<Shop />} />

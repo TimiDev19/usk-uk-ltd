@@ -20,9 +20,11 @@ import {
 import Cart from './cart/Cart';
 import cartimg from '@/assets/cart.svg';
 import logo from '../assets/usvlogo.jpg'
+import { Search } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [search, seteSarch] = useState("")
   const cartIsShowing = useAppSelector((state) => state.appState.cartIsVisible);
   const dispatch = useDispatch();
   const toogleCartHandler = () => {
@@ -41,6 +43,7 @@ const Navbar = () => {
               <img src={logo} className=' h-[50px] mx-[10px] rounded-full' />
               USV UK Limited
             </h1>
+
             <div className=" flex items-center justify-center">
               <div
                 className=" text-black hover:cursor-pointer mx-2"
@@ -189,6 +192,18 @@ const Navbar = () => {
                 <img src={logo} className=' h-[50px] mx-[10px] rounded-full ' />
                 USV UK LIMITED
               </h1>
+            </div>
+
+            <div className=' flex items-center justify-center border border-black rounded-full w-[40%] h-[40px]'>
+              <div className=' bg-slate-100 flex items-center justify-center h-full w-[10%] rounded-l-full border-r border-black '>
+                <Search className=' text-3xl hover:text-blue-500 cursor-pointer duration-500 bg-slate-100 rounded-l-full' />
+              </div>
+              <Link
+                to="/shop"
+                className=' w-[90%]'
+              >
+                <input type="text" className=' w-full rounded-r-full h-full focus:outline-none px-3 placeholder:text-black placeholder:font-thin font-thin' placeholder='Search' />
+              </Link>
             </div>
 
             <div className=" flex items-center justify-center">

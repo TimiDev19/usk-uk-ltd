@@ -31,7 +31,8 @@ const Footer = () => {
               <h1 onClick={(e) => smoothScrollToSection(e, 'home')}>Home</h1>
             </li>
             <li className=" text-lg font-light">
-            <Link to={'/shop'}>Shop</Link>
+              <h1 onClick={(e) => smoothScrollToSection(e, 'shop')}>Shop</h1>
+              {/* <Link to={'/shop'}>Shop</Link> */}
             </li>
             <li className=" text-lg font-light">
               <Link to={'/about'}>About</Link>

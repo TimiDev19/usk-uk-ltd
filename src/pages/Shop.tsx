@@ -3,8 +3,8 @@ import products from '../helpers/products';
 
 const Shop = () => {
   return (
-    <div className="pt-[120px] lg:pt-[180px]" id="shop">
-      <h1 className=" font-bold mb-6 text-5xl pxpx mx2xl">OUR PRODUCTS</h1>
+    <div className="pt-[120px] lg:pt-[180px]">
+      <h1 className=" font-bold mb-6 text-5xl pxpx mx2xl" id="shops">OUR PRODUCTS</h1>
       <div className=" grid md:grid-cols-2 lg:grid-cols-4 w-[100vw] pxpx mx2xl">
         {products.items.map((item, index) => (
           <div

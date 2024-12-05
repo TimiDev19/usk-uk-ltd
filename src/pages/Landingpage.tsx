@@ -162,7 +162,7 @@ const Landingpage = () => {
       </FadeReveal>
 
       <FadeReveal>
-        <div className=" mb-10 pxpx">
+        <div className=" mb-10 pxpx" id="shop">
           <h1 className=" uppercase font-semibold text-black text-3xl sm:text-4xl mb-6 mx2xl">
             <Typewriter
               options={{

@@ -28,13 +28,14 @@ const Footer = () => {
           <ul>
             <li className=" font-semibold text-2xl uppercase mb-4">Links</li>
             <li className=" text-lg font-light">
-              <h1 onClick={(e) => smoothScrollToSection(e, 'home', 0)}>Home</h1>
+              <h1 onClick={(e) => smoothScrollToSection(e, 'home', 0)} className=' cursor-pointer hover:text-blue-500 duration-500'>Home</h1>
             </li>
             <li className=" text-lg font-light">
-              <h1 onClick={(e) => smoothScrollToSection(e, 'shop', 0)}>Shop</h1>
+              <h1 onClick={(e) => smoothScrollToSection(e, 'shop', 0)} className=' cursor-pointer hover:text-blue-500 duration-500'>Shop</h1>
               {/* <Link to={'/shop'}>Shop</Link> */}
             </li>
             <li className=" text-lg font-light">
+              {/* <h1 onClick={(e) => smoothScrollToSection(e, 'shop', 0)} className=' cursor-pointer hover:text-blue-500 duration-500'>About</h1> */}
               <Link to={'/about'}>About</Link>
             </li>
             <li className=" text-lg font-light">

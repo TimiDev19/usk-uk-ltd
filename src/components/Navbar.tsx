@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Link } from 'react-router-dom';
 import {
@@ -21,10 +21,10 @@ import Cart from './cart/Cart';
 import cartimg from '@/assets/cart.svg';
 import logo from '../assets/usvlogo.jpg'
 import { Search } from 'lucide-react';
+import products from '@/helpers/products';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // const [search, seteSarch] = useState("")
   const cartIsShowing = useAppSelector((state) => state.appState.cartIsVisible);
   const dispatch = useDispatch();
   const toogleCartHandler = () => {
@@ -34,6 +34,54 @@ const Navbar = () => {
     console.log(cartIsShowing);
   };
   const totalItems = useAppSelector((state) => state.appState.cart.length);
+
+  const [searchInput, setSearchInput] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setSearchTerm(searchInput);
+    }, 300);
+
+    return () => clearTimeout(timeout);
+  }, [searchInput]);
+
+  // Filter products
+  const filteredProducts = products.items
+    .map((product) => {
+      const searchLower = searchTerm.toLowerCase();
+      let score = 0;
+
+      // Check matches and assign scores
+      if (product.name?.toLowerCase().includes(searchLower)) score += 10; // High priority for name
+      if (product.description?.toLowerCase().includes(searchLower)) score += 5; // Medium priority for description
+      if (product.category?.toLowerCase().includes(searchLower)) score += 3; // Lower priority
+      if (product.type?.toLowerCase().includes(searchLower)) score += 2; // Lowest priority
+
+      return { ...product, score };
+    })
+    .filter((product) => product.score > 0) // Only include products with a positive score
+    .sort((a, b) => b.score - a.score); // Sort by score in descending order
+
+
+  // Highlight matching text
+  const highlightText = (text: string, query: string) => {
+    const parts = text.split(new RegExp(`(${query})`, "gi"));
+    return (
+      <>
+        {parts.map((part, index) =>
+          part.toLowerCase() === query.toLowerCase() ? (
+            <span key={index} className="bg-yellow-200">
+              {part}
+            </span>
+          ) : (
+            part
+          )
+        )}
+      </>
+    );
+  };
   return (
     <>
       <div className=" z-50 fixed w-full">
@@ -194,17 +242,7 @@ const Navbar = () => {
               </h1>
             </div>
 
-            <div className=' flex items-center justify-center border border-black rounded-full w-[40%] h-[40px]'>
-              <div className=' bg-slate-100 flex items-center justify-center h-full w-[10%] rounded-l-full border-r border-black '>
-                <Search className=' text-3xl hover:text-blue-500 cursor-pointer duration-500 bg-slate-100 rounded-l-full' />
-              </div>
-              <Link
-                to="/shop"
-                className=' w-[90%]'
-              >
-                <input type="text" className=' w-full rounded-r-full h-full focus:outline-none px-3 placeholder:text-black placeholder:font-thin font-thin' placeholder='Search' />
-              </Link>
-            </div>
+
 
             <div className=" flex items-center justify-center">
               <Link
@@ -231,6 +269,73 @@ const Navbar = () => {
               >
                 Contact
               </Link>
+              {/* SEARCH BAR */}
+              <div className="p-4">
+                {/* Search Button */}
+                <button
+                  onClick={() => setIsPopupOpen(true)}
+                  className="px-4 py-2 text-black rounded-lg hover:text-blue-600 duration-500"
+                >
+                  <Search />
+                </button>
+
+                {/* Popup */}
+                {isPopupOpen && (
+                  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                    <div className="bg-white h-[300px] overflow-scroll rounded-lg shadow-lg w-full max-w-lg p-6 relative">
+                      <div className="flex justify-between items-center mb-4">
+                        <h2 className="text-xl font-bold">Search Products</h2>
+                        <button
+                          onClick={() => setIsPopupOpen(false)}
+                          className="text-gray-500 hover:text-gray-800"
+                        >
+                          ✖
+                        </button>
+                      </div>
+
+                      {/* Search Input */}
+                      <input
+                        type="text"
+                        placeholder="Search..."
+                        value={searchInput}
+                        onChange={(e) => setSearchInput(e.target.value)}
+                        className="w-full border border-gray-300 rounded-lg p-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      />
+
+                      {/* Results */}
+                      <div className="space-y-4">
+                        {filteredProducts.length > 0 ? (
+                          filteredProducts.map((product) => (
+                            <div
+                              key={product.id}
+                              className="p-4 border border-gray-200 rounded-lg shadow-sm flex space-x-4"
+                            >
+                              <img
+                                src={product.image}
+                                alt={product.name}
+                                className="w-16 h-16 object-cover rounded"
+                              />
+                              <div>
+                                <h3 className="font-semibold">
+                                  {highlightText(product.name, searchTerm)}
+                                </h3>
+                                {/* <p className="text-sm text-gray-500">
+                                {highlightText(product.description, searchTerm)}
+                              </p> */}
+                                <p className="text-lg font-bold text-blue-600">
+                                  ${product.price.toFixed(2)}
+                                </p>
+                              </div>
+                            </div>
+                          ))
+                        ) : (
+                          <p className="text-gray-500">No products found.</p>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
               <div
                 onClick={toogleCartHandler}
                 className="relative inline-flex items-center space-x-2 cursor-pointer"

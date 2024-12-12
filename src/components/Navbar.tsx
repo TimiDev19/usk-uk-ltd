@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useMemo, useState } from 'react';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Link } from 'react-router-dom';
 import {
@@ -36,51 +36,16 @@ const Navbar = () => {
   const totalItems = useAppSelector((state) => state.appState.cart.length);
 
   const [searchInput, setSearchInput] = useState('');
-  const [searchTerm, setSearchTerm] = useState('');
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setSearchTerm(searchInput);
-    }, 300);
+  const filteredProducts = useMemo(() => {
+    return products.items
+      .filter((item) =>
+        item.name.toLowerCase().includes(searchInput.toLowerCase()),
+      )
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [searchInput, products.items]);
 
-    return () => clearTimeout(timeout);
-  }, [searchInput]);
-
-  // Filter products
-  const filteredProducts = products.items
-    .map((product) => {
-      const searchLower = searchTerm.toLowerCase();
-      let score = 0;
-
-      // Check matches and assign scores
-      if (product.name?.toLowerCase().includes(searchLower)) score += 10; // High priority for name
-      if (product.description?.toLowerCase().includes(searchLower)) score += 5; // Medium priority for description
-      if (product.category?.toLowerCase().includes(searchLower)) score += 3; // Lower priority
-      if (product.type?.toLowerCase().includes(searchLower)) score += 2; // Lowest priority
-
-      return { ...product, score };
-    })
-    .filter((product) => product.score > 0) // Only include products with a positive score
-    .sort((a, b) => b.score - a.score); // Sort by score in descending order
-
-  // Highlight matching text
-  const highlightText = (text: string, query: string) => {
-    const parts = text.split(new RegExp(`(${query})`, 'gi'));
-    return (
-      <>
-        {parts.map((part, index) =>
-          part.toLowerCase() === query.toLowerCase() ? (
-            <span key={index} className="bg-yellow-200">
-              {part}
-            </span>
-          ) : (
-            part
-          ),
-        )}
-      </>
-    );
-  };
   return (
     <>
       <div className=" z-50 fixed w-full">
@@ -127,9 +92,9 @@ const Navbar = () => {
                       {/* Results */}
                       <div className="space-y-4">
                         {filteredProducts.length > 0 ? (
-                          filteredProducts.map((product) => (
+                          filteredProducts.map((product, i) => (
                             <div
-                              key={product.id}
+                              key={i}
                               className="p-4 border border-gray-200 rounded-lg shadow-sm flex space-x-4"
                             >
                               <img
@@ -139,11 +104,9 @@ const Navbar = () => {
                               />
                               <div>
                                 <h3 className="font-semibold">
-                                  {highlightText(product.name, searchTerm)}
+                                  {product.name}
                                 </h3>
-                                {/* <p className="text-sm text-gray-500">
-                                {highlightText(product.description, searchTerm)}
-                              </p> */}
+
                                 <p className="text-lg font-bold text-blue-600">
                                   ${product.price.toFixed(2)}
                                 </p>
@@ -371,9 +334,9 @@ const Navbar = () => {
                       {/* Results */}
                       <div className="space-y-4">
                         {filteredProducts.length > 0 ? (
-                          filteredProducts.map((product) => (
+                          filteredProducts.map((product, i) => (
                             <div
-                              key={product.id}
+                              key={i}
                               className="p-4 border border-gray-200 rounded-lg shadow-sm flex space-x-4"
                             >
                               <img
@@ -383,11 +346,9 @@ const Navbar = () => {
                               />
                               <div>
                                 <h3 className="font-semibold">
-                                  {highlightText(product.name, searchTerm)}
+                                  {product.name}
                                 </h3>
-                                {/* <p className="text-sm text-gray-500">
-                                {highlightText(product.description, searchTerm)}
-                              </p> */}
+
                                 <p className="text-lg font-bold text-blue-600">
                                   ${product.price.toFixed(2)}
                                 </p>

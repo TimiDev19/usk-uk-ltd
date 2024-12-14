@@ -103,9 +103,9 @@ const Navbar = () => {
                                 className="w-16 h-16 object-cover rounded"
                               />
                               <div>
-                                <h3 className="font-semibold">
+                                <Link onClick={() => setIsPopupOpen(false)} to={`/product/${product.id}`} className="font-semibold duration-500 hover:underline">
                                   {product.name}
-                                </h3>
+                                </Link>
 
                                 <p className="text-lg font-bold text-blue-600">
                                   ${product.price.toFixed(2)}
@@ -345,9 +345,9 @@ const Navbar = () => {
                                 className="w-16 h-16 object-cover rounded"
                               />
                               <div>
-                                <h3 className="font-semibold">
+                                <Link onClick={() => setIsPopupOpen(false)} to={`/product/${product.id}`} className="font-semibold duration-500 hover:underline">
                                   {product.name}
-                                </h3>
+                                </Link>
 
                                 <p className="text-lg font-bold text-blue-600">
                                   ${product.price.toFixed(2)}

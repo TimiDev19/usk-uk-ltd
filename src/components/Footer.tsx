@@ -91,7 +91,9 @@ const Footer = () => {
               <MailOutlineIcon />
             </Link>
           </div>
-          <p>PHONE: +44 7310 107057</p>
+          <Link to={'https://wa.me/447310107057'}>
+            <p>WHATSAPP: CLICK HERE</p>
+          </Link>
         </div>
       </div>
       {/* <div className=" text-center mb-4">

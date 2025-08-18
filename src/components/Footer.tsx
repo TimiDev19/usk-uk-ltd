@@ -2,6 +2,7 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { Link } from 'react-router-dom';
 import { smoothScrollToSection } from './SmoothScrollToSection';
 
@@ -90,10 +91,10 @@ const Footer = () => {
             <Link to={''} className=" text-4xl mx-4">
               <MailOutlineIcon />
             </Link>
+            <Link to={'https://wa.me/447310107057'} className=" text-4xl mx-4">
+              <WhatsAppIcon />
+            </Link>
           </div>
-          <Link to={'https://wa.me/447310107057'}>
-            <p>WHATSAPP: CLICK HERE</p>
-          </Link>
         </div>
       </div>
       {/* <div className=" text-center mb-4">

@@ -28,10 +28,20 @@ const Footer = () => {
           <ul>
             <li className=" font-semibold text-2xl uppercase mb-4">Links</li>
             <li className=" text-lg font-light">
-              <h1 onClick={(e) => smoothScrollToSection(e, 'home', 0)} className=' cursor-pointer hover:text-blue-500 duration-500'>Home</h1>
+              <h1
+                onClick={(e) => smoothScrollToSection(e, 'home', 0)}
+                className=" cursor-pointer hover:text-blue-500 duration-500"
+              >
+                Home
+              </h1>
             </li>
             <li className=" text-lg font-light">
-              <h1 onClick={(e) => smoothScrollToSection(e, 'shop', 0)} className=' cursor-pointer hover:text-blue-500 duration-500'>Shop</h1>
+              <h1
+                onClick={(e) => smoothScrollToSection(e, 'shop', 0)}
+                className=" cursor-pointer hover:text-blue-500 duration-500"
+              >
+                Shop
+              </h1>
               {/* <Link to={'/shop'}>Shop</Link> */}
             </li>
             <li className=" text-lg font-light">
@@ -58,19 +68,30 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className=" mb-6 flex items-start justify-start">
-          <Link to={''} className=" text-4xl mx-4">
-            <FacebookOutlinedIcon />
-          </Link>
-          <Link to={''} className=" text-4xl mx-4">
-            <InstagramIcon />
-          </Link>
-          <Link to={''} className=" text-4xl mx-4">
-            <XIcon />
-          </Link>
-          <Link to={''} className=" text-4xl mx-4">
-            <MailOutlineIcon />
-          </Link>
+        <div>
+          <div className=" mb-6 flex items-start justify-start">
+            <Link
+              to={
+                'https://www.facebook.com/profile.php?id=61562203483397&mibextid=ZbWKwL'
+              }
+              className=" text-4xl mr-4"
+            >
+              <FacebookOutlinedIcon />
+            </Link>
+            <Link
+              to={'https://www.instagram.com/usvpharmltd?igsh=MzNlNGNkZWQ4Mg=='}
+              className=" text-4xl mx-4"
+            >
+              <InstagramIcon />
+            </Link>
+            <Link to={''} className=" text-4xl mx-4">
+              <XIcon />
+            </Link>
+            <Link to={''} className=" text-4xl mx-4">
+              <MailOutlineIcon />
+            </Link>
+          </div>
+          <p>PHONE: +44 7310 107057</p>
         </div>
       </div>
       {/* <div className=" text-center mb-4">

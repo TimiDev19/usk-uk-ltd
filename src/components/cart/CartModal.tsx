@@ -97,48 +97,65 @@ const CartModal = () => {
   };
 
   const makePayment = async () => {
-    setIsOrdering(true)
-    sendCartContent()
-    //publishable key
-    const stripe = await loadStripe("pk_live_51RwjELJL7JBQUwn8aOTVqacbSh3ZaBTehAXs1SK5M8kekXH2DmQb75YtLI6knOyzbpGYf1T1axK9gVdjQOGRgpRa00qbF94mMJ");
-    const body = {
-      products: cart
-    };
-
-    const headers = {
-      "Content-Type": "application/json"
-    };
-
-    try {
-      const response = await fetch(`${apiURL}/create-checkout-session`, {
-        method: "POST",
-        headers: headers,
-        body: JSON.stringify(body)
+    if (cart.length === 0) {
+      toast('Your cart is empty. Please add items before placing an order.', {
+        duration: 4000, // Duration in milliseconds
+        position: 'top-center', // Position of the toast
+        style: {
+          background: 'red', // Green background
+          color: '#fff', // White text
+          padding: '16px', // Padding
+          borderRadius: '8px', // Rounded corners
+          fontSize: '16px', // Font size
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Shadow effect
+        },
       });
+      setIsOrdering(false)
+      return;
+    } else {
+      setIsOrdering(true)
 
-      const textResponse = await response.text(); // Get the response as text
-      console.log("Raw Response:", textResponse); // Log the raw response
+      //publishable key
+      const stripe = await loadStripe("pk_live_51RwjELJL7JBQUwn8aOTVqacbSh3ZaBTehAXs1SK5M8kekXH2DmQb75YtLI6knOyzbpGYf1T1axK9gVdjQOGRgpRa00qbF94mMJ");
+      const body = {
+        products: cart
+      };
 
-      // Check if the response is OK (status code 200-299)
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}, response: ${textResponse}`);
+      const headers = {
+        "Content-Type": "application/json"
+      };
+
+      try {
+        const response = await fetch(`${apiURL}/create-checkout-session`, {
+          method: "POST",
+          headers: headers,
+          body: JSON.stringify(body)
+        });
+
+        const textResponse = await response.text(); // Get the response as text
+        console.log("Raw Response:", textResponse); // Log the raw response
+
+        // Check if the response is OK (status code 200-299)
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}, response: ${textResponse}`);
+        }
+
+        const session = JSON.parse(textResponse); // Parse the JSON response
+
+        const result = await stripe?.redirectToCheckout({
+          sessionId: session.id
+        });
+
+
+        // Handle the result of the redirect
+        if (result?.error) {
+          console.error(result.error.message);
+        }
+      } catch (error) {
+        console.error('Error:', error);
       }
-
-      const session = JSON.parse(textResponse); // Parse the JSON response
-
-      const result = await stripe?.redirectToCheckout({
-        sessionId: session.id
-      });
-
-
-      // Handle the result of the redirect
-      if (result?.error) {
-        console.error(result.error.message);
-      }
-    } catch (error) {
-      console.error('Error:', error);
+      setIsOrdering(false)
     }
-    setIsOrdering(false)
   };
 
   const handleCheckout = () => {
@@ -193,14 +210,14 @@ const CartModal = () => {
         <p className="font-semibold text-[1.1rem] tracking-wider">{`£ ${totalCost.toFixed(2)}`}</p>
       </div>
 
-      <input
+      {/* <input
         type="email"
         placeholder="Enter your email"
         value={userEmail}
         onChange={(e) => setUserEmail(e.target.value)}
         required
         className="border border-gray-300 p-2 rounded mb-2"
-      />
+      /> */}
       {error && (
         <p style={{ color: 'red', marginBottom: '10px' }}>{error}</p>
       )}
@@ -210,7 +227,7 @@ const CartModal = () => {
       {
         isOrdering ? (
           <button
-            className={`bg-blue-500 ${!userEmail && `opacity-65`} md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
+            className={`bg-blue-500 md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
           >
             <div className="animate-spin h-5 w-5 mx-auto border-2 border-white rounded-full border-t-transparent"></div>
           </button>
@@ -218,8 +235,8 @@ const CartModal = () => {
           :
           (
             <button
-              onClick={handleCheckout}
-              className={`bg-blue-500 ${!userEmail && `opacity-65`} md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
+              onClick={makePayment}
+              className={`bg-blue-500 md:hover:bg-blue-400 w-full text-white text-[0.85rem] duration-150 py-[1rem] px-[2.3rem] font-semibold tracking-wider md:tracking-widest mt-[1rem] md:mt-[1.5rem] uppercase`}
             >
               Checkout
             </button>

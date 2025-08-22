@@ -21,13 +21,14 @@ import ProductPage from './pages/ProductPage';
 import Botulinum from './categories/Botulinum';
 import PaymentSucess from './pages/PaymentSucess';
 import PaymentFailure from './pages/PaymentFailure';
+import StickyButton from './components/StickyButton';
 
 function App() {
   return (
     <div className=" font-urbanist">
       <BrowserRouter>
         <Navbar />
-        <Routes> 
+        <Routes>
           <Route path="/" element={<Landingpage />} />
           <Route path="/about" element={<Aboutpage />} />
           <Route path="/shop" element={<Shop />} />
@@ -128,6 +129,9 @@ function App() {
             }
           />
         </Routes>
+        <StickyButton
+          
+        />
         <Footer />
       </BrowserRouter>
     </div>

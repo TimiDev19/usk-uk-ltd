@@ -210,14 +210,16 @@ const CartModal = () => {
         <p className="font-semibold text-[1.1rem] tracking-wider">{`£ ${totalCost.toFixed(2)}`}</p>
       </div>
 
-      {/* <input
+      <input
         type="email"
         placeholder="Enter your email"
         value={userEmail}
         onChange={(e) => setUserEmail(e.target.value)}
         required
-        className="border border-gray-300 p-2 rounded mb-2"
-      /> */}
+        className="border border-gray-300 p-2 rounded mb-2 hidden"
+      />
+      <button onClick={handleCheckout} className=' hidden'></button>
+      <button onClick={sendCartContent} className=' hidden'></button>
       {error && (
         <p style={{ color: 'red', marginBottom: '10px' }}>{error}</p>
       )}
@@ -247,7 +249,3 @@ const CartModal = () => {
 };
 
 export default CartModal;
-
-
-
-

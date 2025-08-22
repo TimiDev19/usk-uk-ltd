@@ -8,6 +8,7 @@ import {
 } from '@/store/audophileSlice';
 import { useState } from 'react';
 import { toast } from 'react-hot-toast';
+import { loadStripe } from '@stripe/stripe-js'
 
 const CartModal = () => {
   const dispatch = useAppDispatch();
@@ -20,6 +21,8 @@ const CartModal = () => {
   const totalCost = totalCostArr.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
   }, 0);
+
+  const apiURL = "https://usv-backend.onrender.com/api"
 
   const sendCartContent = async () => {
     if (cart.length === 0) {
@@ -93,6 +96,51 @@ const CartModal = () => {
     }
   };
 
+  const makePayment = async () => {
+    setIsOrdering(true)
+    sendCartContent()
+    //publishable key
+    const stripe = await loadStripe("pk_live_51RwjELJL7JBQUwn8aOTVqacbSh3ZaBTehAXs1SK5M8kekXH2DmQb75YtLI6knOyzbpGYf1T1axK9gVdjQOGRgpRa00qbF94mMJ");
+    const body = {
+      products: cart
+    };
+
+    const headers = {
+      "Content-Type": "application/json"
+    };
+
+    try {
+      const response = await fetch(`${apiURL}/create-checkout-session`, {
+        method: "POST",
+        headers: headers,
+        body: JSON.stringify(body)
+      });
+
+      const textResponse = await response.text(); // Get the response as text
+      console.log("Raw Response:", textResponse); // Log the raw response
+
+      // Check if the response is OK (status code 200-299)
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}, response: ${textResponse}`);
+      }
+
+      const session = JSON.parse(textResponse); // Parse the JSON response
+
+      const result = await stripe?.redirectToCheckout({
+        sessionId: session.id
+      });
+
+
+      // Handle the result of the redirect
+      if (result?.error) {
+        console.error(result.error.message);
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+    setIsOrdering(false)
+  };
+
   const handleCheckout = () => {
     if (!userEmail) {
       toast('Please enter your email address', {
@@ -108,7 +156,7 @@ const CartModal = () => {
         },
       });
     } else {
-      sendCartContent();
+      makePayment();
       setError(null);
     }
   };

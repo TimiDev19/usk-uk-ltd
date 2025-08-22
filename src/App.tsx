@@ -19,6 +19,8 @@ import Miscellaneous from './categories/Miscellaneous';
 import Contact from './pages/Contact';
 import ProductPage from './pages/ProductPage';
 import Botulinum from './categories/Botulinum';
+import PaymentSucess from './pages/PaymentSucess';
+import PaymentFailure from './pages/PaymentFailure';
 
 function App() {
   return (
@@ -106,6 +108,22 @@ function App() {
             element={
               <FadeReveal>
                 <ProductPage />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/paymentSuccess"
+            element={
+              <FadeReveal>
+                <PaymentSucess />
+              </FadeReveal>
+            }
+          />
+          <Route
+            path="/paymentFailure"
+            element={
+              <FadeReveal>
+                <PaymentFailure />
               </FadeReveal>
             }
           />
